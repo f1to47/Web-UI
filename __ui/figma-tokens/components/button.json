@@ -308,7 +308,7 @@
     }
   },
   "button": {
-    "button-primary-background-color": {
+    "button": {
       "value": "{Foundation.Primary.primary-500}",
       "type": "color"
     }

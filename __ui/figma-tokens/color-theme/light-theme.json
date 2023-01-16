@@ -307,10 +307,17 @@
       }
     }
   },
+  "button": {
+    "button-primary-background-color": {
+      "value": "{Foundation.Primary.primary-500}",
+      "type": "color"
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "Foundation"
+      "Foundation",
+      "button"
     ]
   }
 }

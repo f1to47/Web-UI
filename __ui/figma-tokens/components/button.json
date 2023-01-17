@@ -306,9 +306,11 @@
     }
   },
   "button": {
-    "button": {
-      "value": "{Error.error-600}",
-      "type": "color"
+    "Button": {
+      "button-primary-background-color": {
+        "value": "{Primary.primary-500}",
+        "type": "color"
+      }
     }
   },
   "$themes": [],

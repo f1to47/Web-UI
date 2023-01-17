@@ -307,7 +307,7 @@
   },
   "button": {
     "button": {
-      "value": "{Foundation.Primary.primary-500}",
+      "value": "{Primary.primary-500}",
       "type": "color"
     }
   },

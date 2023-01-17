@@ -1,5 +1,5 @@
 {
-  "light-thene": {
+  "light-theme": {
     "Foundation": {
       "Primary": {
         "primary-50": {
@@ -316,7 +316,7 @@
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "light-thene",
+      "light-theme",
       "button"
     ]
   }

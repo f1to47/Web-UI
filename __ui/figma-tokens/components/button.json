@@ -305,10 +305,17 @@
       }
     }
   },
+  "button": {
+    "button": {
+      "value": "{Error.error-600}",
+      "type": "color"
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "light-theme"
+      "light-theme",
+      "button"
     ]
   }
 }

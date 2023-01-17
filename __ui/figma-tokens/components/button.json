@@ -309,6 +309,10 @@
     "button": {
       "value": "{Primary.primary-500}",
       "type": "color"
+    },
+    "color2": {
+      "value": "{Alert.alert-300}",
+      "type": "color"
     }
   },
   "$themes": [],

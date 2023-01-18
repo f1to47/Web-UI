@@ -1,6 +1,6 @@
 {
-  "light-theme": {
-    "Primary": {
+  "_light-theme": {
+    "_Primary": {
       "primary-50": {
         "value": "#e6f1fb",
         "type": "color"
@@ -252,7 +252,7 @@
         "type": "color"
       }
     },
-    "Neutral": {
+    "_Neutral": {
       "neutral-50": {
         "value": "#f4f5f6",
         "type": "color"
@@ -308,16 +308,18 @@
   "button": {
     "Button": {
       "button-primary-background-color": {
-        "value": "{Primary.primary-500}",
+        "value": "{_Primary.primary-500}",
         "type": "color"
       }
     }
   },
+  "card": {},
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "light-theme",
-      "button"
+      "_light-theme",
+      "button",
+      "card"
     ]
   }
 }

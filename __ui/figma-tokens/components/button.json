@@ -124,12 +124,129 @@
       }
     }
   },
+  "__dark-theme": {
+    "neutral": {
+      "100": {
+        "value": "#292d3b",
+        "type": "color"
+      },
+      "200": {
+        "value": "#363e5c",
+        "type": "color"
+      },
+      "300": {
+        "value": "#50587a",
+        "type": "color"
+      },
+      "400": {
+        "value": "#8f97b9",
+        "type": "color"
+      },
+      "500": {
+        "value": "#bec6e8",
+        "type": "color"
+      },
+      "600": {
+        "value": "#ffffff",
+        "type": "color"
+      }
+    },
+    "primary": {
+      "100": {
+        "value": "#1e3467",
+        "type": "color"
+      },
+      "200": {
+        "value": "#1d4191",
+        "type": "color"
+      },
+      "300": {
+        "value": "#3c6fdc",
+        "type": "color"
+      },
+      "400": {
+        "value": "#699af5",
+        "type": "color"
+      },
+      "500": {
+        "value": "#cfdeff",
+        "type": "color"
+      }
+    },
+    "error": {
+      "100": {
+        "value": "#5c2438",
+        "type": "color"
+      },
+      "200": {
+        "value": "#912243",
+        "type": "color"
+      },
+      "300": {
+        "value": "#d63153",
+        "type": "color"
+      },
+      "400": {
+        "value": "#ff7a96",
+        "type": "color"
+      },
+      "500": {
+        "value": "#ffcddd",
+        "type": "color"
+      }
+    },
+    "success": {
+      "100": {
+        "value": "#1a3e33",
+        "type": "color"
+      },
+      "200": {
+        "value": "#18604e",
+        "type": "color"
+      },
+      "300": {
+        "value": "#02815f",
+        "type": "color"
+      },
+      "400": {
+        "value": "#00b985",
+        "type": "color"
+      },
+      "500": {
+        "value": "#84fbd8",
+        "type": "color"
+      }
+    },
+    "caution": {
+      "100": {
+        "value": "#4d3b1b",
+        "type": "color"
+      },
+      "200": {
+        "value": "#8c6c04",
+        "type": "color"
+      },
+      "300": {
+        "value": "#c6a421",
+        "type": "color"
+      },
+      "400": {
+        "value": "#e2c743",
+        "type": "color"
+      },
+      "500": {
+        "value": "#fff66a",
+        "type": "color"
+      }
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
       "button",
       "card",
-      "__light-theme"
+      "__light-theme",
+      "__dark-theme"
     ]
   }
 }

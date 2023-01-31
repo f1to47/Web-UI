@@ -240,13 +240,24 @@
       }
     }
   },
+  "absolute colors": {
+    "white": {
+      "value": "#fff",
+      "type": "color"
+    },
+    "black": {
+      "value": "#000",
+      "type": "color"
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
       "button",
       "card",
       "__light-theme",
-      "__dark-theme"
+      "__dark-theme",
+      "absolute colors"
     ]
   }
 }

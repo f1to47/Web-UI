@@ -1588,12 +1588,12 @@
     },
     "glass": {
       "base": {
-        "value": "{neutral-o-50.300}",
+        "value": "{neutral-o-10.300}",
         "type": "color"
       }
     }
   },
-  "absolute colors": {
+  "__absolute-colors": {
     "_white": {
       "base": {
         "value": "#fff",
@@ -1647,12 +1647,148 @@
       }
     }
   },
+  "_units": {
+    "0": {
+      "value": "0",
+      "type": "sizing"
+    },
+    "none": {
+      "value": "0",
+      "type": "sizing"
+    },
+    "micro": {
+      "value": "0.375em",
+      "type": "sizing"
+    },
+    "smaller": {
+      "value": "0.5em",
+      "type": "sizing"
+    },
+    "extra-small": {
+      "value": "0.625em",
+      "type": "sizing"
+    },
+    "small": {
+      "value": "0.75em",
+      "type": "sizing"
+    },
+    "medium-small": {
+      "value": "0.875em",
+      "type": "sizing"
+    },
+    "medium": {
+      "value": "1em",
+      "type": "sizing"
+    },
+    "medium-big": {
+      "value": "1.125em",
+      "type": "sizing"
+    },
+    "big": {
+      "value": "1.375em",
+      "type": "sizing"
+    },
+    "extra-big": {
+      "value": "1.75em",
+      "type": "sizing"
+    },
+    "bigger": {
+      "value": "2.25em",
+      "type": "sizing"
+    },
+    "giant": {
+      "value": "2.875em",
+      "type": "sizing"
+    },
+    "spacing-0": {
+      "value": "0",
+      "type": "spacing"
+    },
+    "spacing-none": {
+      "value": "0",
+      "type": "spacing"
+    },
+    "spacing-micro": {
+      "value": "0.375em",
+      "type": "spacing"
+    },
+    "spacing-smaller": {
+      "value": "0.5em",
+      "type": "spacing"
+    },
+    "spacing-extra-small": {
+      "value": "0.625em",
+      "type": "spacing"
+    },
+    "spacing-small": {
+      "value": "0.75em",
+      "type": "spacing"
+    },
+    "spacing-medium-small": {
+      "value": "0.875em",
+      "type": "sizing"
+    },
+    "spacing-medium": {
+      "value": "1em",
+      "type": "spacing"
+    },
+    "spacing-medium-big": {
+      "value": "1.125em",
+      "type": "spacing"
+    },
+    "spacing-big": {
+      "value": "1.375em",
+      "type": "spacing"
+    },
+    "spacing-extra-big": {
+      "value": "1.75em",
+      "type": "spacing"
+    },
+    "spacing-bigger": {
+      "value": "2.25em",
+      "type": "spacing"
+    },
+    "spacing-giant": {
+      "value": "2.875em",
+      "type": "spacing"
+    },
+    "radius-6": {
+      "value": "6px",
+      "type": "borderRadius"
+    },
+    "radius-12": {
+      "value": "12px",
+      "type": "borderRadius"
+    },
+    "radius-24": {
+      "value": "24px",
+      "type": "borderRadius"
+    },
+    "radius-absolute": {
+      "value": "5000",
+      "type": "borderRadius"
+    }
+  },
+  "card": {
+    "card": {
+      "value": {
+        "fill": "{glass.base}",
+        "verticalPadding": "{spacing-bigger}",
+        "horizontalPadding": "{spacing-bigger}",
+        "borderRadius": "{radius-24}",
+        "boxShadow": "{shadow-2}"
+      },
+      "type": "composition"
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
       "__light-theme",
       "__dark-theme",
-      "absolute colors"
+      "__absolute-colors",
+      "_units",
+      "card"
     ]
   }
 }

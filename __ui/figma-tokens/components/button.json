@@ -180,14 +180,6 @@
       "base": {
         "value": "#0033a0",
         "type": "color"
-      },
-      "base-dark": {
-        "value": "#000370",
-        "type": "color"
-      },
-      "base-light": {
-        "value": "#3c6fdc",
-        "type": "color"
       }
     },
     "_o-10-primary": {
@@ -819,6 +811,12 @@
     "background-image": {
       "value": "1",
       "type": "opacity"
+    },
+    "asymmetric": {
+      "primary-base-and-white": {
+        "value": "{__primary.base}",
+        "type": "color"
+      }
     }
   },
   "__dark-theme": {
@@ -1001,14 +999,6 @@
       },
       "base": {
         "value": "#2356C3",
-        "type": "color"
-      },
-      "base-dark": {
-        "value": "#1d4191",
-        "type": "color"
-      },
-      "base-light": {
-        "value": "#A6C4FE",
         "type": "color"
       }
     },
@@ -1641,6 +1631,12 @@
     "background-image": {
       "value": "0.8",
       "type": "opacity"
+    },
+    "asymmetric": {
+      "primary-base-and-white": {
+        "value": "{white.base}",
+        "type": "color"
+      }
     }
   },
   "__absolute-colors": {

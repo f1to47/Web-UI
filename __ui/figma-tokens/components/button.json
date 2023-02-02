@@ -322,7 +322,7 @@
         "type": "color"
       },
       "300": {
-        "value": "#e12b4d",
+        "value": "#E25173",
         "type": "color"
       },
       "400": {
@@ -334,7 +334,7 @@
         "type": "color"
       },
       "base": {
-        "value": "#e12b4d",
+        "value": "#E25173",
         "type": "color"
       }
     },
@@ -1142,11 +1142,11 @@
         "type": "color"
       },
       "300": {
-        "value": "#d63153",
+        "value": "#FF5E7F",
         "type": "color"
       },
       "400": {
-        "value": "#ff7a96",
+        "value": "#FF92B3",
         "type": "color"
       },
       "500": {
@@ -1154,7 +1154,7 @@
         "type": "color"
       },
       "base": {
-        "value": "#d63153",
+        "value": "#FF5E7F",
         "type": "color"
       }
     },

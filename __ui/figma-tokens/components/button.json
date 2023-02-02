@@ -804,7 +804,7 @@
     },
     "_glass": {
       "base": {
-        "value": "{_white.o-75}",
+        "value": "{_o-10-neutral.400}",
         "type": "color"
       }
     },

@@ -1835,14 +1835,6 @@
       "type": "composition"
     }
   },
-  "background-image": {
-    "background-image-opacity": {
-      "value": {
-        "opacity": "{background-image}"
-      },
-      "type": "composition"
-    }
-  },
   "font-styles": {
     "h1-font-size": {
       "value": "{bigger}",
@@ -2023,10 +2015,10 @@
         "__dark-theme": "enabled",
         "__absolute-colors": "enabled",
         "card": "enabled",
-        "background-image": "enabled",
         "font-styles": "enabled",
         "headings": "enabled",
-        "button": "enabled"
+        "button": "enabled",
+        "_foundation-tokens": "enabled"
       },
       "$figmaStyleReferences": {}
     },
@@ -2037,10 +2029,10 @@
         "__light-theme": "enabled",
         "__absolute-colors": "enabled",
         "card": "enabled",
-        "background-image": "enabled",
         "font-styles": "enabled",
         "headings": "enabled",
-        "button": "enabled"
+        "button": "enabled",
+        "_foundation-tokens": "enabled"
       },
       "$figmaStyleReferences": {}
     }
@@ -2052,7 +2044,6 @@
       "__absolute-colors",
       "_foundation-tokens",
       "card",
-      "background-image",
       "font-styles",
       "headings",
       "button"

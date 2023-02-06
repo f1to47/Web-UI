@@ -784,9 +784,9 @@
       "value": {
         "x": "0",
         "y": "2",
-        "blur": "6",
+        "blur": "7",
         "spread": "0",
-        "color": "{_o-75-neutral.400}",
+        "color": "{_o-10-neutral.600}",
         "type": "dropShadow"
       },
       "type": "boxShadow"
@@ -797,7 +797,7 @@
         "y": "2",
         "blur": "12",
         "spread": "0",
-        "color": "{_neutral-o-10.600}",
+        "color": "{_o-10-neutral.600}",
         "type": "dropShadow"
       },
       "type": "boxShadow"
@@ -1693,58 +1693,22 @@
       }
     }
   },
-  "_units": {
-    "0": {
-      "value": "0",
-      "type": "sizing"
+  "_foundation-tokens": {
+    "radius-6": {
+      "value": "6px",
+      "type": "borderRadius"
     },
-    "none": {
-      "value": "0",
-      "type": "sizing"
+    "radius-12": {
+      "value": "12px",
+      "type": "borderRadius"
     },
-    "micro": {
-      "value": "0.375em",
-      "type": "sizing"
+    "radius-24": {
+      "value": "24px",
+      "type": "borderRadius"
     },
-    "smaller": {
-      "value": "0.5em",
-      "type": "sizing"
-    },
-    "extra-small": {
-      "value": "0.625em",
-      "type": "sizing"
-    },
-    "small": {
-      "value": "0.75em",
-      "type": "sizing"
-    },
-    "medium-small": {
-      "value": "0.875em",
-      "type": "sizing"
-    },
-    "medium": {
-      "value": "1em",
-      "type": "sizing"
-    },
-    "medium-big": {
-      "value": "1.125em",
-      "type": "sizing"
-    },
-    "big": {
-      "value": "1.375em",
-      "type": "sizing"
-    },
-    "extra-big": {
-      "value": "1.75em",
-      "type": "sizing"
-    },
-    "bigger": {
-      "value": "2.25em",
-      "type": "sizing"
-    },
-    "giant": {
-      "value": "2.875em",
-      "type": "sizing"
+    "radius-absolute": {
+      "value": "5000",
+      "type": "borderRadius"
     },
     "spacing-0": {
       "value": "0",
@@ -1772,7 +1736,7 @@
     },
     "spacing-medium-small": {
       "value": "0.875em",
-      "type": "sizing"
+      "type": "spacing"
     },
     "spacing-medium": {
       "value": "1em",
@@ -1798,68 +1762,64 @@
       "value": "2.875em",
       "type": "spacing"
     },
-    "font-micro": {
-      "value": "0.375em",
-      "type": "spacing"
+    "barlow": {
+      "value": "Barlow",
+      "type": "fontFamilies"
     },
-    "font-smaller": {
-      "value": "0.5em",
-      "type": "spacing"
+    "fs-joey": {
+      "value": "FS Joey",
+      "type": "fontFamilies"
     },
-    "font-extra-small": {
-      "value": "0.625em",
-      "type": "spacing"
+    "font-primary": {
+      "value": "{barlow}",
+      "type": "fontFamilies"
     },
-    "font-small": {
-      "value": "0.75em",
-      "type": "spacing"
+    "font-secondary": {
+      "value": "{barlow}",
+      "type": "fontFamilies"
     },
-    "font-medium-small": {
-      "value": "0.875em",
-      "type": "sizing"
+    "micro": {
+      "value": "6",
+      "type": "fontSizes"
     },
-    "font-medium": {
-      "value": "1em",
-      "type": "spacing"
+    "smaller": {
+      "value": "8",
+      "type": "fontSizes"
     },
-    "font-medium-big": {
-      "value": "1.125em",
-      "type": "spacing"
+    "extra-small": {
+      "value": "10",
+      "type": "fontSizes"
     },
-    "font-big": {
-      "value": "1.375em",
-      "type": "spacing"
+    "small": {
+      "value": "12",
+      "type": "fontSizes"
     },
-    "font-extra-big": {
-      "value": "1.75em",
-      "type": "spacing"
+    "medium-small": {
+      "value": "14",
+      "type": "fontSizes"
     },
-    "font-bigger": {
-      "value": "2.25em",
-      "type": "spacing"
+    "medium": {
+      "value": "16",
+      "type": "fontSizes"
     },
-    "font-giant": {
-      "value": "2.875em",
-      "type": "spacing"
+    "medium-big": {
+      "value": "18",
+      "type": "fontSizes"
     },
-    "radius-6": {
-      "value": "6px",
-      "type": "borderRadius"
+    "big": {
+      "value": "22",
+      "type": "fontSizes"
     },
-    "radius-12": {
-      "value": "12px",
-      "type": "borderRadius"
+    "extra-big": {
+      "value": "28",
+      "type": "fontSizes"
     },
-    "radius-24": {
-      "value": "24px",
-      "type": "borderRadius"
+    "bigger": {
+      "value": "36",
+      "type": "fontSizes"
     },
-    "radius-absolute": {
-      "value": "5000",
-      "type": "borderRadius"
-    },
-    "aa": {
-      "value": "12px",
+    "giant": {
+      "value": "46",
       "type": "fontSizes"
     }
   },
@@ -1870,7 +1830,7 @@
         "verticalPadding": "{spacing-bigger}",
         "horizontalPadding": "{spacing-bigger}",
         "borderRadius": "{radius-24}",
-        "boxShadow": "{shadow-2}"
+        "boxShadow": "{shadow-1}"
       },
       "type": "composition"
     }
@@ -1883,75 +1843,9 @@
       "type": "composition"
     }
   },
-  "font-basics": {
-    "fontFamilies": {
-      "barlow": {
-        "value": "Barlow",
-        "type": "fontFamilies"
-      },
-      "fs-joey": {
-        "value": "FS Joey",
-        "type": "fontFamilies"
-      },
-      "font-primary": {
-        "value": "{fontFamilies.barlow}",
-        "type": "fontFamilies"
-      },
-      "font-secondary": {
-        "value": "{fontFamilies.barlow}",
-        "type": "fontFamilies"
-      }
-    },
-    "fontSize": {
-      "micro": {
-        "value": "6",
-        "type": "fontSizes"
-      },
-      "smaller": {
-        "value": "8",
-        "type": "fontSizes"
-      },
-      "extra-small": {
-        "value": "10",
-        "type": "fontSizes"
-      },
-      "small": {
-        "value": "12",
-        "type": "fontSizes"
-      },
-      "medium-small": {
-        "value": "14",
-        "type": "fontSizes"
-      },
-      "medium": {
-        "value": "16",
-        "type": "fontSizes"
-      },
-      "medium-big": {
-        "value": "18",
-        "type": "fontSizes"
-      },
-      "big": {
-        "value": "22",
-        "type": "fontSizes"
-      },
-      "extra-big": {
-        "value": "28",
-        "type": "fontSizes"
-      },
-      "bigger": {
-        "value": "36",
-        "type": "fontSizes"
-      },
-      "giant": {
-        "value": "46",
-        "type": "fontSizes"
-      }
-    }
-  },
   "font-styles": {
     "h1-font-size": {
-      "value": "{fontSize.bigger}",
+      "value": "{bigger}",
       "type": "fontSizes"
     },
     "h1-font-weight": {
@@ -1971,35 +1865,35 @@
       "type": "fontWeights"
     },
     "h1-font-family": {
-      "value": "{fontFamilies.font-primary}",
+      "value": "{font-primary}",
       "type": "fontFamilies"
     },
     "h2-font-family": {
-      "value": "{fontFamilies.font-primary}",
+      "value": "{font-primary}",
       "type": "fontFamilies"
     },
     "h3-font-family": {
-      "value": "{fontFamilies.font-primary}",
+      "value": "{font-primary}",
       "type": "fontFamilies"
     },
     "h4-font-family": {
-      "value": "{fontFamilies.font-primary}",
+      "value": "{font-primary}",
       "type": "fontFamilies"
     },
     "h2-font-size": {
-      "value": "{fontSize.extra-big}",
+      "value": "{extra-big}",
       "type": "fontSizes"
     },
     "h3-font-size": {
-      "value": "{fontSize.big}",
+      "value": "{big}",
       "type": "fontSizes"
     },
     "h4-font-size": {
-      "value": "{fontSize.medium-big}",
+      "value": "{medium-big}",
       "type": "fontSizes"
     },
     "paragraph-font-family": {
-      "value": "{fontFamilies.font-secondary}",
+      "value": "{font-secondary}",
       "type": "fontFamilies"
     },
     "paragraph-font-weight": {
@@ -2007,7 +1901,7 @@
       "type": "fontWeights"
     },
     "paragraph-font-size": {
-      "value": "{fontSize.medium}",
+      "value": "{medium}",
       "type": "fontSizes"
     },
     "h1-line-height": {
@@ -2086,51 +1980,79 @@
   "button": {
     "primary": {
       "button-primary-background-color": {
-        "value": "{primary.base}",
+        "value": "{__primary.base}",
         "type": "color"
       },
       "button-primary-hover-background-color": {
-        "value": "{primary.base-dark}",
+        "value": "{__primary.500}",
         "type": "color"
       },
       "button-primary-color": {
-        "value": "{_white.base}",
+        "value": "{white.base}",
         "type": "color"
       },
       "button-primary-hover-color": {
-        "value": "{_white.base}",
+        "value": "{white.base}",
         "type": "color"
       }
     },
     "secondary": {
       "button-primary-background-color": {
-        "value": "{primary.100}",
+        "value": "{__primary.100}",
         "type": "color"
       },
       "button-primary-hover-background-color": {
-        "value": "{primary.100}",
+        "value": "{__primary.200}",
         "type": "color"
       },
       "button-primary-color": {
-        "value": "{primary.base}",
+        "value": "{__primary.base}",
         "type": "color"
       },
       "button-primary-hover-color": {
-        "value": "{primary.base}",
+        "value": "{__primary.base}",
         "type": "color"
       }
     }
   },
-  "$themes": [],
+  "$themes": [
+    {
+      "id": "717d2ff15536b7eee941cb1a1c9cc38cf6a46bde",
+      "name": "Dark theme",
+      "selectedTokenSets": {
+        "__dark-theme": "enabled",
+        "__absolute-colors": "enabled",
+        "card": "enabled",
+        "background-image": "enabled",
+        "font-styles": "enabled",
+        "headings": "enabled",
+        "button": "enabled"
+      },
+      "$figmaStyleReferences": {}
+    },
+    {
+      "id": "b19fb2da4edb60980ffb3e316d27c1ffc26bd9bb",
+      "name": "Light theme",
+      "selectedTokenSets": {
+        "__light-theme": "enabled",
+        "__absolute-colors": "enabled",
+        "card": "enabled",
+        "background-image": "enabled",
+        "font-styles": "enabled",
+        "headings": "enabled",
+        "button": "enabled"
+      },
+      "$figmaStyleReferences": {}
+    }
+  ],
   "$metadata": {
     "tokenSetOrder": [
       "__light-theme",
       "__dark-theme",
       "__absolute-colors",
-      "_units",
+      "_foundation-tokens",
       "card",
       "background-image",
-      "font-basics",
       "font-styles",
       "headings",
       "button"

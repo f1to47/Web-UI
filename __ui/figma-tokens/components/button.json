@@ -1694,142 +1694,180 @@
     }
   },
   "_foundation-tokens": {
-    "radius-6": {
+    "_radius-6": {
       "value": "6px",
       "type": "borderRadius"
     },
-    "radius-12": {
+    "_radius-12": {
       "value": "12px",
       "type": "borderRadius"
     },
-    "radius-24": {
+    "_radius-24": {
       "value": "24px",
       "type": "borderRadius"
     },
-    "radius-absolute": {
+    "_radius-absolute": {
       "value": "5000",
       "type": "borderRadius"
     },
-    "spacing-0": {
+    "_spacing-0": {
       "value": "0",
       "type": "spacing"
     },
-    "spacing-none": {
+    "_spacing-none": {
       "value": "0",
       "type": "spacing"
     },
-    "spacing-micro": {
+    "_spacing-micro": {
       "value": "0.375em",
       "type": "spacing"
     },
-    "spacing-smaller": {
+    "_spacing-smaller": {
       "value": "0.5em",
       "type": "spacing"
     },
-    "spacing-extra-small": {
+    "_spacing-extra-small": {
       "value": "0.625em",
       "type": "spacing"
     },
-    "spacing-small": {
+    "_spacing-small": {
       "value": "0.75em",
       "type": "spacing"
     },
-    "spacing-medium-small": {
+    "_spacing-medium-small": {
       "value": "0.875em",
       "type": "spacing"
     },
-    "spacing-medium": {
+    "_spacing-medium": {
       "value": "1em",
       "type": "spacing"
     },
-    "spacing-medium-big": {
+    "_spacing-medium-big": {
       "value": "1.125em",
       "type": "spacing"
     },
-    "spacing-big": {
+    "_spacing-big": {
       "value": "1.375em",
       "type": "spacing"
     },
-    "spacing-extra-big": {
+    "_spacing-extra-big": {
       "value": "1.75em",
       "type": "spacing"
     },
-    "spacing-bigger": {
+    "_spacing-bigger": {
       "value": "2.25em",
       "type": "spacing"
     },
-    "spacing-giant": {
+    "_spacing-giant": {
       "value": "2.875em",
       "type": "spacing"
     },
-    "barlow": {
+    "_barlow": {
       "value": "Barlow",
       "type": "fontFamilies"
     },
-    "fs-joey": {
+    "_fs-joey": {
       "value": "FS Joey",
       "type": "fontFamilies"
     },
-    "font-primary": {
-      "value": "{barlow}",
+    "_font-primary": {
+      "value": "{_barlow}",
       "type": "fontFamilies"
     },
-    "font-secondary": {
-      "value": "{barlow}",
+    "_font-secondary": {
+      "value": "{_barlow}",
       "type": "fontFamilies"
     },
-    "micro": {
+    "_font-micro": {
       "value": "6",
       "type": "fontSizes"
     },
-    "smaller": {
+    "_font-smaller": {
       "value": "8",
       "type": "fontSizes"
     },
-    "extra-small": {
+    "_font-extra-small": {
       "value": "10",
       "type": "fontSizes"
     },
-    "small": {
+    "_font-small": {
       "value": "12",
       "type": "fontSizes"
     },
-    "medium-small": {
+    "_font-medium-small": {
       "value": "14",
       "type": "fontSizes"
     },
-    "medium": {
+    "_font-medium": {
       "value": "16",
       "type": "fontSizes"
     },
-    "medium-big": {
+    "_font-medium-big": {
       "value": "18",
       "type": "fontSizes"
     },
-    "big": {
+    "_font-big": {
       "value": "22",
       "type": "fontSizes"
     },
-    "extra-big": {
+    "_font-extra-big": {
       "value": "28",
       "type": "fontSizes"
     },
-    "bigger": {
+    "_font-bigger": {
       "value": "36",
       "type": "fontSizes"
     },
-    "giant": {
+    "_font-giant": {
       "value": "46",
       "type": "fontSizes"
     }
   },
-  "card": {
+  "c_button": {
+    "primary": {
+      "button-primary-background-color": {
+        "value": "{__primary.base}",
+        "type": "color"
+      },
+      "button-primary-hover-background-color": {
+        "value": "{__primary.500}",
+        "type": "color"
+      },
+      "button-primary-color": {
+        "value": "{white.base}",
+        "type": "color"
+      },
+      "button-primary-hover-color": {
+        "value": "{white.base}",
+        "type": "color"
+      }
+    },
+    "secondary": {
+      "button-primary-background-color": {
+        "value": "{__primary.100}",
+        "type": "color"
+      },
+      "button-primary-hover-background-color": {
+        "value": "{__primary.200}",
+        "type": "color"
+      },
+      "button-primary-color": {
+        "value": "{__primary.base}",
+        "type": "color"
+      },
+      "button-primary-hover-color": {
+        "value": "{__primary.base}",
+        "type": "color"
+      }
+    }
+  },
+  "c_card": {
     "card": {
       "value": {
         "fill": "{__neutral.100}",
-        "verticalPadding": "{spacing-bigger}",
-        "horizontalPadding": "{spacing-bigger}",
-        "borderRadius": "{radius-24}",
+        "verticalPadding": "{_spacing-bigger}",
+        "horizontalPadding": "{_spacing-bigger}",
+        "borderRadius": "{_radius-24}",
         "boxShadow": "{shadow-1}"
       },
       "type": "composition"
@@ -1837,7 +1875,7 @@
   },
   "font-styles": {
     "h1-font-size": {
-      "value": "{bigger}",
+      "value": "{_font-bigger}",
       "type": "fontSizes"
     },
     "h1-font-weight": {
@@ -1857,35 +1895,35 @@
       "type": "fontWeights"
     },
     "h1-font-family": {
-      "value": "{font-primary}",
+      "value": "{_font-primary}",
       "type": "fontFamilies"
     },
     "h2-font-family": {
-      "value": "{font-primary}",
+      "value": "{_font-primary}",
       "type": "fontFamilies"
     },
     "h3-font-family": {
-      "value": "{font-primary}",
+      "value": "{_font-primary}",
       "type": "fontFamilies"
     },
     "h4-font-family": {
-      "value": "{font-primary}",
+      "value": "{_font-primary}",
       "type": "fontFamilies"
     },
     "h2-font-size": {
-      "value": "{extra-big}",
+      "value": "{_font-extra-big}",
       "type": "fontSizes"
     },
     "h3-font-size": {
-      "value": "{big}",
+      "value": "{_font-big}",
       "type": "fontSizes"
     },
     "h4-font-size": {
-      "value": "{medium-big}",
+      "value": "{_font-medium-big}",
       "type": "fontSizes"
     },
     "paragraph-font-family": {
-      "value": "{font-secondary}",
+      "value": "{_font-secondary}",
       "type": "fontFamilies"
     },
     "paragraph-font-weight": {
@@ -1893,7 +1931,7 @@
       "type": "fontWeights"
     },
     "paragraph-font-size": {
-      "value": "{medium}",
+      "value": "{_font-medium}",
       "type": "fontSizes"
     },
     "h1-line-height": {
@@ -1915,9 +1953,7 @@
     "paragraph-line-height": {
       "value": "150%",
       "type": "lineHeights"
-    }
-  },
-  "headings": {
+    },
     "h1": {
       "value": {
         "fill": "{__neutral.600}",
@@ -1969,44 +2005,6 @@
       "type": "composition"
     }
   },
-  "button": {
-    "primary": {
-      "button-primary-background-color": {
-        "value": "{__primary.base}",
-        "type": "color"
-      },
-      "button-primary-hover-background-color": {
-        "value": "{__primary.500}",
-        "type": "color"
-      },
-      "button-primary-color": {
-        "value": "{white.base}",
-        "type": "color"
-      },
-      "button-primary-hover-color": {
-        "value": "{white.base}",
-        "type": "color"
-      }
-    },
-    "secondary": {
-      "button-primary-background-color": {
-        "value": "{__primary.100}",
-        "type": "color"
-      },
-      "button-primary-hover-background-color": {
-        "value": "{__primary.200}",
-        "type": "color"
-      },
-      "button-primary-color": {
-        "value": "{__primary.base}",
-        "type": "color"
-      },
-      "button-primary-hover-color": {
-        "value": "{__primary.base}",
-        "type": "color"
-      }
-    }
-  },
   "$themes": [
     {
       "id": "717d2ff15536b7eee941cb1a1c9cc38cf6a46bde",
@@ -2014,11 +2012,10 @@
       "selectedTokenSets": {
         "__dark-theme": "enabled",
         "__absolute-colors": "enabled",
-        "card": "enabled",
         "font-styles": "enabled",
-        "headings": "enabled",
-        "button": "enabled",
-        "_foundation-tokens": "enabled"
+        "_foundation-tokens": "enabled",
+        "c_card": "enabled",
+        "c_button": "enabled"
       },
       "$figmaStyleReferences": {}
     },
@@ -2028,11 +2025,10 @@
       "selectedTokenSets": {
         "__light-theme": "enabled",
         "__absolute-colors": "enabled",
-        "card": "enabled",
         "font-styles": "enabled",
-        "headings": "enabled",
-        "button": "enabled",
-        "_foundation-tokens": "enabled"
+        "_foundation-tokens": "enabled",
+        "c_card": "enabled",
+        "c_button": "enabled"
       },
       "$figmaStyleReferences": {}
     }
@@ -2043,10 +2039,9 @@
       "__dark-theme",
       "__absolute-colors",
       "_foundation-tokens",
-      "card",
-      "font-styles",
-      "headings",
-      "button"
+      "c_button",
+      "c_card",
+      "font-styles"
     ]
   }
 }

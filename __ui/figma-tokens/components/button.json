@@ -158,23 +158,23 @@
     },
     "__primary": {
       "100": {
-        "value": "#cfdfff",
+        "value": "#ADD1FF",
         "type": "color"
       },
       "200": {
-        "value": "#87abfb",
+        "value": "#7DB0FF",
         "type": "color"
       },
       "300": {
-        "value": "#3c6fdc",
+        "value": "#3D70DD",
         "type": "color"
       },
       "400": {
-        "value": "#0033a0",
+        "value": "#1A4DBA",
         "type": "color"
       },
       "500": {
-        "value": "#000370",
+        "value": "#0033A0",
         "type": "color"
       },
       "base": {
@@ -184,23 +184,23 @@
     },
     "_o-10-primary": {
       "100": {
-        "value": "#cfdfff1a",
+        "value": "#ADD1FF1a",
         "type": "color"
       },
       "200": {
-        "value": "#87abfb1a",
+        "value": "#7DB0FF1a",
         "type": "color"
       },
       "300": {
-        "value": "#3c6fdc1a",
+        "value": "#3D70DD1a",
         "type": "color"
       },
       "400": {
-        "value": "#0033a01a",
+        "value": "#1A4DBA1a",
         "type": "color"
       },
       "500": {
-        "value": "#0003701a",
+        "value": "#0033A01a",
         "type": "color"
       },
       "base": {
@@ -210,23 +210,23 @@
     },
     "_o-25-primary": {
       "100": {
-        "value": "#cfdfff40",
+        "value": "#ADD1FF40",
         "type": "color"
       },
       "200": {
-        "value": "#87abfb40",
+        "value": "#7DB0FF40",
         "type": "color"
       },
       "300": {
-        "value": "#3c6fdc40",
+        "value": "#3D70DD40",
         "type": "color"
       },
       "400": {
-        "value": "#0033a040",
+        "value": "#1A4DBA40",
         "type": "color"
       },
       "500": {
-        "value": "#00037040",
+        "value": "#0033A040",
         "type": "color"
       },
       "base": {
@@ -236,23 +236,23 @@
     },
     "_o-50-primary": {
       "100": {
-        "value": "#cfdfff80",
+        "value": "#ADD1FF80",
         "type": "color"
       },
       "200": {
-        "value": "#87abfb80",
+        "value": "#7DB0FF80",
         "type": "color"
       },
       "300": {
-        "value": "#3c6fdc80",
+        "value": "#3D70DD80",
         "type": "color"
       },
       "400": {
-        "value": "#0033a080",
+        "value": "#1A4DBA80",
         "type": "color"
       },
       "500": {
-        "value": "#00037080",
+        "value": "#0033A080",
         "type": "color"
       },
       "base": {
@@ -262,53 +262,53 @@
     },
     "_o-75-primary": {
       "100": {
-        "value": "#cfdfffbf",
+        "value": "#ADD1FFBF",
         "type": "color"
       },
       "200": {
-        "value": "#87abfbbf",
+        "value": "#7DB0FFBF",
         "type": "color"
       },
       "300": {
-        "value": "#3c6fdcbf",
+        "value": "#3D70DDBF",
         "type": "color"
       },
       "400": {
-        "value": "#0033a0bf",
+        "value": "#1A4DBABF",
         "type": "color"
       },
       "500": {
-        "value": "#000370bf",
+        "value": "#0033A0BF",
         "type": "color"
       },
       "base": {
-        "value": "#0033a0bf",
+        "value": "#0033a0BF",
         "type": "color"
       }
     },
     "_o-90-primary": {
       "100": {
-        "value": "#cfdfffe6",
+        "value": "#ADD1FFE6",
         "type": "color"
       },
       "200": {
-        "value": "#87abfbe6",
+        "value": "#7DB0FFE6",
         "type": "color"
       },
       "300": {
-        "value": "#3c6fdce6",
+        "value": "#3D70DDE6",
         "type": "color"
       },
       "400": {
-        "value": "#0033a0e6",
+        "value": "#1A4DBAE6",
         "type": "color"
       },
       "500": {
-        "value": "#000370e6",
+        "value": "#0033A0E6",
         "type": "color"
       },
       "base": {
-        "value": "#0033a0e6",
+        "value": "#0033a0E6",
         "type": "color"
       }
     },
@@ -786,7 +786,7 @@
         "y": "2",
         "blur": "7",
         "spread": "0",
-        "color": "{_o-25-neutral.500}",
+        "color": "{_o-10-neutral.600}",
         "type": "dropShadow"
       },
       "type": "boxShadow"
@@ -797,7 +797,7 @@
         "y": "2",
         "blur": "12",
         "spread": "0",
-        "color": "{_o-10-neutral.500}",
+        "color": "{_o-10-neutral.600}",
         "type": "dropShadow"
       },
       "type": "boxShadow"

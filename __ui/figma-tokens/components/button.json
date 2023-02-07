@@ -2,157 +2,157 @@
   "__light-theme": {
     "__neutral": {
       "100": {
-        "value": "#ffffff",
+        "value": "#EAF1FC",
         "type": "color"
       },
       "200": {
-        "value": "#eaf1fc",
+        "value": "#DFE7FA",
         "type": "color"
       },
       "300": {
-        "value": "#c9d1e4",
+        "value": "#C9D1E4",
         "type": "color"
       },
       "400": {
-        "value": "#a1a9cb",
+        "value": "#949BB9",
         "type": "color"
       },
       "500": {
-        "value": "#586082",
+        "value": "#353C4B",
         "type": "color"
       },
-      "600": {
-        "value": "#353c4b",
+      "predominant": {
+        "value": "#ffffff",
         "type": "color"
       }
     },
     "_o-10-neutral": {
       "100": {
-        "value": "#ffffff1A",
+        "value": "#EAF1FC1A",
         "type": "color"
       },
       "200": {
-        "value": "#eaf1fc1A",
+        "value": "#DFE7FA1A",
         "type": "color"
       },
       "300": {
-        "value": "#c9d1e41A",
+        "value": "#C9D1E41A",
         "type": "color"
       },
       "400": {
-        "value": "#a1a9cb1A",
+        "value": "#949BB91A",
         "type": "color"
       },
       "500": {
-        "value": "#5860821A",
+        "value": "#353C4B1A",
         "type": "color"
       },
-      "600": {
-        "value": "#353c4b1A",
+      "predominant": {
+        "value": "#ffffff1A",
         "type": "color"
       }
     },
     "_o-25-neutral": {
       "100": {
-        "value": "#ffffff40",
+        "value": "#EAF1FC40",
         "type": "color"
       },
       "200": {
-        "value": "#eaf1fc40",
+        "value": "#DFE7FA40",
         "type": "color"
       },
       "300": {
-        "value": "#c9d1e440",
+        "value": "#C9D1E440",
         "type": "color"
       },
       "400": {
-        "value": "#a1a9cb40",
+        "value": "#949BB940",
         "type": "color"
       },
       "500": {
-        "value": "#58608240",
+        "value": "#353C4B40",
         "type": "color"
       },
-      "600": {
-        "value": "#353c4b40",
+      "predominant": {
+        "value": "#ffffff40",
         "type": "color"
       }
     },
     "_o-50-neutral": {
       "100": {
-        "value": "#ffffff80",
+        "value": "#EAF1FC80",
         "type": "color"
       },
       "200": {
-        "value": "#eaf1fc80",
+        "value": "#DFE7FA80",
         "type": "color"
       },
       "300": {
-        "value": "#c9d1e480",
+        "value": "#C9D1E480",
         "type": "color"
       },
       "400": {
-        "value": "#a1a9cb80",
+        "value": "#949BB980",
         "type": "color"
       },
       "500": {
-        "value": "#58608280",
+        "value": "#353C4B80",
         "type": "color"
       },
-      "600": {
-        "value": "#353c4b80",
+      "predominant": {
+        "value": "#ffffff80",
         "type": "color"
       }
     },
     "_o-75-neutral": {
       "100": {
-        "value": "#ffffffbf",
+        "value": "#EAF1FCBF",
         "type": "color"
       },
       "200": {
-        "value": "#eaf1fcbf",
+        "value": "#DFE7FABF",
         "type": "color"
       },
       "300": {
-        "value": "#c9d1e4bf",
+        "value": "#C9D1E4BF",
         "type": "color"
       },
       "400": {
-        "value": "#a1a9cbbf",
+        "value": "#949BB9BF",
         "type": "color"
       },
       "500": {
-        "value": "#586082bf",
+        "value": "#353C4BBF",
         "type": "color"
       },
-      "600": {
-        "value": "#353c4bbf",
+      "predominant": {
+        "value": "#ffffffBF",
         "type": "color"
       }
     },
     "_o-90-neutral": {
       "100": {
-        "value": "#ffffffe6",
+        "value": "#EAF1FCE6",
         "type": "color"
       },
       "200": {
-        "value": "#eaf1fce6",
+        "value": "#DFE7FAE6",
         "type": "color"
       },
       "300": {
-        "value": "#c9d1e4e6",
+        "value": "#C9D1E4E6",
         "type": "color"
       },
       "400": {
-        "value": "#a1a9cbe6",
+        "value": "#949BB9E6",
         "type": "color"
       },
       "500": {
-        "value": "#586082e6",
+        "value": "#353C4BE6",
         "type": "color"
       },
-      "600": {
-        "value": "#353c4be6",
+      "predominant": {
+        "value": "#ffffffE6",
         "type": "color"
       }
     },
@@ -786,7 +786,7 @@
         "y": "2",
         "blur": "7",
         "spread": "0",
-        "color": "{_o-10-neutral.600}",
+        "color": "{_o-25-neutral.500}",
         "type": "dropShadow"
       },
       "type": "boxShadow"
@@ -797,7 +797,7 @@
         "y": "2",
         "blur": "12",
         "spread": "0",
-        "color": "{_o-10-neutral.600}",
+        "color": "{_o-10-neutral.500}",
         "type": "dropShadow"
       },
       "type": "boxShadow"
@@ -1864,7 +1864,7 @@
   "c_card": {
     "card": {
       "value": {
-        "fill": "{__neutral.100}",
+        "fill": "{__neutral.predominant}",
         "verticalPadding": "{_spacing-bigger}",
         "horizontalPadding": "{_spacing-bigger}",
         "borderRadius": "{_radius-24}",
@@ -1956,7 +1956,7 @@
     },
     "h1": {
       "value": {
-        "fill": "{__neutral.600}",
+        "fill": "{__neutral.500}",
         "fontSizes": "{h1-font-size}",
         "fontFamilies": "{h1-font-family}",
         "fontWeights": "{h1-font-weight}",
@@ -1966,7 +1966,7 @@
     },
     "h2": {
       "value": {
-        "fill": "{__neutral.600}",
+        "fill": "{__neutral.500}",
         "fontSizes": "{h2-font-size}",
         "fontFamilies": "{h2-font-family}",
         "fontWeights": "{h2-font-weight}",
@@ -1976,7 +1976,7 @@
     },
     "h3": {
       "value": {
-        "fill": "{__neutral.600}",
+        "fill": "{__neutral.500}",
         "fontSizes": "{h3-font-size}",
         "fontFamilies": "{h3-font-family}",
         "fontWeights": "{h3-font-weight}",
@@ -1986,7 +1986,7 @@
     },
     "h4": {
       "value": {
-        "fill": "{__neutral.600}",
+        "fill": "{__neutral.500}",
         "fontSizes": "{h4-font-size}",
         "fontFamilies": "{h4-font-family}",
         "fontWeights": "{h4-font-weight}",
@@ -1996,7 +1996,7 @@
     },
     "paragraph": {
       "value": {
-        "fill": "{__neutral.600}",
+        "fill": "{__neutral.500}",
         "fontSizes": "{paragraph-font-size}",
         "fontFamilies": "{paragraph-font-family}",
         "fontWeights": "{paragraph-font-weight}",

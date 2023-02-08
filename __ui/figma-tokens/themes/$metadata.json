@@ -1,0 +1,13 @@
+{
+  "tokenSetOrder": [
+    "__light-theme",
+    "__dark-theme",
+    "__absolute-colors",
+    "_foundation-tokens",
+    "font-styles",
+    "c_button",
+    "c_card",
+    "dd",
+    "dd2"
+  ]
+}

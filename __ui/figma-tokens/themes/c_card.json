@@ -1,0 +1,12 @@
+{
+  "card": {
+    "value": {
+      "fill": "{__neutral.predominant}",
+      "verticalPadding": "{_spacing-bigger}",
+      "horizontalPadding": "{_spacing-bigger}",
+      "borderRadius": "{_radius-24}",
+      "boxShadow": "{shadow-1}"
+    },
+    "type": "composition"
+  }
+}

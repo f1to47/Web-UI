@@ -2037,6 +2037,7 @@
       "type": "composition"
     }
   },
+  "dd": {},
   "$themes": [
     {
       "id": "717d2ff15536b7eee941cb1a1c9cc38cf6a46bde",
@@ -2073,7 +2074,8 @@
       "_foundation-tokens",
       "c_button",
       "c_card",
-      "font-styles"
+      "font-styles",
+      "dd"
     ]
   }
 }

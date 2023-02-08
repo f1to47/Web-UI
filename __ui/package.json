@@ -8,6 +8,8 @@
     "compile-core": "node-sass --source-map true ./__scss-input/_core.scss -o ./__css-ouput/",
     "build-colors": "style-dictionary build --config ./style-dictionary/colors.js",
     "build-ds": "style-dictionary build --config ./style-dictionary/ui-tokens.js",
+    "build-dark-theme": "style-dictionary build --config ./style-dictionary/new-scripts/dark-theme-tokens.js",
+
     "font-styles": "style-dictionary build --config ./style-dictionary/font-styles.js",
     "font-size": "style-dictionary build --config ./style-dictionary/font-size.js",
     "font-families": "style-dictionary build --config ./style-dictionary/font-families.js",

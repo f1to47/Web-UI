@@ -1,6 +1,6 @@
 // config.js
 module.exports = {
-    source: [`tokens/ds-tokens.json`],
+    source: [`ui-tokens/__absolute-colors.json`, `ui-tokens/__dark-theme.json`],
     // If you don't want to call the registerTransform method a bunch of times
     // you can override the whole transform object directly. This works because
     // the .extend method copies everything in the config
@@ -16,31 +16,25 @@ module.exports = {
     // Same with formats, you can now write them directly to this config
     // object. The name of the format is the key.
     format: {
-      myFormat: ({dictionary, platform}) => {
-
-        let mapName = 'ui-styles';
-          
-          let tokens = dictionary.allTokens.map(token => {
-            console.log(token);
-          if(!String(token.name).startsWith("font")){
-            if(String(token.name).endsWith("font-size")){
-              return `'${token.name}': ${token.value/16}em,`   
-            }else{
-              return `'${token.name}': ${token.value},`   
-            }
-                   
-          }
-          
-        
-        }).join('\n');
+        myFormat: ({dictionary, platform}) => {
   
-        return `$${mapName}:( 
-                   ${tokens}
-                   )
-               `
-
-      }
-    },
+           
+          // let nombreFiltrado =  token.name.replace(/(-[a-z])\w+/, ''); 
+          //esto lo hice para eliminar las palabras repetidas
+          // Antes: blue-blue-200
+          // despues: blue-200
+  
+          let mapName = 'light-theme-colors';
+  
+          let tokens = dictionary.allTokens.map(token => `'${token.name.replace(/([a-z])\w+(-[a-z])\w+-/, '')}': ${token.value},`).join('\n');
+    
+          return `$${mapName}:( 
+                     ${tokens}
+                     )
+                 `
+  
+        }
+      },
     platforms: {
       
        //scss

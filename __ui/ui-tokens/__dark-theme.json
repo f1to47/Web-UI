@@ -832,5 +832,9 @@
       "value": "{__primary.100}",
       "type": "color"
     }
+  },
+  "violeta": {
+    "value": "#de13f7",
+    "type": "color"
   }
 }

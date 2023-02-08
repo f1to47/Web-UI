@@ -1,0 +1,130 @@
+{
+  "_radius-6": {
+    "value": "6px",
+    "type": "borderRadius"
+  },
+  "_radius-12": {
+    "value": "12px",
+    "type": "borderRadius"
+  },
+  "_radius-24": {
+    "value": "24px",
+    "type": "borderRadius"
+  },
+  "_radius-absolute": {
+    "value": "5000",
+    "type": "borderRadius"
+  },
+  "_spacing-0": {
+    "value": "0",
+    "type": "spacing"
+  },
+  "_spacing-none": {
+    "value": "0",
+    "type": "spacing"
+  },
+  "_spacing-micro": {
+    "value": "0.375em",
+    "type": "spacing"
+  },
+  "_spacing-smaller": {
+    "value": "0.5em",
+    "type": "spacing"
+  },
+  "_spacing-extra-small": {
+    "value": "0.625em",
+    "type": "spacing"
+  },
+  "_spacing-small": {
+    "value": "0.75em",
+    "type": "spacing"
+  },
+  "_spacing-medium-small": {
+    "value": "0.875em",
+    "type": "spacing"
+  },
+  "_spacing-medium": {
+    "value": "1em",
+    "type": "spacing"
+  },
+  "_spacing-medium-big": {
+    "value": "1.125em",
+    "type": "spacing"
+  },
+  "_spacing-big": {
+    "value": "1.375em",
+    "type": "spacing"
+  },
+  "_spacing-extra-big": {
+    "value": "1.75em",
+    "type": "spacing"
+  },
+  "_spacing-bigger": {
+    "value": "2.25em",
+    "type": "spacing"
+  },
+  "_spacing-giant": {
+    "value": "2.875em",
+    "type": "spacing"
+  },
+  "_barlow": {
+    "value": "Barlow",
+    "type": "fontFamilies"
+  },
+  "_fs-joey": {
+    "value": "FS Joey",
+    "type": "fontFamilies"
+  },
+  "_font-primary": {
+    "value": "{_barlow}",
+    "type": "fontFamilies"
+  },
+  "_font-secondary": {
+    "value": "{_barlow}",
+    "type": "fontFamilies"
+  },
+  "_font-micro": {
+    "value": "6",
+    "type": "fontSizes"
+  },
+  "_font-smaller": {
+    "value": "8",
+    "type": "fontSizes"
+  },
+  "_font-extra-small": {
+    "value": "10",
+    "type": "fontSizes"
+  },
+  "_font-small": {
+    "value": "12",
+    "type": "fontSizes"
+  },
+  "_font-medium-small": {
+    "value": "14",
+    "type": "fontSizes"
+  },
+  "_font-medium": {
+    "value": "16",
+    "type": "fontSizes"
+  },
+  "_font-medium-big": {
+    "value": "18",
+    "type": "fontSizes"
+  },
+  "_font-big": {
+    "value": "22",
+    "type": "fontSizes"
+  },
+  "_font-extra-big": {
+    "value": "28",
+    "type": "fontSizes"
+  },
+  "_font-bigger": {
+    "value": "36",
+    "type": "fontSizes"
+  },
+  "_font-giant": {
+    "value": "46",
+    "type": "fontSizes"
+  }
+}

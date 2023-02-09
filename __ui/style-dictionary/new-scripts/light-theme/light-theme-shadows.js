@@ -1,6 +1,6 @@
 // config.js
 module.exports = {
-    source: [`ui-tokens/__absolute-colors.json`, `ui-tokens/__dark-theme.json`],
+    source: [`ui-tokens/__absolute-colors.json`, `ui-tokens/__light-theme.json`],
     // If you don't want to call the registerTransform method a bunch of times
     // you can override the whole transform object directly. This works because
     // the .extend method copies everything in the config
@@ -24,33 +24,14 @@ module.exports = {
           // Antes: blue-blue-200
           // despues: blue-200
   
-          // let mapName = 'dark-theme-colors';
+          // let mapName = 'light-theme-colors';
           
 
-          let colorTokens = dictionary.allTokens.map(token => {
-
-            
-
-            
-            if(token.type === 'color'){
-          return  `'${token.name.replace(/([a-z])\w+(-[a-z])\w+-/, '')}': ${token.value},\n`
-        }
-        
-        }).join('');
+       
 
 
 
-        let opacityImage = dictionary.allTokens.map(token => {
-
-            
-
-            
-          if(token.type === 'opacity'){
-        return  `'${token.name}': ${token.value},\n`
-      }
-     
-      
-      }).join('');
+    
 
 
 
@@ -63,12 +44,12 @@ module.exports = {
               Object.entries(token.value).forEach(([key, value]) => {
                 console.log(`'${key}':${value},`);
 
-                props = [...props, `'${key}':${value}`]
+                props = [...props, `${key}:${value}`]
       
               });
 
 
-              return `'${token.name}':(
+              return `${token.name}:(
                      ${props}
                     
                        ),`
@@ -77,17 +58,13 @@ module.exports = {
         
         }).join('');
     
-          return `$${'dark-theme-colors'}:( 
-                     ${colorTokens}
-                     );
+          return `
                   
-                  $${'dark-theme-shadows'}:( 
+                  $${'light-theme-shadows'}:( 
                     ${shadowTokens}
                     );
 
-                    $${'dark-theme-image-opacity'}:( 
-                      ${opacityImage}
-                      );  
+                   
                  `
 
   
@@ -99,9 +76,9 @@ module.exports = {
        "scss": {
         "transformGroup": "scss",
         // "prefix": "sd", // agregamos un prefijo a todas las cariables (Le agrega un guión también) 
-        "buildPath": "__scss-input/abstracts/variables/themes/dark-theme/", // la ruta donde irá nuestro archivo de salida 
+        "buildPath": "__scss-input/abstracts/variables/themes/light-theme/", // la ruta donde irá nuestro archivo de salida 
         "files": [{
-          "destination": "dark-theme-tokens.scss", // nombre de archivo 
+          "destination": "light-theme-shadows.scss", // nombre de archivo 
           "format": "myFormat", // formato 
           "mapName": "font-style"
         }]

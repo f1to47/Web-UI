@@ -18,11 +18,12 @@
     "light-theme": "style-dictionary build --config ./style-dictionary/light-theme.js",
 
     "build-component-compositions": "style-dictionary build --config ./style-dictionary/new-scripts/components/components-compositions.js",
-    
+    "build-foundation-vars": "style-dictionary build --config ./style-dictionary/new-scripts/foundation/foundation-tokens.js",
     "build-dark-theme-css-vars": "style-dictionary build --config ./style-dictionary/new-scripts/dark-theme/dark-theme-tokens-css-vars.js",
     "build-dark-theme-shadows": "style-dictionary build --config ./style-dictionary/new-scripts/dark-theme/dark-theme-shadows.js",
+    "build-light-theme-shadows": "style-dictionary build --config ./style-dictionary/new-scripts/light-theme/light-theme-shadows.js",
     "build-light-theme-css-vars": "style-dictionary build --config ./style-dictionary/new-scripts/light-theme/light-theme-tokens-css-vars.js",
-    "build-themes": "npm run build-light-theme-css-vars && npm run build-dark-theme-css-vars && npm run build-dark-theme-shadows "
+    "build-themes": "npm run build-light-theme-css-vars && npm run build-light-theme-shadows && npm run build-dark-theme-css-vars && npm run build-dark-theme-shadows "
   },
   "keywords": [],
   "author": "",

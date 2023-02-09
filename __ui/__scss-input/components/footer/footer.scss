@@ -103,7 +103,7 @@
             padding: var(--spacing-bigger);
 
             h1 {
-                font-size: var(--size-big);
+                font-size: var(--font-size-big);
                 font-weight: 600;
                 display: flex;
                 justify-content: center;
@@ -152,9 +152,9 @@
                     .phone-number {
                         display: flex;
                         flex-direction: row;
-                        font-size: var(--size-big);
+                        font-size: var(--font-size-big);
                         font-weight: 900;
-                        font-family: var(--font-families-barlow);
+                        font-family: var(--font-family-primary);
                         white-space: nowrap;
                         gap: var(--spacing-small);
 
@@ -174,7 +174,7 @@
             .atention{
                 max-width: 465px;
                 text-align: center;
-                font-size: var(--size-medium-small);
+                font-size: var(--font-size-medium-small);
             }
         }
 
@@ -206,7 +206,7 @@
             width: 100%;
             font-size: 0.9em;
 
-            margin-bottom: var(--size-big) !important;
+            margin-bottom: var(--spacing-big) !important;
 
 
             &::before {

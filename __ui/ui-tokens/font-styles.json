@@ -1,6 +1,6 @@
 {
   "h1-font-size": {
-    "value": "{_font-bigger}",
+    "value": "{_font-size-bigger}",
     "type": "fontSizes"
   },
   "h1-font-weight": {
@@ -20,35 +20,35 @@
     "type": "fontWeights"
   },
   "h1-font-family": {
-    "value": "{_font-primary}",
+    "value": "{_font-family-primary}",
     "type": "fontFamilies"
   },
   "h2-font-family": {
-    "value": "{_font-primary}",
+    "value": "{_font-family-primary}",
     "type": "fontFamilies"
   },
   "h3-font-family": {
-    "value": "{_font-primary}",
+    "value": "{_font-family-primary}",
     "type": "fontFamilies"
   },
   "h4-font-family": {
-    "value": "{_font-primary}",
+    "value": "{_font-family-primary}",
     "type": "fontFamilies"
   },
   "h2-font-size": {
-    "value": "{_font-extra-big}",
+    "value": "{_font-size-extra-big}",
     "type": "fontSizes"
   },
   "h3-font-size": {
-    "value": "{_font-big}",
+    "value": "{_font-size-big}",
     "type": "fontSizes"
   },
   "h4-font-size": {
-    "value": "{_font-medium-big}",
+    "value": "{_font-size-medium-big}",
     "type": "fontSizes"
   },
   "paragraph-font-family": {
-    "value": "{_font-secondary}",
+    "value": "{_font-family-secondary}",
     "type": "fontFamilies"
   },
   "paragraph-font-weight": {
@@ -56,7 +56,7 @@
     "type": "fontWeights"
   },
   "paragraph-font-size": {
-    "value": "{_font-medium}",
+    "value": "{_font-size-medium}",
     "type": "fontSizes"
   },
   "h1-line-height": {

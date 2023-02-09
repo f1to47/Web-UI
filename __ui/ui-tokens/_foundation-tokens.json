@@ -75,55 +75,55 @@
     "value": "FS Joey",
     "type": "fontFamilies"
   },
-  "_font-primary": {
+  "_font-family-primary": {
     "value": "{_barlow}",
     "type": "fontFamilies"
   },
-  "_font-secondary": {
+  "_font-family-secondary": {
     "value": "{_barlow}",
     "type": "fontFamilies"
   },
-  "_font-micro": {
+  "_font-size-micro": {
     "value": "6",
     "type": "fontSizes"
   },
-  "_font-smaller": {
+  "_font-size-smaller": {
     "value": "8",
     "type": "fontSizes"
   },
-  "_font-extra-small": {
+  "_font-size-extra-small": {
     "value": "10",
     "type": "fontSizes"
   },
-  "_font-small": {
+  "_font-size-small": {
     "value": "12",
     "type": "fontSizes"
   },
-  "_font-medium-small": {
+  "_font-size-medium-small": {
     "value": "14",
     "type": "fontSizes"
   },
-  "_font-medium": {
+  "_font-size-medium": {
     "value": "16",
     "type": "fontSizes"
   },
-  "_font-medium-big": {
+  "_font-size-medium-big": {
     "value": "18",
     "type": "fontSizes"
   },
-  "_font-big": {
+  "_font-size-big": {
     "value": "22",
     "type": "fontSizes"
   },
-  "_font-extra-big": {
+  "_font-size-extra-big": {
     "value": "28",
     "type": "fontSizes"
   },
-  "_font-bigger": {
+  "_font-size-bigger": {
     "value": "36",
     "type": "fontSizes"
   },
-  "_font-giant": {
+  "_font-size-giant": {
     "value": "46",
     "type": "fontSizes"
   }

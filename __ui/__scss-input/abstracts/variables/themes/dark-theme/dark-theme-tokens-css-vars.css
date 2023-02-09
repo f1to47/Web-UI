@@ -199,9 +199,8 @@
 --m-primary-o: #6396FE;
 --m-primary-p1: #2154C1;
 --m-primary-p2: #0033A0;
-
-          --shadow-1-x:0;--shadow-1-y:2;--shadow-1-blur:7;--shadow-1-spread:0;--shadow-1-color:#00000080;--shadow-1-type:dropShadow--shadow-2-x:0;--shadow-2-y:2;--shadow-2-blur:12;--shadow-2-spread:0;--shadow-2-color:#00000080;--shadow-2-type:dropShadow                 
-          --background-image: 0.7
+                 
+          --background-image: 0.7;
 
         }
         }

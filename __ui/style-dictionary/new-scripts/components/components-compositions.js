@@ -52,7 +52,8 @@ module.exports = {
                 if(value.toString().startsWith("#")){
                   let newValue = Object.values(token.original.value)[index];
                   newValue = newValue.replaceAll(/[{|}]/g, '');
-                  newValue = newValue.replaceAll(/[_\.]/g, '-');
+                  newValue = newValue.replaceAll(/\./g, '-');
+                  newValue = newValue.replaceAll(/_ct_|__ct_+/g, '--ct-');
                   colorVar = `var(${newValue})`
                  
                   props = [...props, `--${token.name}-${key}:${colorVar};\n`]

@@ -31,6 +31,15 @@
   --spacing-giant: 2.875em; }
 
 :root {
+  --shadow: map-get($dark-theme-shadows, 'shadow-1' ); }
+
+.shadow-1 {
+  box-shadow: 0 px 2 px 5px 0px rgba(0, 0, 0, 0.75); }
+
+.shadow-2 {
+  box-shadow: 0 px 2 px 5px 0px rgba(0, 0, 0, 0.75); }
+
+:root {
   --animate-duration: 1s;
   --animate-delay: 1s;
   --animate-repeat: 1; }

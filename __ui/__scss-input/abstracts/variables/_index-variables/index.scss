@@ -4,5 +4,7 @@
 // @import './base-colors-css-v.scss';
 @import '../sizing.scss';
 @import '../sizing-css-v.scss';
-@import '../themes/dark-theme/dark-theme-tokens.scss';
+
+@import '../themes/dark-theme/dark-theme-shadows.scss';
+@import '../themes/dark-theme/generate-shadow.scss';
 

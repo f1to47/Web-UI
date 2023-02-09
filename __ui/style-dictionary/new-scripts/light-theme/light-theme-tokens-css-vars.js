@@ -33,7 +33,7 @@ module.exports = {
 
             
             if(token.type === 'color'){
-          return  `--${token.name}: ${token.value},\n`
+          return  `--${token.name}: ${token.value}`
         }
         
         }).join('');
@@ -46,7 +46,7 @@ module.exports = {
 
             
           if(token.type === 'opacity'){
-        return  `--${token.name}: ${token.value}\n`
+        return  `--${token.name}: ${token.value};\n`
       }
      
       
@@ -62,7 +62,7 @@ module.exports = {
               let props = []
               Object.entries(token.value).forEach(([key, value]) => {
                 
-                props = [...props, `--${token.name}-${key}:${value}`]
+                props = [...props, `--${token.name}-${key}:${value};\n`]
               });
    
 
@@ -82,7 +82,7 @@ module.exports = {
         }
         }`
 
-let formatSeparator = format.replaceAll(",", ";"); 
+let formatSeparator = format.replaceAll(",", ""); 
 
 console.log(formatSeparator);
 

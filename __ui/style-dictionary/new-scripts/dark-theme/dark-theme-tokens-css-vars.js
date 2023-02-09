@@ -33,7 +33,7 @@ module.exports = {
 
             
             if(token.type === 'color'){
-          return  `--${token.name}: ${token.value},\n`
+          return  `--${token.name}: ${token.value};\n`
         }
         
         }).join('');
@@ -46,7 +46,7 @@ module.exports = {
 
             
           if(token.type === 'opacity'){
-        return  `--${token.name}: ${token.value}\n`
+        return  `--${token.name}: ${token.value};\n`
       }
      
       
@@ -55,34 +55,33 @@ module.exports = {
 
 
   
-          let shadowTokens = dictionary.allTokens.map(token => {
-            if(token.type === 'boxShadow'){
+        //   let shadowTokens = dictionary.allTokens.map(token => {
+        //     if(token.type === 'boxShadow'){
              
-              // console.log('--------------------TIPO: '+ typeof token );
-              let props = []
-              Object.entries(token.value).forEach(([key, value]) => {
+        //       console.log(token);
+        //       let props = []
+        //       Object.entries(token.value).forEach(([key, value]) => {
                 
-                props = [...props, `--${token.name}-${key}:${value}`]
-              });
+        //         props = [...props, `--${token.name}-${key}:${value};\n`]
+        //       });
    
 
-              return  props                    
+        //       return  props                    
                      
-        }
+        // }
         
         
-        }).join('');
+        // }).join('');
     
         let format = `
         @media(prefers-color-scheme: dark) {
         :root{
-          ${colorTokens}
-          ${shadowTokens}                 
+          ${colorTokens}                 
           ${opacityImage}
         }
         }`
 
-let formatSeparator = format.replaceAll(",", ";"); 
+let formatSeparator = format.replaceAll(",", ""); 
 
 console.log(formatSeparator);
 

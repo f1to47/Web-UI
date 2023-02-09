@@ -1,8 +1,8 @@
 {
   "box-color-1": {
     "value": {
-      "fill": "{_CT_error-o50.base}",
-      "borderColor": "{__CT_error.base}",
+      "fill": "{_ct_error-o50.base}",
+      "borderColor": "{__ct_error.base}",
       "height": "100px",
       "width": "100px"
     },

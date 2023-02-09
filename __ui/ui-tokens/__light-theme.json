@@ -1,5 +1,5 @@
 {
-  "__CT_neutral": {
+  "__ct_neutral": {
     "100": {
       "value": "#EAF1FC",
       "type": "color"
@@ -25,7 +25,7 @@
       "type": "color"
     }
   },
-  "_CT_neutral-o90": {
+  "_ct_neutral-o90": {
     "100": {
       "value": "#EAF1FCE6",
       "type": "color"
@@ -51,7 +51,7 @@
       "type": "color"
     }
   },
-  "_CT_neutral-o75": {
+  "_ct_neutral-o75": {
     "100": {
       "value": "#EAF1FCBF",
       "type": "color"
@@ -77,7 +77,7 @@
       "type": "color"
     }
   },
-  "_CT_neutral-o50": {
+  "_ct_neutral-o50": {
     "100": {
       "value": "#EAF1FC80",
       "type": "color"
@@ -103,7 +103,7 @@
       "type": "color"
     }
   },
-  "_CT_neutral-o25": {
+  "_ct_neutral-o25": {
     "100": {
       "value": "#EAF1FC40",
       "type": "color"
@@ -129,7 +129,7 @@
       "type": "color"
     }
   },
-  "_CT_neutral-o10": {
+  "_ct_neutral-o10": {
     "100": {
       "value": "#EAF1FC1A",
       "type": "color"
@@ -155,7 +155,7 @@
       "type": "color"
     }
   },
-  "__CT_primary": {
+  "__ct_primary": {
     "100": {
       "value": "#ADD1FF",
       "type": "color"
@@ -181,7 +181,7 @@
       "type": "color"
     }
   },
-  "_CT_primary-o90": {
+  "_ct_primary-o90": {
     "100": {
       "value": "#ADD1FFE6",
       "type": "color"
@@ -207,7 +207,7 @@
       "type": "color"
     }
   },
-  "_CT_primary-o75": {
+  "_ct_primary-o75": {
     "100": {
       "value": "#ADD1FFBF",
       "type": "color"
@@ -233,7 +233,7 @@
       "type": "color"
     }
   },
-  "_CT_primary-o50": {
+  "_ct_primary-o50": {
     "100": {
       "value": "#ADD1FF80",
       "type": "color"
@@ -259,7 +259,7 @@
       "type": "color"
     }
   },
-  "_CT_primary-o25": {
+  "_ct_primary-o25": {
     "100": {
       "value": "#ADD1FF40",
       "type": "color"
@@ -285,7 +285,7 @@
       "type": "color"
     }
   },
-  "_CT_primary-o10": {
+  "_ct_primary-o10": {
     "100": {
       "value": "#ADD1FF1a",
       "type": "color"
@@ -311,7 +311,7 @@
       "type": "color"
     }
   },
-  "__CT_error": {
+  "__ct_error": {
     "100": {
       "value": "#FFC1CA",
       "type": "color"
@@ -337,7 +337,7 @@
       "type": "color"
     }
   },
-  "_CT_error-o90": {
+  "_ct_error-o90": {
     "100": {
       "value": "#FFC1CAE6",
       "type": "color"
@@ -363,7 +363,7 @@
       "type": "color"
     }
   },
-  "_CT_error-o75": {
+  "_ct_error-o75": {
     "100": {
       "value": "#FFC1CABF",
       "type": "color"
@@ -389,7 +389,7 @@
       "type": "color"
     }
   },
-  "_CT_error-o50": {
+  "_ct_error-o50": {
     "100": {
       "value": "#FFC1CA80",
       "type": "color"
@@ -415,7 +415,7 @@
       "type": "color"
     }
   },
-  "_CT_error-o25": {
+  "_ct_error-o25": {
     "100": {
       "value": "#FFC1CA40",
       "type": "color"
@@ -441,7 +441,7 @@
       "type": "color"
     }
   },
-  "_CT_error-o10": {
+  "_ct_error-o10": {
     "100": {
       "value": "#FFC1CA1A",
       "type": "color"
@@ -467,7 +467,7 @@
       "type": "color"
     }
   },
-  "__CT_success": {
+  "__ct_success": {
     "100": {
       "value": "#6EEEB8",
       "type": "color"
@@ -493,7 +493,7 @@
       "type": "color"
     }
   },
-  "_CT_success-o90": {
+  "_ct_success-o90": {
     "100": {
       "value": "#6EEEB8E6",
       "type": "color"
@@ -519,7 +519,7 @@
       "type": "color"
     }
   },
-  "_CT_success-o75": {
+  "_ct_success-o75": {
     "100": {
       "value": "#6EEEB8BF",
       "type": "color"
@@ -545,7 +545,7 @@
       "type": "color"
     }
   },
-  "_CT_success-o50": {
+  "_ct_success-o50": {
     "100": {
       "value": "#6EEEB880",
       "type": "color"
@@ -571,7 +571,7 @@
       "type": "color"
     }
   },
-  "_CT_success-o25": {
+  "_ct_success-o25": {
     "100": {
       "value": "#6EEEB840",
       "type": "color"
@@ -597,7 +597,7 @@
       "type": "color"
     }
   },
-  "_CT_success-o10": {
+  "_ct_success-o10": {
     "100": {
       "value": "#6EEEB81A",
       "type": "color"
@@ -623,7 +623,7 @@
       "type": "color"
     }
   },
-  "__CT_caution": {
+  "__ct_caution": {
     "100": {
       "value": "#FFCB59",
       "type": "color"
@@ -649,7 +649,7 @@
       "type": "color"
     }
   },
-  "_CT_caution-o90": {
+  "_ct_caution-o90": {
     "100": {
       "value": "#FFCB59E6",
       "type": "color"
@@ -675,7 +675,7 @@
       "type": "color"
     }
   },
-  "_CT_caution-o75": {
+  "_ct_caution-o75": {
     "100": {
       "value": "#FFCB59BF",
       "type": "color"
@@ -701,7 +701,7 @@
       "type": "color"
     }
   },
-  "_CT_caution-o50": {
+  "_ct_caution-o50": {
     "100": {
       "value": "#FFCB5980",
       "type": "color"
@@ -727,7 +727,7 @@
       "type": "color"
     }
   },
-  "_CT_caution-o25": {
+  "_ct_caution-o25": {
     "100": {
       "value": "#FFCB5940",
       "type": "color"
@@ -753,7 +753,7 @@
       "type": "color"
     }
   },
-  "_CT_caution-o10": {
+  "_ct_caution-o10": {
     "100": {
       "value": "#FFCB591A",
       "type": "color"
@@ -785,7 +785,7 @@
       "y": "2",
       "blur": "7",
       "spread": "0",
-      "color": "{_CT_neutral-o10.500}",
+      "color": "{_ct_neutral-o10.500}",
       "type": "dropShadow"
     },
     "type": "boxShadow"
@@ -796,14 +796,14 @@
       "y": "2",
       "blur": "12",
       "spread": "0",
-      "color": "{_CT_neutral-o10.500}",
+      "color": "{_ct_neutral-o10.500}",
       "type": "dropShadow"
     },
     "type": "boxShadow"
   },
   "_glass": {
     "base": {
-      "value": "{_CT_neutral-o10.400}",
+      "value": "{_ct_neutral-o10.400}",
       "type": "color"
     }
   },
@@ -813,23 +813,23 @@
   },
   "_m-primary": {
     "n2": {
-      "value": "{__CT_primary.100}",
+      "value": "{__ct_primary.100}",
       "type": "color"
     },
     "n1": {
-      "value": "{__CT_primary.200}",
+      "value": "{__ct_primary.200}",
       "type": "color"
     },
     "o": {
-      "value": "{__CT_primary.300}",
+      "value": "{__ct_primary.300}",
       "type": "color"
     },
     "p1": {
-      "value": "{__CT_primary.400}",
+      "value": "{__ct_primary.400}",
       "type": "color"
     },
     "p2": {
-      "value": "{__CT_primary.500}",
+      "value": "{__ct_primary.500}",
       "type": "color"
     }
   }

@@ -44,7 +44,7 @@ module.exports = {
                 
 
                 
-               let finder = token.toString().search(/shadow/);
+           
 
                console.log(token);
           
@@ -54,12 +54,12 @@ module.exports = {
                   newValue = newValue.replaceAll(/[{|}]/g, '');
                   newValue = newValue.replaceAll(/[_\.]/g, '-');
                   colorVar = `var(${newValue})`
-                  console.log('¡¡¡¡¡¡¡¡¡¡ '+newValue)
-                  props = [...props, `--${token.name}-${key}:${colorVar}`]
+                 
+                  props = [...props, `--${token.name}-${key}:${colorVar};\n`]
                   console.log('____________________ '+ newValue)
                 }else{
                 
-                  props = [...props, `--${token.name}-${key}:${value}`]
+                  props = [...props, `--${token.name}-${key}:${value};\n`]
 
                  
                 }
@@ -91,7 +91,7 @@ module.exports = {
         }
         `
 
-let formatSeparator = format.replaceAll(",", ";"); 
+let formatSeparator = format.replaceAll(",", ""); 
 
 console.log(formatSeparator);
 

@@ -33,7 +33,7 @@ module.exports = {
 
             
             if(token.type === 'color'){
-          return  `--${token.name.replace(/([a-z])\w+(-[a-z])\w+-/, '')}: ${token.value},\n`
+          return  `--${token.name}: ${token.value},\n`
         }
         
         }).join('');

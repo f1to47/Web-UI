@@ -1,7 +1,16 @@
 
        
         :root{
-          --card-fill:var(--neutral-predominant);--card-verticalPadding:2.25em;--card-horizontalPadding:2.25em;--card-borderRadius:24px;--card-boxShadow:[object Object]
+          --card-fill:var(--CT-neutral-predominant);
+--card-verticalPadding:2.25em;
+--card-horizontalPadding:2.25em;
+--card-borderRadius:24px;
+--card-boxShadow:[object Object];
+--box-color-1-fill:var(-CT-error-o50-base);
+--box-color-1-borderColor:var(--ct-error-base);
+--box-color-1-height:100px;
+--box-color-1-width:100px;
+
           
         }
         

@@ -81,7 +81,7 @@
   },
   "h1": {
     "value": {
-      "fill": "{__neutral.500}",
+      "fill": "{__CT_neutral.500}",
       "fontSizes": "{h1-font-size}",
       "fontFamilies": "{h1-font-family}",
       "fontWeights": "{h1-font-weight}",
@@ -91,7 +91,7 @@
   },
   "h2": {
     "value": {
-      "fill": "{__neutral.500}",
+      "fill": "{__CT_neutral.500}",
       "fontSizes": "{h2-font-size}",
       "fontFamilies": "{h2-font-family}",
       "fontWeights": "{h2-font-weight}",
@@ -101,7 +101,7 @@
   },
   "h3": {
     "value": {
-      "fill": "{__neutral.500}",
+      "fill": "{__CT_neutral.500}",
       "fontSizes": "{h3-font-size}",
       "fontFamilies": "{h3-font-family}",
       "fontWeights": "{h3-font-weight}",
@@ -111,7 +111,7 @@
   },
   "h4": {
     "value": {
-      "fill": "{__neutral.500}",
+      "fill": "{__CT_neutral.500}",
       "fontSizes": "{h4-font-size}",
       "fontFamilies": "{h4-font-family}",
       "fontWeights": "{h4-font-weight}",
@@ -121,7 +121,7 @@
   },
   "paragraph": {
     "value": {
-      "fill": "{__neutral.500}",
+      "fill": "{__CT_neutral.500}",
       "fontSizes": "{paragraph-font-size}",
       "fontFamilies": "{paragraph-font-family}",
       "fontWeights": "{paragraph-font-weight}",

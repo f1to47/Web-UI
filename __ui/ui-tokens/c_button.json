@@ -1,11 +1,11 @@
 {
   "primary": {
     "button-primary-background-color": {
-      "value": "{__primary.base}",
+      "value": "{__CT_primary.base}",
       "type": "color"
     },
     "button-primary-hover-background-color": {
-      "value": "{__primary.500}",
+      "value": "{__CT_primary.500}",
       "type": "color"
     },
     "button-primary-color": {
@@ -19,19 +19,19 @@
   },
   "secondary": {
     "button-primary-background-color": {
-      "value": "{__primary.100}",
+      "value": "{__CT_primary.100}",
       "type": "color"
     },
     "button-primary-hover-background-color": {
-      "value": "{__primary.200}",
+      "value": "{__CT_primary.200}",
       "type": "color"
     },
     "button-primary-color": {
-      "value": "{__primary.base}",
+      "value": "{__CT_primary.base}",
       "type": "color"
     },
     "button-primary-hover-color": {
-      "value": "{__primary.base}",
+      "value": "{__CT_primary.base}",
       "type": "color"
     }
   }

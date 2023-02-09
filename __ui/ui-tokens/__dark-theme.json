@@ -803,7 +803,7 @@
   },
   "_glass": {
     "base": {
-      "value": "{_CT_o10-neutral.400}",
+      "value": "{_CT_neutral-o10.400}",
       "type": "color"
     }
   },
@@ -813,23 +813,23 @@
   },
   "_m-primary": {
     "n2": {
-      "value": "{_CT_primary.500}",
+      "value": "{__CT_primary.500}",
       "type": "color"
     },
     "n1": {
-      "value": "{_CT_primary.400}",
+      "value": "{__CT_primary.400}",
       "type": "color"
     },
     "o": {
-      "value": "{_CT_primary.300}",
+      "value": "{__CT_primary.300}",
       "type": "color"
     },
     "p1": {
-      "value": "{_CT_primary.200}",
+      "value": "{__CT_primary.200}",
       "type": "color"
     },
     "p2": {
-      "value": "{_CT_primary.100}",
+      "value": "{__CT_primary.100}",
       "type": "color"
     }
   }

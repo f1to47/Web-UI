@@ -177,7 +177,7 @@
       "type": "color"
     },
     "base": {
-      "value": "#0033a0",
+      "value": "#3D70DD",
       "type": "color"
     }
   },
@@ -203,7 +203,7 @@
       "type": "color"
     },
     "base": {
-      "value": "#0033a0E6",
+      "value": "#3D70DDE6",
       "type": "color"
     }
   },
@@ -229,7 +229,7 @@
       "type": "color"
     },
     "base": {
-      "value": "#0033a0BF",
+      "value": "#3D70DDBF",
       "type": "color"
     }
   },
@@ -255,7 +255,7 @@
       "type": "color"
     },
     "base": {
-      "value": "#0033a080",
+      "value": "#3D70DD80",
       "type": "color"
     }
   },
@@ -281,7 +281,7 @@
       "type": "color"
     },
     "base": {
-      "value": "#0033a040",
+      "value": "#3D70DD40",
       "type": "color"
     }
   },
@@ -307,7 +307,7 @@
       "type": "color"
     },
     "base": {
-      "value": "#0033a01a",
+      "value": "#3D70DD1a",
       "type": "color"
     }
   },
@@ -785,7 +785,7 @@
       "y": "2",
       "blur": "7",
       "spread": "0",
-      "color": "{_CT_o10-neutral.500}",
+      "color": "{_CT_neutral-o10.500}",
       "type": "dropShadow"
     },
     "type": "boxShadow"
@@ -796,14 +796,14 @@
       "y": "2",
       "blur": "12",
       "spread": "0",
-      "color": "{_CT_o10-neutral.500}",
+      "color": "{_CT_neutral-o10.500}",
       "type": "dropShadow"
     },
     "type": "boxShadow"
   },
   "_glass": {
     "base": {
-      "value": "{_CT_o10-neutral.400}",
+      "value": "{_CT_neutral-o10.400}",
       "type": "color"
     }
   },
@@ -813,23 +813,23 @@
   },
   "_m-primary": {
     "n2": {
-      "value": "{_CT_primary.100}",
+      "value": "{__CT_primary.100}",
       "type": "color"
     },
     "n1": {
-      "value": "{_CT_primary.200}",
+      "value": "{__CT_primary.200}",
       "type": "color"
     },
     "o": {
-      "value": "{_CT_primary.300}",
+      "value": "{__CT_primary.300}",
       "type": "color"
     },
     "p1": {
-      "value": "{_CT_primary.400}",
+      "value": "{__CT_primary.400}",
       "type": "color"
     },
     "p2": {
-      "value": "{_CT_primary.500}",
+      "value": "{__CT_primary.500}",
       "type": "color"
     }
   }

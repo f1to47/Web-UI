@@ -781,10 +781,10 @@
   },
   "shadow-1": {
     "value": {
-      "x": "0",
-      "y": "2",
-      "blur": "7",
-      "spread": "0",
+      "x": "0px",
+      "y": "2px",
+      "blur": "7px",
+      "spread": "0px",
       "color": "{_ct_neutral-o10.500}",
       "type": "dropShadow"
     },
@@ -792,10 +792,10 @@
   },
   "shadow-2": {
     "value": {
-      "x": "0",
-      "y": "2",
-      "blur": "12",
-      "spread": "0",
+      "x": "0px",
+      "y": "2px",
+      "blur": "12px",
+      "spread": "0px",
       "color": "{_ct_neutral-o10.500}",
       "type": "dropShadow"
     },

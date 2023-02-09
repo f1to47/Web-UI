@@ -3727,20 +3727,21 @@
   }
 
 
-  @each $key, $value in $sizing {
-	.gutters-#{$key} {
-		margin-right:-#{$value};
-		margin-left:-#{$value};
-	} 
+//   @each $key, $value in $spacing {
+// 	.gutters-#{$key} {
+// 		margin-right:-#{$value};
+// 		margin-left:-#{$value};
+// 	} 
 
-	.gutters-#{$key} > .col,
-  .gutters-#{$key} > [class*="col-"] {
-	padding-right: #{$value};
-	padding-left: #{$value};
-	padding-bottom: #{$value};
-	padding-top: #{$value};
-  }
-}  
+// 	.gutters-#{$key} > .col,
+//   .gutters-#{$key} > [class*="col-"] {
+// 	padding-right: #{$value};
+// 	padding-left: #{$value};
+// 	padding-bottom: #{$value};
+// 	padding-top: #{$value};
+//   }
+// }  
+
   /*# sourceMappingURL=bootstrap-grid.css.map */
 
 

@@ -6,6 +6,7 @@
     "_foundation-tokens",
     "font-styles",
     "c_button",
-    "c_card"
+    "c_card",
+    "c_component-color"
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "__neutral": {
+  "__CT_neutral": {
     "100": {
       "value": "#2F354A",
       "type": "color"
@@ -25,7 +25,7 @@
       "type": "color"
     }
   },
-  "_o-90-neutral": {
+  "_CT_neutral-o90": {
     "100": {
       "value": "#2F354AE6",
       "type": "color"
@@ -51,7 +51,7 @@
       "type": "color"
     }
   },
-  "_o-75-neutral": {
+  "_CT_neutral-o75": {
     "100": {
       "value": "#2F354ABF",
       "type": "color"
@@ -77,7 +77,7 @@
       "type": "color"
     }
   },
-  "_o-50-neutral": {
+  "_CT_neutral-o50": {
     "100": {
       "value": "#2F354A80",
       "type": "color"
@@ -103,7 +103,7 @@
       "type": "color"
     }
   },
-  "_o-25-neutral": {
+  "_CT_neutral-o25": {
     "100": {
       "value": "#2F354A40",
       "type": "color"
@@ -129,7 +129,7 @@
       "type": "color"
     }
   },
-  "_o-10-neutral": {
+  "_CT_neutral-o10": {
     "100": {
       "value": "#2F354A1A",
       "type": "color"
@@ -155,7 +155,7 @@
       "type": "color"
     }
   },
-  "__primary": {
+  "__CT_primary": {
     "100": {
       "value": "#0033A0",
       "type": "color"
@@ -181,7 +181,7 @@
       "type": "color"
     }
   },
-  "_o-90-primary": {
+  "_CT_primary-o90": {
     "100": {
       "value": "#0033A0E6",
       "type": "color"
@@ -207,7 +207,7 @@
       "type": "color"
     }
   },
-  "_o-75-primary": {
+  "_CT_primary-o75": {
     "100": {
       "value": "#0033A0BF",
       "type": "color"
@@ -233,7 +233,7 @@
       "type": "color"
     }
   },
-  "_o-50-primary": {
+  "_CT_primary-o50": {
     "100": {
       "value": "#0033A080",
       "type": "color"
@@ -259,7 +259,7 @@
       "type": "color"
     }
   },
-  "_o-25-primary": {
+  "_CT_primary-o25": {
     "100": {
       "value": "#0033A040",
       "type": "color"
@@ -285,7 +285,7 @@
       "type": "color"
     }
   },
-  "_o-10-primary": {
+  "_CT_primary-o10": {
     "100": {
       "value": "#0033A01A",
       "type": "color"
@@ -311,7 +311,7 @@
       "type": "color"
     }
   },
-  "__error": {
+  "__CT_error": {
     "100": {
       "value": "#8A0521",
       "type": "color"
@@ -337,7 +337,7 @@
       "type": "color"
     }
   },
-  "_o-90-error": {
+  "_CT_error-o90": {
     "100": {
       "value": "#8A0521E6",
       "type": "color"
@@ -363,7 +363,7 @@
       "type": "color"
     }
   },
-  "_o-75-error": {
+  "_CT_error-o75": {
     "100": {
       "value": "#8A0521BF",
       "type": "color"
@@ -389,7 +389,7 @@
       "type": "color"
     }
   },
-  "_o-50-error": {
+  "_CT_error-o50": {
     "100": {
       "value": "#8A052180",
       "type": "color"
@@ -415,7 +415,7 @@
       "type": "color"
     }
   },
-  "_o-25-error": {
+  "_CT_error-o25": {
     "100": {
       "value": "#8A052140",
       "type": "color"
@@ -441,7 +441,7 @@
       "type": "color"
     }
   },
-  "_o-10-error": {
+  "_CT_error-o10": {
     "100": {
       "value": "#8A05211A",
       "type": "color"
@@ -467,7 +467,7 @@
       "type": "color"
     }
   },
-  "__success": {
+  "__CT_success": {
     "100": {
       "value": "#045323",
       "type": "color"
@@ -493,7 +493,7 @@
       "type": "color"
     }
   },
-  "_o-90-success": {
+  "_CT_success-o90": {
     "100": {
       "value": "#045323E6",
       "type": "color"
@@ -519,7 +519,7 @@
       "type": "color"
     }
   },
-  "_o-75-success": {
+  "_CT_success-o75": {
     "100": {
       "value": "#045323BF",
       "type": "color"
@@ -545,7 +545,7 @@
       "type": "color"
     }
   },
-  "_o-50-success": {
+  "_CT_success-o50": {
     "100": {
       "value": "#04532380",
       "type": "color"
@@ -571,7 +571,7 @@
       "type": "color"
     }
   },
-  "_o-25-success": {
+  "_CT_success-o25": {
     "100": {
       "value": "#04532340",
       "type": "color"
@@ -597,7 +597,7 @@
       "type": "color"
     }
   },
-  "_o-10-success": {
+  "_CT_success-o10": {
     "100": {
       "value": "#0453231A",
       "type": "color"
@@ -623,7 +623,7 @@
       "type": "color"
     }
   },
-  "__caution": {
+  "__CT_caution": {
     "100": {
       "value": "#8B3F00",
       "type": "color"
@@ -649,7 +649,7 @@
       "type": "color"
     }
   },
-  "_o-90-caution": {
+  "_CT_caution-o90": {
     "100": {
       "value": "#8B3F00E6",
       "type": "color"
@@ -675,7 +675,7 @@
       "type": "color"
     }
   },
-  "_o-75-caution": {
+  "_CT_caution-o75": {
     "100": {
       "value": "#8B3F00BF",
       "type": "color"
@@ -701,7 +701,7 @@
       "type": "color"
     }
   },
-  "_o-50-caution": {
+  "_CT_caution-o50": {
     "100": {
       "value": "#8B3F0080",
       "type": "color"
@@ -727,7 +727,7 @@
       "type": "color"
     }
   },
-  "_o-25-caution": {
+  "_CT_caution-o25": {
     "100": {
       "value": "#8B3F0040",
       "type": "color"
@@ -753,7 +753,7 @@
       "type": "color"
     }
   },
-  "_o-10-caution": {
+  "_CT_caution-o10": {
     "100": {
       "value": "#8B3F001A",
       "type": "color"
@@ -803,7 +803,7 @@
   },
   "_glass": {
     "base": {
-      "value": "{_o-10-neutral.400}",
+      "value": "{_CT_o10-neutral.400}",
       "type": "color"
     }
   },
@@ -813,28 +813,24 @@
   },
   "_m-primary": {
     "n2": {
-      "value": "{__primary.500}",
+      "value": "{_CT_primary.500}",
       "type": "color"
     },
     "n1": {
-      "value": "{__primary.400}",
+      "value": "{_CT_primary.400}",
       "type": "color"
     },
     "o": {
-      "value": "{__primary.300}",
+      "value": "{_CT_primary.300}",
       "type": "color"
     },
     "p1": {
-      "value": "{__primary.200}",
+      "value": "{_CT_primary.200}",
       "type": "color"
     },
     "p2": {
-      "value": "{__primary.100}",
+      "value": "{_CT_primary.100}",
       "type": "color"
     }
-  },
-  "violeta": {
-    "value": "#de13f7",
-    "type": "color"
   }
 }

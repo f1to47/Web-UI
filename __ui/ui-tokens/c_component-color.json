@@ -1,0 +1,11 @@
+{
+  "box-color-1": {
+    "value": {
+      "fill": "{_CT_error-o50.base}",
+      "borderColor": "{__CT_error.base}",
+      "height": "100px",
+      "width": "100px"
+    },
+    "type": "composition"
+  }
+}

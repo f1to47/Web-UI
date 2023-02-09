@@ -9,14 +9,18 @@
     "build-colors": "style-dictionary build --config ./style-dictionary/colors.js",
     "build-ds": "style-dictionary build --config ./style-dictionary/ui-tokens.js",
     "build-dark-theme": "style-dictionary build --config ./style-dictionary/new-scripts/dark-theme-tokens.js",
-
     "font-styles": "style-dictionary build --config ./style-dictionary/font-styles.js",
     "font-size": "style-dictionary build --config ./style-dictionary/font-size.js",
     "font-families": "style-dictionary build --config ./style-dictionary/font-families.js",
     "font-components": "style-dictionary build --config ./style-dictionary/font-components.js",
     "font-tokens": "npm run font-size && npm run font-styles && npm run font-families && npm run font-components",
     "build-sizing": "style-dictionary build --config ./style-dictionary/sizing.js",
-    "light-theme": "style-dictionary build --config ./style-dictionary/light-theme.js"
+    "light-theme": "style-dictionary build --config ./style-dictionary/light-theme.js",
+
+    "build-component-compositions": "style-dictionary build --config ./style-dictionary/new-scripts/components-compositions.js",
+    "build-dark-theme-css-vars": "style-dictionary build --config ./style-dictionary/new-scripts/dark-theme-tokens-css-vars.js",
+    "build-light-theme-css-vars": "style-dictionary build --config ./style-dictionary/new-scripts/light-theme-tokens-css-vars.js",
+    "build-themes": "npm run build-light-theme-css-vars && npm run build-dark-theme-css-vars"
   },
   "keywords": [],
   "author": "",

@@ -1,6 +1,6 @@
 // config.js
 module.exports = {
-    source: [`ui-tokens/__absolute-colors.json`, `ui-tokens/__dark-theme.json`],
+    source: [`ui-tokens/__absolute-colors.json`, `ui-tokens/__light-theme.json`],
     // If you don't want to call the registerTransform method a bunch of times
     // you can override the whole transform object directly. This works because
     // the .extend method copies everything in the config
@@ -74,7 +74,7 @@ module.exports = {
         }).join('');
     
         let format = `
-        @media(prefers-color-scheme: dark) {
+        @media(prefers-color-scheme: light) {
         :root{
           ${colorTokens}
           ${shadowTokens}                 
@@ -98,9 +98,9 @@ console.log(formatSeparator);
        "css": {
         "transformGroup": "css",
         // "prefix": "sd", // agregamos un prefijo a todas las cariables (Le agrega un guión también) 
-        "buildPath": "__scss-input/abstracts/variables/themes/dark-theme/", // la ruta donde irá nuestro archivo de salida 
+        "buildPath": "__scss-input/abstracts/variables/themes/light-theme/", // la ruta donde irá nuestro archivo de salida 
         "files": [{
-          "destination": "dark-theme-tokens-css-vars.css", // nombre de archivo 
+          "destination": "light-theme-tokens-css-vars.css", // nombre de archivo 
           "format": "myFormat", // formato 
           "mapName": "font-style"
         }]

@@ -1,6 +1,6 @@
 // config.js
 module.exports = {
-    source: [`ui-tokens/__absolute-colors.json`, `ui-tokens/__dark-theme.json`],
+    source: [`ui-tokens/__absolute-colors.json`, `ui-tokens/__dark-theme.json`, `ui-tokens/_foundation-tokens.json`, `ui-tokens/c_card.json`],
     // If you don't want to call the registerTransform method a bunch of times
     // you can override the whole transform object directly. This works because
     // the .extend method copies everything in the config
@@ -27,42 +27,37 @@ module.exports = {
           // let mapName = 'dark-theme-colors';
           
 
-          let colorTokens = dictionary.allTokens.map(token => {
-
-            
-
-            
-            if(token.type === 'color'){
-          return  `--${token.name.replace(/([a-z])\w+(-[a-z])\w+-/, '')}: ${token.value},\n`
-        }
-        
-        }).join('');
-
-
-
-        let opacityImage = dictionary.allTokens.map(token => {
-
-            
-
-            
-          if(token.type === 'opacity'){
-        return  `--${token.name}: ${token.value}\n`
-      }
-     
-      
-      }).join('');
-
-
-
-  
-          let shadowTokens = dictionary.allTokens.map(token => {
-            if(token.type === 'boxShadow'){
+          let tokens = dictionary.allTokens.map(token => {
+            if(token.type === 'composition'){
              
-              // console.log('--------------------TIPO: '+ typeof token );
+             
               let props = []
-              Object.entries(token.value).forEach(([key, value]) => {
+              Object.entries(token.value).forEach(([key, value], index) => {
+               
+
                 
-                props = [...props, `--${token.name}-${key}:${value}`]
+
+                
+               let finder = token.toString().search(/shadow/);
+
+               console.log(token);
+          
+
+                if(value.toString().startsWith("#")){
+                  let newValue = Object.values(token.original.value)[index];
+                  newValue = newValue.replaceAll(/[{|}]/g, '');
+                  newValue = newValue.replaceAll(/[_\.]/g, '-');
+                  colorVar = `var(${newValue})`
+                  console.log('¡¡¡¡¡¡¡¡¡¡ '+newValue)
+                  props = [...props, `--${token.name}-${key}:${colorVar}`]
+                  console.log('____________________ '+ newValue)
+                }else{
+                
+                  props = [...props, `--${token.name}-${key}:${value}`]
+
+                 
+                }
+               
               });
    
 
@@ -72,15 +67,23 @@ module.exports = {
         
         
         }).join('');
+
+
+
+  
+
+
+
+  
+         
     
         let format = `
-        @media(prefers-color-scheme: dark) {
+       
         :root{
-          ${colorTokens}
-          ${shadowTokens}                 
-          ${opacityImage}
+          ${tokens}
+          
         }
-        }`
+        `
 
 let formatSeparator = format.replaceAll(",", ";"); 
 
@@ -98,9 +101,9 @@ console.log(formatSeparator);
        "css": {
         "transformGroup": "css",
         // "prefix": "sd", // agregamos un prefijo a todas las cariables (Le agrega un guión también) 
-        "buildPath": "__scss-input/abstracts/variables/themes/dark-theme/", // la ruta donde irá nuestro archivo de salida 
+        "buildPath": "__scss-input/abstracts/variables/components/compositions/", // la ruta donde irá nuestro archivo de salida 
         "files": [{
-          "destination": "dark-theme-tokens-css-vars.css", // nombre de archivo 
+          "destination": "components-compositions.css", // nombre de archivo 
           "format": "myFormat", // formato 
           "mapName": "font-style"
         }]

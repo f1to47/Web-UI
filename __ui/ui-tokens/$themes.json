@@ -8,8 +8,7 @@
       "font-styles": "enabled",
       "_foundation-tokens": "enabled",
       "c_card": "enabled",
-      "c_button": "enabled",
-      "c_component-color": "disabled"
+      "c_button": "enabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -22,8 +21,7 @@
       "font-styles": "enabled",
       "_foundation-tokens": "enabled",
       "c_card": "enabled",
-      "c_button": "enabled",
-      "c_component-color": "disabled"
+      "c_button": "enabled"
     },
     "$figmaStyleReferences": {}
   }

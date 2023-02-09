@@ -1,6 +1,6 @@
 // config.js
 module.exports = {
-    source: [`ui-tokens/_foundation-tokens.json`],
+    source: [`ui-tokens/__absolute-colors.json`, `ui-tokens/__dark-theme.json`, `ui-tokens/_foundation-tokens.json`,`ui-tokens/font-styles.json`],
     // If you don't want to call the registerTransform method a bunch of times
     // you can override the whole transform object directly. This works because
     // the .extend method copies everything in the config
@@ -28,13 +28,62 @@ module.exports = {
           
 
           let tokens = dictionary.allTokens.map(token => {
+    
 
-            
+            console.log(token);
 
+            if(token.type != 'color' && token.type != 'opacity' && token.type != 'boxShadow'){
             
-            // if(token.type === 'color'){
-          return  `--${token.name}: ${token.value};\n`
-        // }
+            if(token.type === 'composition'){
+             
+             
+              let props = []
+              Object.entries(token.value).forEach(([key, value], index) => {
+               
+
+
+                if(value.toString().startsWith("#")){
+                  let newValue = Object.values(token.original.value)[index];
+                  newValue = newValue.replaceAll(/[{|}]/g, '');
+                  newValue = newValue.replaceAll(/\./g, '-');
+                  newValue = newValue.replaceAll(/_ct_|__ct_+/g, '--ct-');
+                  colorVar = `var(${newValue})`
+                 
+                  props = [...props, `--${token.name}-${key}:${colorVar};\n`]
+                  console.log('____________________ '+ newValue)
+                }else{
+                
+                  props = [...props, `--${token.name}-${key}:${value};\n`]
+
+                 
+                }
+               
+              });
+   
+
+              return  props                    
+                     
+        }
+            
+        else{
+          if(token.value.toString().startsWith("#")){
+            let newValue = (token.original.value);
+            newValue = newValue.replaceAll(/[{|}]/g, '');
+            newValue = newValue.replaceAll(/\./g, '-');
+            newValue = newValue.replaceAll(/_ct_|__ct_+/g, '--ct-');
+            colorVar = `var(${newValue})`
+           
+            return `--${token.name}:${colorVar};\n`            
+         
+          }else{
+          
+            return `--${token.name}:${token.value};\n`
+
+           
+          }
+         
+        }
+      }
         
         }).join('');
 
@@ -84,12 +133,12 @@ console.log(formatSeparator);
     platforms: {
       
        //scss
-       "css": {
-        "transformGroup": "css",
+       "scss": {
+        "transformGroup": "scss",
         // "prefix": "sd", // agregamos un prefijo a todas las cariables (Le agrega un guión también) 
         "buildPath": "__scss-input/abstracts/variables/foudation/", // la ruta donde irá nuestro archivo de salida 
         "files": [{
-          "destination": "foundation-vars.css", // nombre de archivo 
+          "destination": "foundation-styles.scss", // nombre de archivo 
           "format": "myFormat", // formato 
           "mapName": "font-style"
         }]

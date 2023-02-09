@@ -84,47 +84,47 @@
     "type": "fontFamilies"
   },
   "_font-size-micro": {
-    "value": "6",
+    "value": "0.375em",
     "type": "fontSizes"
   },
   "_font-size-smaller": {
-    "value": "8",
+    "value": "0.5em",
     "type": "fontSizes"
   },
   "_font-size-extra-small": {
-    "value": "10",
+    "value": "0.625em",
     "type": "fontSizes"
   },
   "_font-size-small": {
-    "value": "12",
+    "value": "0.75em",
     "type": "fontSizes"
   },
   "_font-size-medium-small": {
-    "value": "14",
+    "value": "0.875em",
     "type": "fontSizes"
   },
   "_font-size-medium": {
-    "value": "16",
+    "value": "1em",
     "type": "fontSizes"
   },
   "_font-size-medium-big": {
-    "value": "18",
+    "value": "1.125em",
     "type": "fontSizes"
   },
   "_font-size-big": {
-    "value": "22",
+    "value": "1.375em",
     "type": "fontSizes"
   },
   "_font-size-extra-big": {
-    "value": "28",
+    "value": "1.75em",
     "type": "fontSizes"
   },
   "_font-size-bigger": {
-    "value": "36",
+    "value": "2.25em",
     "type": "fontSizes"
   },
   "_font-size-giant": {
-    "value": "46",
+    "value": "2.875em",
     "type": "fontSizes"
   }
 }

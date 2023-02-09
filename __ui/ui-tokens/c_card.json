@@ -1,7 +1,7 @@
 {
   "card": {
     "value": {
-      "fill": "{__CT_neutral.predominant}",
+      "fill": "{__ct_neutral.predominant}",
       "verticalPadding": "{_spacing-bigger}",
       "horizontalPadding": "{_spacing-bigger}",
       "borderRadius": "{_radius-24}",

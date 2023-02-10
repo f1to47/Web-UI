@@ -31,6 +31,9 @@ module.exports = {
           // despues: blue-200
   
           // let mapName = 'dark-theme-colors';
+
+
+         
           
 
           let tokens = dictionary.allTokens.map(token => {
@@ -46,7 +49,7 @@ module.exports = {
                 
            
 
-               console.log(token);
+              //  console.log(token);
           
 
                 if(value.toString().startsWith("#")){
@@ -55,10 +58,13 @@ module.exports = {
                   newValue = newValue.replaceAll(/\./g, '-');
                   newValue = newValue.replaceAll(/_ct_|__ct_+/g, '--ct-');
                   colorVar = `var(${newValue})`
+
+                 
                  
                   props = [...props, `--${token.name}-${key}:${colorVar};\n`]
-                  console.log('____________________ '+ newValue)
-                }else{
+                  // console.log('____________________ '+ newValue)
+                }
+                else{
                 
                   props = [...props, `--${token.name}-${key}:${value};\n`]
 
@@ -77,6 +83,82 @@ module.exports = {
 
 
 
+
+        let mixins = dictionary.allTokens.map(token => {
+          if(token.type === 'composition'){
+           
+           
+            let props = []
+            Object.entries(token.value).forEach(([key, value], index) => {
+             
+
+              
+
+              
+         
+
+            //  console.log(token);
+        
+
+            if(key == 'boxShadow'){
+              // console.log('????????=====================::::::: '+Object.values(token.original.value)[index]);
+              let newValue = Object.values(token.original.value)[index];
+              newValue = newValue.replaceAll(/[{|}]/g, '');
+              newValue = newValue.replaceAll(/\./g, '-');
+             
+              
+              let shadow = `box-shadow:`;
+              Object.values(value).forEach((shadowValue, shadowIndex) => {
+                   
+                
+                console.log(token.original.value);
+if(shadowValue != 'dropShadow'){
+
+  if(shadowValue.toString().startsWith("#")){
+    let newValue = Object.values(token.original.value)[index];
+    newValue = newValue.replaceAll(/[{|}]/g, '');
+    newValue = newValue.replaceAll(/\./g, '-');
+    newValue = newValue.replaceAll(/_ct_|__ct_+/g, '--ct-');
+    colorVar = `var(${newValue})`
+
+   
+   
+    shadow = [...shadow, ` var(--color-shadow)`]
+    // console.log('____________________ '+ newValue)
+  }else{
+             shadow = [...shadow, ` ${shadowValue}`]
+            }      
+            }
+
+              
+              
+
+            });
+              props = `.${token.name}{
+
+                
+                
+               
+
+                ${shadow}
+
+                
+                
+              }\n`
+            }
+             
+            });
+ 
+
+            return  props                    
+                   
+      }
+      
+      
+      }).join('');
+
+
+
   
 
 
@@ -90,11 +172,13 @@ module.exports = {
           ${tokens}
           
         }
+
+        ${mixins}
         `
 
 let formatSeparator = format.replaceAll(",", ""); 
 
-console.log(formatSeparator);
+// console.log(formatSeparator);
 
           return formatSeparator;
                 
@@ -105,12 +189,12 @@ console.log(formatSeparator);
     platforms: {
       
        //scss
-       "css": {
-        "transformGroup": "css",
+       "scss": {
+        "transformGroup": "scss",
         // "prefix": "sd", // agregamos un prefijo a todas las cariables (Le agrega un guión también) 
         "buildPath": "__scss-input/abstracts/variables/components/compositions/", // la ruta donde irá nuestro archivo de salida 
         "files": [{
-          "destination": "components-compositions.css", // nombre de archivo 
+          "destination": "components-compositions.scss", // nombre de archivo 
           "format": "myFormat", // formato 
           "mapName": "font-style"
         }]

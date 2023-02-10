@@ -3,6 +3,10 @@
 @import './base/animate.scss';
 @import './base/reset.scss';
 
+html{
+	background-color: var(--ct-neutral-predominant)
+}
+
 .LAYOUT{
 
 
@@ -13,6 +17,7 @@
 	@import './components/_index-components/index.scss';
 	 
 	font-size: 18px;
-    color: var(--neutral-900);
+    color: var(--ct-neutral-500);
+	
 }
 

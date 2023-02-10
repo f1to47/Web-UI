@@ -7,12 +7,12 @@
     @return $map;
 }
 
-@media(prefers-color-scheme: light) {
-    @each $key, $value in $light-theme-shadows{
+@each $key, $value in $light-theme-shadows{
     
     
     
-        .#{$key}{ 
+    .#{$key}{ 
+            @media(prefers-color-scheme: light) {
            
     
             box-shadow: map-deep-get($light-theme-shadows, "#{$key}", "x") map-deep-get($light-theme-shadows, "#{$key}", "y") map-deep-get($light-theme-shadows, "#{$key}", "blur") map-deep-get($light-theme-shadows, "#{$key}", "spread") map-deep-get($light-theme-shadows, "#{$key}", "color");
@@ -22,12 +22,12 @@
     }
     }
 
-@media(prefers-color-scheme: dark) {
-@each $key, $value in $dark-theme-shadows{
-
-
-
-    .#{$key}{ 
+    @each $key, $value in $dark-theme-shadows{
+        
+        
+        
+        .#{$key}{ 
+        @media(prefers-color-scheme: dark) {
        
 
         box-shadow: map-deep-get($dark-theme-shadows, "#{$key}", "x") map-deep-get($dark-theme-shadows, "#{$key}", "y") map-deep-get($dark-theme-shadows, "#{$key}", "blur") map-deep-get($dark-theme-shadows, "#{$key}", "spread") map-deep-get($dark-theme-shadows, "#{$key}", "color");

@@ -1,6 +1,4 @@
-h1,h2,h3,p{
-    color: var(--primary-contrast-high);
-}
+
 
 strong{
     font-weight: 700;
@@ -11,6 +9,7 @@ h1{
     font-family: var(--h1-font-family);
     font-weight: var(--h1-font-weight);
     line-height: var(--h1-line-height);
+    color: var(--h1-fill);
 }
 
 
@@ -19,6 +18,7 @@ h2{
     font-family: var(--h2-font-family);
     font-weight: var(--h2-font-weight);
     line-height: var(--h2-line-height);
+    color: var(--h2-fill);
 }
 
 
@@ -27,6 +27,7 @@ h3{
     font-family: var(--h3-font-family);
     font-weight: var(--h3-font-weight);
     line-height: var(--h3-line-height);
+    color: var(--h3-fill);
 }
 
 
@@ -35,6 +36,7 @@ h4{
     font-family: var(--h4-font-family);
     font-weight: var(--h4-font-weight);
     line-height: var(--h4-line-height);
+    color: var(--h4-fill);
 }
 
 
@@ -43,6 +45,7 @@ p{
     font-family: var(--paragraph-font-family);
     font-weight: var(--paragraph-font-weight);
     line-height: var(--paragraph-line-height);
+    color: var(--paragraph-fill);
 }
 
 

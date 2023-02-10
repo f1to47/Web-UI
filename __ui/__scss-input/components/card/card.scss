@@ -155,9 +155,10 @@
     --card-padding: var(--card-verticalPadding);
     display: flex;
     flex-direction: column;
-    border-radius: 15px;
+    border-radius: var(--card-borderRadius);
+
     overflow: hidden;
-    @include shadow-2;
+  
     background-color: var(--card-fill);
 
     // card media queries

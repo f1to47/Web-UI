@@ -835,7 +835,7 @@
   },
   "shadow-color": {
     "base": {
-      "value": "{_ct_neutral-o50.500}",
+      "value": "{_ct_neutral-o25.500}",
       "type": "color"
     }
   }

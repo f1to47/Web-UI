@@ -123,7 +123,7 @@ if(shadowValue != 'dropShadow'){
 
    
    
-    shadow = [...shadow, ` var(--color-shadow)`]
+    shadow = [...shadow, ` var(--shadow-color-base)`]
     // console.log('____________________ '+ newValue)
   }else{
              shadow = [...shadow, ` ${shadowValue}`]

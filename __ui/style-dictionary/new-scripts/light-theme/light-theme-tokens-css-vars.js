@@ -1,109 +1,108 @@
 // config.js
 module.exports = {
-    source: [`ui-tokens/__absolute-colors.json`, `ui-tokens/__light-theme.json`],
-    // If you don't want to call the registerTransform method a bunch of times
-    // you can override the whole transform object directly. This works because
-    // the .extend method copies everything in the config
-    // to itself, allowing you to override things. It's also doing a deep merge
-    // to protect from accidentally overriding nested attributes.
-    transform: {
-      // Now we can use the transform 'myTransform' below
-      myTransform: {
-        type: 'name',
-        transformer: (token) => token.path.join('_').toUpperCase()
-      }
-    },
-    // Same with formats, you can now write them directly to this config
-    // object. The name of the format is the key.
-    format: {
-        myFormat: ({dictionary, platform}) => {
-  
-           
-          // let nombreFiltrado =  token.name.replace(/(-[a-z])\w+/, ''); 
-          //esto lo hice para eliminar las palabras repetidas
-          // Antes: blue-blue-200
-          // despues: blue-200
-  
-          // let mapName = 'dark-theme-colors';
+  source: [`ui-tokens/__absolute-colors.json`, `ui-tokens/__light-theme.json`],
+  // If you don't want to call the registerTransform method a bunch of times
+  // you can override the whole transform object directly. This works because
+  // the .extend method copies everything in the config
+  // to itself, allowing you to override things. It's also doing a deep merge
+  // to protect from accidentally overriding nested attributes.
+  transform: {
+    // Now we can use the transform 'myTransform' below
+    myTransform: {
+      type: 'name',
+      transformer: (token) => token.path.join('_').toUpperCase()
+    }
+  },
+  // Same with formats, you can now write them directly to this config
+  // object. The name of the format is the key.
+  format: {
+      myFormat: ({dictionary, platform}) => {
+
+         
+        // let nombreFiltrado =  token.name.replace(/(-[a-z])\w+/, ''); 
+        //esto lo hice para eliminar las palabras repetidas
+        // Antes: blue-blue-200
+        // despues: blue-200
+
+        // let mapName = 'light-theme-colors';
+        
+
+        let colorTokens = dictionary.allTokens.map(token => {
+
           
 
-          let colorTokens = dictionary.allTokens.map(token => {
-
-            
-
-            
-            if(token.type === 'color'){
-          return  `--${token.name}: ${token.value}`
-        }
-        
-        }).join('');
-
-
-
-        let opacityImage = dictionary.allTokens.map(token => {
-
-            
-
-            
-          if(token.type === 'opacity'){
+          
+          if(token.type === 'color'){
         return  `--${token.name}: ${token.value};\n`
       }
-     
       
       }).join('');
 
 
 
-  
-          let shadowTokens = dictionary.allTokens.map(token => {
-            if(token.type === 'boxShadow'){
-             
-              // console.log('--------------------TIPO: '+ typeof token );
-              let props = []
-              Object.entries(token.value).forEach(([key, value]) => {
-                
-                props = [...props, `--${token.name}-${key}:${value};\n`]
-              });
-   
+      let opacityImage = dictionary.allTokens.map(token => {
 
-              return  props                    
-                     
-        }
-        
-        
-        }).join('');
+          
+
+          
+        if(token.type === 'opacity'){
+      return  `--${token.name}: ${token.value};\n`
+    }
+   
     
-        let format = `
-        @media(prefers-color-scheme: light) {
-        :root{
-          ${colorTokens}
-          ${shadowTokens}                 
-          ${opacityImage}
-        }
-        }`
+    }).join('');
+
+
+
+
+      //   let shadowTokens = dictionary.allTokens.map(token => {
+      //     if(token.type === 'boxShadow'){
+           
+      //       console.log(token);
+      //       let props = []
+      //       Object.entries(token.value).forEach(([key, value]) => {
+              
+      //         props = [...props, `--${token.name}-${key}:${value};\n`]
+      //       });
+ 
+
+      //       return  props                    
+                   
+      // }
+      
+      
+      // }).join('');
+  
+      let format = `
+      @media(prefers-color-scheme: light) {
+      :root{
+        ${colorTokens}                 
+        ${opacityImage}
+      }
+      }`
 
 let formatSeparator = format.replaceAll(",", ""); 
 
 console.log(formatSeparator);
 
-          return formatSeparator;
-                
+        return formatSeparator;
+              
 
-  
-        }
-      },
-    platforms: {
-      
-       //scss
-       "scss": {
-        "transformGroup": "scss",
-        // "prefix": "sd", // agregamos un prefijo a todas las cariables (Le agrega un guión también) 
-        "buildPath": "__scss-input/abstracts/variables/themes/light-theme/", // la ruta donde irá nuestro archivo de salida 
-        "files": [{
-          "destination": "light-theme-tokens-css-vars.scss", // nombre de archivo 
-          "format": "myFormat", // formato 
-          "mapName": "font-style"
-        }]
+
       }
+    },
+  platforms: {
+    
+     //scss
+     "scss": {
+      "transformGroup": "scss",
+      // "prefix": "sd", // agregamos un prefijo a todas las cariables (Le agrega un guión también) 
+      "buildPath": "__scss-input/abstracts/variables/themes/light-theme/", // la ruta donde irá nuestro archivo de salida 
+      "files": [{
+        "destination": "light-theme-tokens-css-vars.scss", // nombre de archivo 
+        "format": "myFormat", // formato 
+        "mapName": "font-style"
+      }]
     }
   }
+}

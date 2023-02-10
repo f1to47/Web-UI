@@ -7,6 +7,7 @@
     "font-styles",
     "c_button",
     "c_card",
-    "c_component-color"
+    "c_component-color",
+    "p_cdf"
   ]
 }

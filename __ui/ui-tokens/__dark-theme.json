@@ -785,7 +785,7 @@
       "y": "2px",
       "blur": "7px",
       "spread": "0px",
-      "color": "{black.o-50}",
+      "color": "{shadow-color.base}",
       "type": "dropShadow"
     },
     "type": "boxShadow"
@@ -796,7 +796,7 @@
       "y": "2px",
       "blur": "12px",
       "spread": "0px",
-      "color": "{black.o-50}",
+      "color": "{shadow-color.base}",
       "type": "dropShadow"
     },
     "type": "boxShadow"
@@ -830,6 +830,12 @@
     },
     "p2": {
       "value": "{__ct_primary.100}",
+      "type": "color"
+    }
+  },
+  "shadow-color": {
+    "base": {
+      "value": "{black.base}",
       "type": "color"
     }
   }

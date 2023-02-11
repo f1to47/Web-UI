@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "compile-fonts": "node-sass --source-map true ./__scss-input/__font-import.scss -o ./__css-ouput/",
-    "compile-core": "node-sass --source-map true ./__scss-input/_core.scss -o ./__css-ouput/",
+    
     "build-colors": "style-dictionary build --config ./style-dictionary/colors.js",
     "build-ds": "style-dictionary build --config ./style-dictionary/ui-tokens.js",
     "build-dark-theme": "style-dictionary build --config ./style-dictionary/new-scripts/dark-theme-tokens.js",
@@ -17,13 +16,19 @@
     "build-sizing": "style-dictionary build --config ./style-dictionary/sizing.js",
     "light-theme": "style-dictionary build --config ./style-dictionary/light-theme.js",
 
-    "build-component-compositions": "style-dictionary build --config ./style-dictionary/new-scripts/components/components-compositions.js",
-    "build-foundation-styles": "style-dictionary build --config ./style-dictionary/new-scripts/foundation/foundation-styles.js",
+
     "build-dark-theme-css-vars": "style-dictionary build --config ./style-dictionary/new-scripts/dark-theme/dark-theme-tokens-css-vars.js",
     "build-dark-theme-shadows": "style-dictionary build --config ./style-dictionary/new-scripts/dark-theme/dark-theme-shadows.js",
     "build-light-theme-shadows": "style-dictionary build --config ./style-dictionary/new-scripts/light-theme/light-theme-shadows.js",
     "build-light-theme-css-vars": "style-dictionary build --config ./style-dictionary/new-scripts/light-theme/light-theme-tokens-css-vars.js",
-    "build-themes": "npm run build-light-theme-css-vars && npm run build-light-theme-shadows && npm run build-dark-theme-css-vars && npm run build-dark-theme-shadows "
+    "build-themes": "npm run build-light-theme-css-vars && npm run build-light-theme-shadows && npm run build-dark-theme-css-vars && npm run build-dark-theme-shadows ",
+
+    "build-foundation-vars": "style-dictionary build --config ./style-dictionary/new-scripts/foundation/foundation-vars.js",
+    "build-component-compositions": "style-dictionary build --config ./style-dictionary/new-scripts/components/components-compositions.js",
+
+    "compile-fonts": "node-sass --source-map true ./__scss-input/__font-import.scss -o ./__css-ouput/",
+    "compile-core": "node-sass --source-map true ./__scss-input/_core.scss -o ./__css-ouput/",
+    "build-ui": "npm run build-themes && npm run build-foundation-vars && npm run build-component-compositions && npm run compile-fonts && npm run compile-core"
   },
   "keywords": [],
   "author": "",

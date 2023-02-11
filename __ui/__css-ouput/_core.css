@@ -1,4 +1,4 @@
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   :root {
     --white-base: #fff;
     --white-o-10: #ffffff1a;
@@ -201,7 +201,7 @@
     --shadow-color-base: #000;
     --background-image: 0.7; } }
 
-@media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: dark) {
   :root {
     --white-base: #fff;
     --white-o-10: #ffffff1a;
@@ -401,16 +401,16 @@
     --m-primary-o: #3D70DD;
     --m-primary-p1: #1A4DBA;
     --m-primary-p2: #0033A0;
-    --shadow-color-base: #353C4B80;
+    --shadow-color-base: #353C4B40;
     --background-image: 1; } }
 
 @media (prefers-color-scheme: light) {
   .shadow-1 {
-    box-shadow: 0px 2px 7px 0px #353C4B80; } }
+    box-shadow: 0px 2px 7px 0px #353C4B40; } }
 
 @media (prefers-color-scheme: light) {
   .shadow-2 {
-    box-shadow: 0px 2px 12px 0px #353C4B80; } }
+    box-shadow: 0px 2px 12px 0px #353C4B40; } }
 
 @media (prefers-color-scheme: dark) {
   .shadow-1 {

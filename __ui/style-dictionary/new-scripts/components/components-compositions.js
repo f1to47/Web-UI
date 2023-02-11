@@ -23,83 +23,41 @@ module.exports = {
     // object. The name of the format is the key.
     format: {
         myFormat: ({dictionary, platform}) => {
-  
-           
           // let nombreFiltrado =  token.name.replace(/(-[a-z])\w+/, ''); 
           //esto lo hice para eliminar las palabras repetidas
           // Antes: blue-blue-200
           // despues: blue-200
-  
           // let mapName = 'dark-theme-colors';
-
-
-         
-          
-
           let tokens = dictionary.allTokens.map(token => {
-            if(token.type === 'composition'){
-             
-             
+            if(token.type === 'composition'){ 
               let props = []
               Object.entries(token.value).forEach(([key, value], index) => {
-               
-
-                
-
-                
-           
-
               //  console.log(token);
-          
-
                 if(value.toString().startsWith("#")){
                   let newValue = Object.values(token.original.value)[index];
                   newValue = newValue.replaceAll(/[{|}]/g, '');
                   newValue = newValue.replaceAll(/\./g, '-');
                   newValue = newValue.replaceAll(/_ct_|__ct_+/g, '--ct-');
                   colorVar = `var(${newValue})`
-
-                 
-                 
                   props = [...props, `--${token.name}-${key}:${colorVar};\n`]
                   // console.log('____________________ '+ newValue)
                 }
                 else{
-                
                   props = [...props, `--${token.name}-${key}:${value};\n`]
-
-                 
                 }
-               
               });
-   
-
-              return  props                    
-                     
-        }
-        
-        
+              return  props                                     
+        } 
         }).join('');
-
-
-
 
         let mixins = dictionary.allTokens.map(token => {
           if(token.type === 'composition'){
-           
-           
+                
             let props = []
             Object.entries(token.value).forEach(([key, value], index) => {
-             
-
-              
-
-              
-         
-
+      
             //  console.log(token);
-        
-
+      
             if(key == 'boxShadow'){
               // console.log('????????=====================::::::: '+Object.values(token.original.value)[index]);
               let newValue = Object.values(token.original.value)[index];
@@ -129,43 +87,17 @@ if(shadowValue != 'dropShadow'){
              shadow = [...shadow, ` ${shadowValue}`]
             }      
             }
-
-              
-              
-
             });
               props = `.${token.name}{
-
-                
-                
-               
-
                 ${shadow}
-
-                
-                
               }\n`
-            }
-             
+            }          
             });
- 
-
-            return  props                    
-                   
+            return  props                           
       }
       
       
       }).join('');
-
-
-
-  
-
-
-
-  
-         
-    
         let format = `
        
         :root{
@@ -175,15 +107,10 @@ if(shadowValue != 'dropShadow'){
 
         ${mixins}
         `
-
 let formatSeparator = format.replaceAll(",", ""); 
-
 // console.log(formatSeparator);
-
           return formatSeparator;
-                
 
-  
         }
       },
     platforms: {

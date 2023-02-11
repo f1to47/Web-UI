@@ -1,6 +1,6 @@
 // config.js
 module.exports = {
-    source: [`ui-tokens/__absolute-colors.json`, `ui-tokens/__dark-theme.json`, `ui-tokens/_foundation-tokens.json`,`ui-tokens/font-styles.json`],
+    source: [`ui-tokens/__absolute-colors.json`, `ui-tokens/__dark-theme.json`, `ui-tokens/_foundation-tokens.json`, `ui-tokens/font-styles.json`],
     // If you don't want to call the registerTransform method a bunch of times
     // you can override the whole transform object directly. This works because
     // the .extend method copies everything in the config
@@ -138,7 +138,7 @@ console.log(formatSeparator);
         // "prefix": "sd", // agregamos un prefijo a todas las cariables (Le agrega un guión también) 
         "buildPath": "__scss-input/abstracts/variables/foudation/", // la ruta donde irá nuestro archivo de salida 
         "files": [{
-          "destination": "foundation-styles.scss", // nombre de archivo 
+          "destination": "foundation-vars.scss", // nombre de archivo 
           "format": "myFormat", // formato 
           "mapName": "font-style"
         }]

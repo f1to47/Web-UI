@@ -74,7 +74,7 @@ module.exports = {
         // }).join('');
     
         let format = `
-        @media(prefers-color-scheme: dark) {
+        @media(prefers-color-scheme: light) {
         :root{
           ${colorTokens}                 
           ${opacityImage}

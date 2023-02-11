@@ -5,10 +5,10 @@
     "selectedTokenSets": {
       "__dark-theme": "enabled",
       "__absolute-colors": "enabled",
-      "font-styles": "enabled",
       "_foundation-tokens": "enabled",
       "c_card": "enabled",
-      "c_button": "enabled"
+      "c_button": "enabled",
+      "headings": "enabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -18,10 +18,10 @@
     "selectedTokenSets": {
       "__light-theme": "enabled",
       "__absolute-colors": "enabled",
-      "font-styles": "enabled",
       "_foundation-tokens": "enabled",
       "c_card": "enabled",
-      "c_button": "enabled"
+      "c_button": "enabled",
+      "headings": "enabled"
     },
     "$figmaStyleReferences": {}
   }

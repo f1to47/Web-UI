@@ -835,7 +835,7 @@
   },
   "shadow-color": {
     "base": {
-      "value": "{black.base}",
+      "value": "{black.o-50}",
       "type": "color"
     }
   }

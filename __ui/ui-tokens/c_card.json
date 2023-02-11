@@ -5,7 +5,7 @@
       "verticalPadding": "{_spacing-bigger}",
       "horizontalPadding": "{_spacing-bigger}",
       "borderRadius": "{_radius-24}",
-      "boxShadow": "{shadow-1}"
+      "boxShadow": "{shadow-2}"
     },
     "type": "composition"
   }

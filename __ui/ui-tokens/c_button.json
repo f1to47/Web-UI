@@ -37,11 +37,11 @@
       "type": "color"
     },
     "button-secondary-color": {
-      "value": "{_ct_error-o90.200}",
+      "value": "{__ct_primary.500}",
       "type": "color"
     },
     "button-secondary-hover-color": {
-      "value": "{__ct_success.500}",
+      "value": "{_ct_error-o50.400}",
       "type": "color"
     }
   },

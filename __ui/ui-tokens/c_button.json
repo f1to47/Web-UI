@@ -1,7 +1,7 @@
 {
   "primary": {
     "button-primary-background-color": {
-      "value": "{_m-primary.p1}",
+      "value": "{__ct_caution.100}",
       "type": "color"
     },
     "button-primary-hover-background-color": {

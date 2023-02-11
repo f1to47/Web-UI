@@ -1,11 +1,11 @@
 {
   "primary": {
     "button-primary-background-color": {
-      "value": "{__ct_primary.base}",
+      "value": "{_m-primary.p1}",
       "type": "color"
     },
     "button-primary-hover-background-color": {
-      "value": "{__ct_primary.500}",
+      "value": "{_m-primary.p2}",
       "type": "color"
     },
     "button-primary-color": {
@@ -17,22 +17,54 @@
       "type": "color"
     }
   },
+  "disabled": {
+    "button-primary-disabled-background-color": {
+      "value": "{__ct_neutral.100}",
+      "type": "color"
+    },
+    "button-primary-disabled-color": {
+      "value": "{__ct_neutral.300}",
+      "type": "color"
+    }
+  },
   "secondary": {
     "button-primary-background-color": {
-      "value": "{__ct_primary.100}",
+      "value": "{__ct_neutral.predominant}",
       "type": "color"
     },
     "button-primary-hover-background-color": {
-      "value": "{__ct_primary.200}",
+      "value": "{__ct_neutral.200}",
       "type": "color"
     },
     "button-primary-color": {
-      "value": "{__ct_primary.base}",
+      "value": "{__ct_primary.300}",
       "type": "color"
     },
     "button-primary-hover-color": {
-      "value": "{__ct_primary.base}",
+      "value": "{__ct_primary.300}",
       "type": "color"
     }
+  },
+  "button-primary": {
+    "value": {
+      "fill": "{primary.button-primary-background-color}",
+      "typography": "{button-typography}"
+    },
+    "type": "composition"
+  },
+  "button-typography": {
+    "value": {
+      "fontFamily": "{_font-family-primary}",
+      "fontWeight": "600"
+    },
+    "type": "typography"
+  },
+  "button-secondary-border": {
+    "value": {
+      "color": "{secondary.button-primary-color}",
+      "width": "2",
+      "style": "solid"
+    },
+    "type": "border"
   }
 }

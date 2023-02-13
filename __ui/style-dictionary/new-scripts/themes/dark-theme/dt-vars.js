@@ -99,7 +99,7 @@ console.log(formatSeparator);
         // "prefix": "sd", // agregamos un prefijo a todas las cariables (Le agrega un guión también) 
         "buildPath": "__scss-input/abstracts/variables/themes/dark-theme/", // la ruta donde irá nuestro archivo de salida 
         "files": [{
-          "destination": "dark-theme-tokens-css-vars.scss", // nombre de archivo 
+          "destination": "dt-vars.scss", // nombre de archivo 
           "format": "myFormat", // formato 
           "mapName": "font-style"
         }]

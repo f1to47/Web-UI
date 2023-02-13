@@ -1,10 +1,10 @@
 @import '../breakpoints.scss';
 @import '../directions.scss';
-@import '../themes/dark-theme/dark-theme-tokens-css-vars.scss';
-@import '../themes/light-theme/light-theme-tokens-css-vars.scss';
-@import '../themes/dark-theme/dark-theme-shadows.scss';
-@import '../themes/light-theme/light-theme-shadows.scss';
-@import '../themes/generate-shadow.scss';
+@import '../themes/dark-theme/dt-vars.scss';
+@import '../themes/light-theme/lt-vars.scss';
+// @import '../themes/dark-theme/dark-theme-shadows.scss';
+// @import '../themes/light-theme/light-theme-shadows.scss';
+// @import '../themes/generate-shadow.scss';
 @import '../foudation/foundation-vars.scss';
 @import '../components/compositions/components-compositions.scss';
 

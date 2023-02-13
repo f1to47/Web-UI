@@ -15,16 +15,20 @@
     "font-tokens": "npm run font-size && npm run font-styles && npm run font-families && npm run font-components",
     "build-sizing": "style-dictionary build --config ./style-dictionary/sizing.js",
     "light-theme": "style-dictionary build --config ./style-dictionary/light-theme.js",
-
-
-    "build-dark-theme-css-vars": "style-dictionary build --config ./style-dictionary/new-scripts/dark-theme/dark-theme-tokens-css-vars.js",
     "build-dark-theme-shadows": "style-dictionary build --config ./style-dictionary/new-scripts/dark-theme/dark-theme-shadows.js",
     "build-light-theme-shadows": "style-dictionary build --config ./style-dictionary/new-scripts/light-theme/light-theme-shadows.js",
-    "build-light-theme-css-vars": "style-dictionary build --config ./style-dictionary/new-scripts/light-theme/light-theme-tokens-css-vars.js",
-    "build-themes": "npm run build-light-theme-css-vars && npm run build-light-theme-shadows && npm run build-dark-theme-css-vars && npm run build-dark-theme-shadows ",
+
+
+
+
+
+    "build-dt-vars": "style-dictionary build --config ./style-dictionary/new-scripts/themes/dark-theme/dt-vars.js",
+    "build-lt-vars": "style-dictionary build --config ./style-dictionary/new-scripts/themes/light-theme/lt-vars.js",
+    "build-themes": "npm run build-lt-vars && npm run build-dt-vars",
 
     "build-foundation-vars": "style-dictionary build --config ./style-dictionary/new-scripts/foundation/foundation-vars.js",
     "build-component-compositions": "style-dictionary build --config ./style-dictionary/new-scripts/components/components-compositions.js",
+    "build-component-styles": "style-dictionary build --config ./style-dictionary/new-scripts/components/components-styles.js",
 
     "compile-fonts": "node-sass --source-map true ./__scss-input/__font-import.scss -o ./__css-ouput/",
     "compile-core": "node-sass --source-map true ./__scss-input/_core.scss -o ./__css-ouput/",

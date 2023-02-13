@@ -27,7 +27,7 @@
   },
   "secondary": {
     "button-secondary-background-color": {
-      "value": "{_m-primary.p1}",
+      "value": "{__ct_neutral.200}",
       "type": "color"
     },
     "button-secondary-hover-background-color": {
@@ -35,11 +35,11 @@
       "type": "color"
     },
     "button-secondary-label-color": {
-      "value": "{white.base}",
+      "value": "{__ct_primary.500}",
       "type": "color"
     },
     "button-secondary-icon-color": {
-      "value": "{white.base}",
+      "value": "{__ct_primary.500}",
       "type": "color"
     },
     "button-secondary-hover-icon-color": {
@@ -53,27 +53,15 @@
   },
   "disabled": {
     "button-disabled-background-color": {
-      "value": "{_m-primary.p1}",
-      "type": "color"
-    },
-    "button-disabled-hover-background-color": {
-      "value": "{_m-primary.p2}",
+      "value": "{__ct_neutral.100}",
       "type": "color"
     },
     "button-disabled-label-color": {
-      "value": "{white.base}",
+      "value": "{__ct_neutral.300}",
       "type": "color"
     },
     "button-disabled-icon-color": {
-      "value": "{white.base}",
-      "type": "color"
-    },
-    "button-disabled-hover-icon-color": {
-      "value": "{white.base}",
-      "type": "color"
-    },
-    "button-disabled-hover-label-color": {
-      "value": "{white.base}",
+      "value": "{__ct_neutral.300}",
       "type": "color"
     }
   },

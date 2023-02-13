@@ -1,38 +1,108 @@
 {
   "primary": {
     "button-primary-background-color": {
-      "value": "{__ct_primary.base}",
+      "value": "{_m-primary.p1}",
       "type": "color"
     },
     "button-primary-hover-background-color": {
-      "value": "{__ct_primary.500}",
+      "value": "{_m-primary.p2}",
       "type": "color"
     },
-    "button-primary-color": {
+    "button-primary-label-color": {
       "value": "{white.base}",
       "type": "color"
     },
-    "button-primary-hover-color": {
+    "button-primary-icon-color": {
+      "value": "{white.base}",
+      "type": "color"
+    },
+    "button-primary-hover-icon-color": {
+      "value": "{white.base}",
+      "type": "color"
+    },
+    "button-primary-hover-label-color": {
       "value": "{white.base}",
       "type": "color"
     }
   },
   "secondary": {
-    "button-primary-background-color": {
+    "button-secondary-background-color": {
+      "value": "{__ct_neutral.200}",
+      "type": "color"
+    },
+    "button-secondary-hover-background-color": {
       "value": "{__ct_primary.100}",
       "type": "color"
     },
-    "button-primary-hover-background-color": {
-      "value": "{__ct_primary.200}",
+    "button-secondary-label-color": {
+      "value": "{__ct_primary.500}",
       "type": "color"
     },
-    "button-primary-color": {
-      "value": "{__ct_primary.base}",
+    "button-secondary-icon-color": {
+      "value": "{__ct_primary.500}",
       "type": "color"
     },
-    "button-primary-hover-color": {
-      "value": "{__ct_primary.base}",
+    "button-secondary-hover-icon-color": {
+      "value": "{__ct_primary.500}",
       "type": "color"
+    },
+    "button-secondary-hover-label-color": {
+      "value": "{__ct_primary.500}",
+      "type": "color"
+    }
+  },
+  "disabled": {
+    "button-disabled-background-color": {
+      "value": "{__ct_neutral.100}",
+      "type": "color"
+    },
+    "button-disabled-label-color": {
+      "value": "{__ct_neutral.300}",
+      "type": "color"
+    },
+    "button-disabled-icon-color": {
+      "value": "{__ct_neutral.300}",
+      "type": "color"
+    }
+  },
+  "button-border-radius": {
+    "value": "{_radius-6}",
+    "type": "borderRadius"
+  },
+  "normal": {
+    "button-normal-height": {
+      "value": "44px",
+      "type": "sizing"
+    },
+    "button-normal-font-size": {
+      "value": "{_font-size-medium-big}",
+      "type": "fontSizes"
+    }
+  },
+  "small": {
+    "button-small-height": {
+      "value": "35px",
+      "type": "sizing"
+    },
+    "button-small-font-size": {
+      "value": "{_font-size-medium}",
+      "type": "fontSizes"
+    }
+  },
+  "extra-small": {
+    "button-extra-small-height": {
+      "value": "25px",
+      "type": "sizing"
+    },
+    "button-extra-small-font-size": {
+      "value": "{_font-size-medium-small}",
+      "type": "fontSizes"
+    }
+  },
+  "acction-area": {
+    "button-action-area-height": {
+      "value": "44",
+      "type": "sizing"
     }
   }
 }

@@ -1,28 +1,61 @@
 [
   {
+    "id": "81a9451fc7b4b81c68c906bb266faabe5821f785",
+    "name": "sources",
+    "selectedTokenSets": {
+      "__light-theme": "source",
+      "__dark-theme": "source",
+      "__absolute-colors": "source",
+      "_foundation-tokens": "source"
+    },
+    "$figmaStyleReferences": {}
+  },
+  {
     "id": "717d2ff15536b7eee941cb1a1c9cc38cf6a46bde",
     "name": "Dark theme",
     "selectedTokenSets": {
-      "__dark-theme": "enabled",
-      "__absolute-colors": "enabled",
-      "_foundation-tokens": "enabled",
+      "__dark-theme": "source",
+      "__absolute-colors": "source",
+      "_foundation-tokens": "source",
       "c_card": "enabled",
       "c_button": "enabled",
       "headings": "enabled"
     },
-    "$figmaStyleReferences": {}
+    "$figmaStyleReferences": {
+      "primary.button-primary-background-color": "S:520e71911373021084a1b6662061ae4e73e8060b,",
+      "primary.button-primary-hover-background-color": "S:4d62aa0c09f83e2d39e83977f1ada5dfee0302ff,",
+      "disabled.button-disabled-background-color": "S:85450afe25849093f052da3e6e97c880a1000114,",
+      "disabled.button-disabled-color": "S:1e558ba89cc87930d1e240b0ac0c1beaa89a6d20,",
+      "secondary.button-primary-background-color": "S:1910e708425a3aca071598f6cf3628d076c7a5d4,",
+      "secondary.button-secondary-hover-background-color": "S:969ba181b72ccd9ba9d0a4a96a1888ccd5e36c62,",
+      "secondary.button-secondary-color": "S:3ea3533e96d1a3cee7e28b94a6ff9ec2ab5b5bff,",
+      "secondary.button-secondary-hover-color": "S:78da55fa23d2f5e8e7ced80906157f76442f53e7,",
+      "primary.button-primary-hover-label-color": "S:bf0c80f5225bd29a200e40c1706fa777d9ab3d14,",
+      "primary.button-primary-label-color": "S:f77b619e185506bb0703a2f8e69dbc1a6be21fb0,"
+    }
   },
   {
     "id": "b19fb2da4edb60980ffb3e316d27c1ffc26bd9bb",
     "name": "Light theme",
     "selectedTokenSets": {
-      "__light-theme": "enabled",
-      "__absolute-colors": "enabled",
-      "_foundation-tokens": "enabled",
+      "__light-theme": "source",
+      "__absolute-colors": "source",
+      "_foundation-tokens": "source",
       "c_card": "enabled",
       "c_button": "enabled",
       "headings": "enabled"
     },
-    "$figmaStyleReferences": {}
+    "$figmaStyleReferences": {
+      "primary.button-primary-background-color": "S:f20ec20f954061482e698fa75ba96401228d2af1,",
+      "primary.button-primary-hover-background-color": "S:b0792bc9da7d4659e152f8672960eb6543096d9b,",
+      "disabled.button-disabled-background-color": "S:500be1bc48d2bcfeaad5f012bd9baf349ce89b72,",
+      "disabled.button-disabled-color": "S:2980aa63f4f095305ba222b177eab40151cc71c0,",
+      "secondary.button-primary-background-color": "S:a186cb31214241a18594950dffc6f5ccbd3dd9fd,",
+      "secondary.button-secondary-hover-background-color": "S:9369ed7befc0b4a7c5d8e314acf9921d0a4ed563,",
+      "secondary.button-secondary-color": "S:94865f968b4a10c093ae11f4ff7593aa7a21367c,",
+      "secondary.button-secondary-hover-color": "S:2dc62b6f12ddb4d5b1f98b6eceaf62b089a8bcba,",
+      "primary.button-primary-hover-label-color": "S:830f39a455bf8eefa2d9a3074c1959ddbe612bed,",
+      "primary.button-primary-label-color": "S:8cc42ec7408951b9615bfac46755a095cb056160,"
+    }
   }
 ]

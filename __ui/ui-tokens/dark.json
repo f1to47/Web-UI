@@ -1,4 +1,8 @@
 {
+  "base": {
+    "value": "#eaf1fc",
+    "type": "color"
+  },
   "neutral-100": {
     "value": "#e7edfd",
     "type": "color"
@@ -48,7 +52,7 @@
     "type": "color"
   },
   "primary-500": {
-    "value": "#ff07ba",
+    "value": "#ff00d1",
     "type": "color"
   },
   "primary-600": {
@@ -93,10 +97,6 @@
   },
   "secondary-800": {
     "value": "#00617a",
-    "type": "color"
-  },
-  "base": {
-    "value": "#eaf1fc",
     "type": "color"
   },
   "base-contrast": {

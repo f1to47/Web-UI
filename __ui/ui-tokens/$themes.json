@@ -3,7 +3,6 @@
     "id": "81a9451fc7b4b81c68c906bb266faabe5821f785",
     "name": "sources",
     "selectedTokenSets": {
-      "__light-theme": "source",
       "_foundation-tokens": "source"
     },
     "$figmaStyleReferences": {}
@@ -33,7 +32,6 @@
     "id": "b19fb2da4edb60980ffb3e316d27c1ffc26bd9bb",
     "name": "Light theme",
     "selectedTokenSets": {
-      "__light-theme": "source",
       "_foundation-tokens": "source",
       "c_card": "enabled",
       "c_button": "enabled",

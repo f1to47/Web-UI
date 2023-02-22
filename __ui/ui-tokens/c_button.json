@@ -1,11 +1,11 @@
 {
-  "_primary": {
+  "primary": {
     "button-primary-background-color": {
-      "value": "{primary.primary-500}",
+      "value": "{primary-500}",
       "type": "color"
     },
     "button-primary-hover-background-color": {
-      "value": "{primary.primary-600}",
+      "value": "{primary-600}",
       "type": "color"
     },
     "button-primary-label-color": {
@@ -25,14 +25,14 @@
       "type": "color"
     }
   },
-  "_secondary": {
+  "secondary": {
     "button-secondary-background-color": {
-      "value": "{neutral.neutral-200}",
+      "value": "{neutral-200}",
       "type": "color"
     }
   },
   "button-border-radius": {
-    "value": "{_radius-6}",
+    "value": "{border-radius-6}",
     "type": "borderRadius"
   },
   "normal": {
@@ -41,7 +41,7 @@
       "type": "sizing"
     },
     "button-normal-font-size": {
-      "value": "{_font-size-medium-big}",
+      "value": "{font-size-medium-big}",
       "type": "fontSizes"
     }
   },
@@ -51,7 +51,7 @@
       "type": "sizing"
     },
     "button-small-font-size": {
-      "value": "{_font-size-medium}",
+      "value": "{font-size-medium}",
       "type": "fontSizes"
     }
   },
@@ -61,7 +61,7 @@
       "type": "sizing"
     },
     "button-extra-small-font-size": {
-      "value": "{_font-size-medium-small}",
+      "value": "{font-size-medium-small}",
       "type": "fontSizes"
     }
   },

@@ -3,7 +3,10 @@
     "id": "81a9451fc7b4b81c68c906bb266faabe5821f785",
     "name": "sources",
     "selectedTokenSets": {
-      "_foundation-tokens": "source"
+      "absolute-colors": "disabled",
+      "theme-dark-colors": "disabled",
+      "theme-light-colors": "disabled",
+      "foundation-tokens": "source"
     },
     "$figmaStyleReferences": {}
   },
@@ -11,10 +14,13 @@
     "id": "717d2ff15536b7eee941cb1a1c9cc38cf6a46bde",
     "name": "Dark theme",
     "selectedTokenSets": {
-      "_foundation-tokens": "source",
       "c_card": "enabled",
       "c_button": "enabled",
-      "headings": "enabled"
+      "headings": "enabled",
+      "absolute-colors": "disabled",
+      "theme-dark-colors": "disabled",
+      "theme-light-colors": "disabled",
+      "foundation-tokens": "source"
     },
     "$figmaStyleReferences": {
       "disabled.button-disabled-background-color": "S:85450afe25849093f052da3e6e97c880a1000114,",
@@ -32,10 +38,13 @@
     "id": "b19fb2da4edb60980ffb3e316d27c1ffc26bd9bb",
     "name": "Light theme",
     "selectedTokenSets": {
-      "_foundation-tokens": "source",
       "c_card": "enabled",
       "c_button": "enabled",
-      "headings": "enabled"
+      "headings": "enabled",
+      "absolute-colors": "disabled",
+      "theme-dark-colors": "disabled",
+      "theme-light-colors": "disabled",
+      "foundation-tokens": "source"
     },
     "$figmaStyleReferences": {
       "disabled.button-disabled-background-color": "S:500be1bc48d2bcfeaad5f012bd9baf349ce89b72,",

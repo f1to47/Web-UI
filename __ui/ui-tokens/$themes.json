@@ -3,9 +3,6 @@
     "id": "81a9451fc7b4b81c68c906bb266faabe5821f785",
     "name": "sources",
     "selectedTokenSets": {
-      "absolute-colors": "disabled",
-      "theme-dark-colors": "disabled",
-      "theme-light-colors": "disabled",
       "foundation-tokens": "source"
     },
     "$figmaStyleReferences": {}
@@ -17,9 +14,6 @@
       "c_card": "enabled",
       "c_button": "enabled",
       "headings": "enabled",
-      "absolute-colors": "disabled",
-      "theme-dark-colors": "disabled",
-      "theme-light-colors": "disabled",
       "foundation-tokens": "source"
     },
     "$figmaStyleReferences": {
@@ -41,9 +35,6 @@
       "c_card": "enabled",
       "c_button": "enabled",
       "headings": "enabled",
-      "absolute-colors": "disabled",
-      "theme-dark-colors": "disabled",
-      "theme-light-colors": "disabled",
       "foundation-tokens": "source"
     },
     "$figmaStyleReferences": {

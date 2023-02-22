@@ -3,6 +3,10 @@
     "value": "#eaf1fc",
     "type": "color"
   },
+  "base-contrast": {
+    "value": "#292d3b",
+    "type": "color"
+  },
   "neutral-100": {
     "value": "#e7edfd",
     "type": "color"
@@ -97,10 +101,6 @@
   },
   "secondary-800": {
     "value": "#00617a",
-    "type": "color"
-  },
-  "base-contrast": {
-    "value": "#292d3b",
     "type": "color"
   }
 }

@@ -27,11 +27,11 @@
       "type": "color"
     },
     "button-secondary-label-color": {
-      "value": "{primary-500}",
+      "value": "{primary-600}",
       "type": "color"
     },
     "button-secondary-icon-color": {
-      "value": "{primary-500}",
+      "value": "{primary-600}",
       "type": "color"
     }
   },

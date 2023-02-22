@@ -3,8 +3,7 @@
     "id": "81a9451fc7b4b81c68c906bb266faabe5821f785",
     "name": "sources",
     "selectedTokenSets": {
-      "foundation-tokens": "source",
-      "fixed-colors": "disabled"
+      "foundation-tokens": "source"
     },
     "$figmaStyleReferences": {}
   },
@@ -15,8 +14,7 @@
       "c_button_dt": "enabled",
       "theme-dark-colors": "enabled",
       "absolute-colors": "enabled",
-      "foundation-tokens": "enabled",
-      "fixed-colors": "disabled"
+      "foundation-tokens": "enabled"
     },
     "$figmaStyleReferences": {
       "disabled.button-disabled-background-color": "S:85450afe25849093f052da3e6e97c880a1000114,",
@@ -36,8 +34,7 @@
     "selectedTokenSets": {
       "theme-light-colors": "enabled",
       "absolute-colors": "enabled",
-      "foundation-tokens": "enabled",
-      "fixed-colors": "disabled"
+      "foundation-tokens": "enabled"
     },
     "$figmaStyleReferences": {
       "disabled.button-disabled-background-color": "S:500be1bc48d2bcfeaad5f012bd9baf349ce89b72,",

@@ -1,8 +1,6 @@
 {
   "tokenSetOrder": [
     "__light-theme",
-    "__dark-theme",
-    "__absolute-colors",
     "_foundation-tokens",
     "headings",
     "c_button",

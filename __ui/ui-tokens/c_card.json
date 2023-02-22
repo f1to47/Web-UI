@@ -1,11 +1,10 @@
 {
   "card": {
     "value": {
-      "fill": "{__ct_neutral.predominant}",
+      "fill": "{base.base}",
       "verticalPadding": "{_spacing-bigger}",
       "horizontalPadding": "{_spacing-bigger}",
-      "borderRadius": "{_radius-24}",
-      "boxShadow": "{shadow-2}"
+      "borderRadius": "{_radius-24}"
     },
     "type": "composition"
   }

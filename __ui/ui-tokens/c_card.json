@@ -1,11 +1,24 @@
 {
-  "card": {
+  "card-padding": {
+    "value": "{spacing-big}",
+    "type": "spacing"
+  },
+  "card-bg-color": {
+    "value": "{base}",
+    "type": "color"
+  },
+  "card-border-radius": {
+    "value": "{border-radius-12}",
+    "type": "borderRadius"
+  },
+  "card-basic": {
     "value": {
-      "fill": "{__ct_neutral.predominant}",
-      "verticalPadding": "{_spacing-bigger}",
-      "horizontalPadding": "{_spacing-bigger}",
-      "borderRadius": "{_radius-24}",
-      "boxShadow": "{shadow-2}"
+      "paddingTop": "{card-padding}",
+      "paddingRight": "{card-padding}",
+      "paddingBottom": "{card-padding}",
+      "paddingLeft": "{card-padding}",
+      "fill": "{base}",
+      "borderRadius": "{card-border-radius}"
     },
     "type": "composition"
   }

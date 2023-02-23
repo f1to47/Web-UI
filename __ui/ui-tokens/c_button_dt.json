@@ -1,72 +1,42 @@
 {
   "primary": {
     "button-primary-background-color": {
-      "value": "{_m-primary.p1}",
+      "value": "{fix-primary-500}",
       "type": "color"
     },
     "button-primary-hover-background-color": {
-      "value": "{_m-primary.p2}",
+      "value": "{fix-primary-600}",
       "type": "color"
     },
     "button-primary-label-color": {
-      "value": "{white.base}",
+      "value": "#fff",
       "type": "color"
     },
     "button-primary-icon-color": {
-      "value": "{white.base}",
-      "type": "color"
-    },
-    "button-primary-hover-icon-color": {
-      "value": "{white.base}",
-      "type": "color"
-    },
-    "button-primary-hover-label-color": {
-      "value": "{white.base}",
+      "value": "#fff",
       "type": "color"
     }
   },
   "secondary": {
     "button-secondary-background-color": {
-      "value": "{__ct_neutral.200}",
+      "value": "{neutral-100}",
       "type": "color"
     },
     "button-secondary-hover-background-color": {
-      "value": "{__ct_primary.100}",
+      "value": "{neutral-200}",
       "type": "color"
     },
     "button-secondary-label-color": {
-      "value": "{__ct_primary.500}",
+      "value": "{primary-600}",
       "type": "color"
     },
     "button-secondary-icon-color": {
-      "value": "{__ct_primary.500}",
-      "type": "color"
-    },
-    "button-secondary-hover-icon-color": {
-      "value": "{__ct_primary.500}",
-      "type": "color"
-    },
-    "button-secondary-hover-label-color": {
-      "value": "{__ct_primary.500}",
-      "type": "color"
-    }
-  },
-  "disabled": {
-    "button-disabled-background-color": {
-      "value": "{__ct_neutral.100}",
-      "type": "color"
-    },
-    "button-disabled-label-color": {
-      "value": "{__ct_neutral.300}",
-      "type": "color"
-    },
-    "button-disabled-icon-color": {
-      "value": "{__ct_neutral.300}",
+      "value": "{primary-600}",
       "type": "color"
     }
   },
   "button-border-radius": {
-    "value": "{_radius-6}",
+    "value": "{border-radius-6}",
     "type": "borderRadius"
   },
   "normal": {
@@ -75,7 +45,7 @@
       "type": "sizing"
     },
     "button-normal-font-size": {
-      "value": "{_font-size-medium-big}",
+      "value": "{font-size-medium-big}",
       "type": "fontSizes"
     }
   },
@@ -85,7 +55,7 @@
       "type": "sizing"
     },
     "button-small-font-size": {
-      "value": "{_font-size-medium}",
+      "value": "{font-size-medium}",
       "type": "fontSizes"
     }
   },
@@ -95,7 +65,7 @@
       "type": "sizing"
     },
     "button-extra-small-font-size": {
-      "value": "{_font-size-medium-small}",
+      "value": "{font-size-medium-small}",
       "type": "fontSizes"
     }
   },

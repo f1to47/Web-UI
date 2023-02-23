@@ -1,11 +1,12 @@
 {
   "tokenSetOrder": [
-    "__light-theme",
-    "__dark-theme",
-    "__absolute-colors",
-    "_foundation-tokens",
+    "foundation-tokens",
     "headings",
-    "c_button",
-    "c_card"
+    "c_button_dt",
+    "c_card",
+    "theme-light-colors",
+    "theme-dark-colors",
+    "absolute-colors",
+    "fixed-colors"
   ]
 }

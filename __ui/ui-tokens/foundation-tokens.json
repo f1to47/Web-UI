@@ -1,129 +1,129 @@
 {
-  "_radius-6": {
+  "border-radius-6": {
     "value": "6px",
     "type": "borderRadius"
   },
-  "_radius-12": {
+  "border-radius-12": {
     "value": "12px",
     "type": "borderRadius"
   },
-  "_radius-24": {
+  "border-radius-24": {
     "value": "24px",
     "type": "borderRadius"
   },
-  "_radius-absolute": {
+  "border-radius-absolute": {
     "value": "5000",
     "type": "borderRadius"
   },
-  "_spacing-0": {
+  "spacing-0": {
     "value": "0",
     "type": "spacing"
   },
-  "_spacing-none": {
+  "spacing-none": {
     "value": "0",
     "type": "spacing"
   },
-  "_spacing-micro": {
+  "spacing-micro": {
     "value": "0.375em",
     "type": "spacing"
   },
-  "_spacing-smaller": {
+  "spacing-smaller": {
     "value": "0.5em",
     "type": "spacing"
   },
-  "_spacing-extra-small": {
+  "spacing-extra-small": {
     "value": "0.625em",
     "type": "spacing"
   },
-  "_spacing-small": {
+  "spacing-small": {
     "value": "0.75em",
     "type": "spacing"
   },
-  "_spacing-medium-small": {
+  "spacing-medium-small": {
     "value": "0.875em",
     "type": "spacing"
   },
-  "_spacing-medium": {
+  "spacing-medium": {
     "value": "1em",
     "type": "spacing"
   },
-  "_spacing-medium-big": {
+  "spacing-medium-big": {
     "value": "1.125em",
     "type": "spacing"
   },
-  "_spacing-big": {
+  "spacing-big": {
     "value": "1.375em",
     "type": "spacing"
   },
-  "_spacing-extra-big": {
+  "spacing-extra-big": {
     "value": "1.75em",
     "type": "spacing"
   },
-  "_spacing-bigger": {
+  "spacing-bigger": {
     "value": "2.25em",
     "type": "spacing"
   },
-  "_spacing-giant": {
+  "spacing-giant": {
     "value": "2.875em",
     "type": "spacing"
   },
-  "_barlow": {
+  "barlow": {
     "value": "Barlow",
     "type": "fontFamilies"
   },
-  "_fs-joey": {
+  "fs-joey": {
     "value": "FS Joey",
     "type": "fontFamilies"
   },
-  "_font-family-primary": {
-    "value": "{_barlow}",
+  "font-family-primary": {
+    "value": "{barlow}",
     "type": "fontFamilies"
   },
-  "_font-family-secondary": {
-    "value": "{_barlow}",
+  "font-family-secondary": {
+    "value": "{barlow}",
     "type": "fontFamilies"
   },
-  "_font-size-micro": {
+  "font-size-micro": {
     "value": "0.375em",
     "type": "fontSizes"
   },
-  "_font-size-smaller": {
+  "font-size-smaller": {
     "value": "0.5em",
     "type": "fontSizes"
   },
-  "_font-size-extra-small": {
+  "font-size-extra-small": {
     "value": "0.625em",
     "type": "fontSizes"
   },
-  "_font-size-small": {
+  "font-size-small": {
     "value": "0.75em",
     "type": "fontSizes"
   },
-  "_font-size-medium-small": {
+  "font-size-medium-small": {
     "value": "0.875em",
     "type": "fontSizes"
   },
-  "_font-size-medium": {
+  "font-size-medium": {
     "value": "1em",
     "type": "fontSizes"
   },
-  "_font-size-medium-big": {
+  "font-size-medium-big": {
     "value": "1.125em",
     "type": "fontSizes"
   },
-  "_font-size-big": {
+  "font-size-big": {
     "value": "1.375em",
     "type": "fontSizes"
   },
-  "_font-size-extra-big": {
+  "font-size-extra-big": {
     "value": "1.75em",
     "type": "fontSizes"
   },
-  "_font-size-bigger": {
+  "font-size-bigger": {
     "value": "2.25em",
     "type": "fontSizes"
   },
-  "_font-size-giant": {
+  "font-size-giant": {
     "value": "2.875em",
     "type": "fontSizes"
   }

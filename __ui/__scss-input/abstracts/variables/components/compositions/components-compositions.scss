@@ -1,17 +1,15 @@
 
        
         :root{
-          --card-fill:var(--ct-neutral-predominant);
---card-verticalPadding:2.25em;
---card-horizontalPadding:2.25em;
---card-borderRadius:24px;
---card-boxShadow:[object Object];
+          --card-basic-paddingTop:1.375em;
+--card-basic-paddingRight:1.375em;
+--card-basic-paddingBottom:1.375em;
+--card-basic-paddingLeft:1.375em;
+--card-basic-fill:var(base);
+--card-basic-borderRadius:12px;
 
           
         }
 
-        .card{
-                box-shadow: 0px 2px 12px 0px var(--shadow-color-base)
-              }
-
+        
         

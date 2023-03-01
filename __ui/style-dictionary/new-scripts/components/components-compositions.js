@@ -1,10 +1,12 @@
 // config.js
 module.exports = {
     source: [
-    `ui-tokens/__absolute-colors.json`, 
-    `ui-tokens/__dark-theme.json`, 
-    `ui-tokens/_foundation-tokens.json`, 
+    `ui-tokens/absolute-colors.json`, 
+    `ui-tokens/theme-dark-colors.json`, 
+    `ui-tokens/foundation-tokens.json`, 
+    `ui-tokens/fixed-colors.json`, 
     `ui-tokens/c_card.json`,
+    `ui-tokens/c_button_dt.json`,
     `ui-tokens/c_component-color.json`
   ],
     // If you don't want to call the registerTransform method a bunch of times

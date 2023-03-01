@@ -1,10 +1,10 @@
 
       
         :root{
-          --radius-6:6px;
---radius-12:12px;
---radius-24:24px;
---radius-absolute:5000;
+          --border-radius-6:6px;
+--border-radius-12:12px;
+--border-radius-24:24px;
+--border-radius-absolute:5000;
 --spacing-0:0;
 --spacing-none:0;
 --spacing-micro:0.375em;
@@ -53,27 +53,27 @@
 --h3-line-height:120%;
 --h4-line-height:140%;
 --paragraph-line-height:150%;
---h1-fill:var(--ct-neutral-500);
+--h1-fill:var(base-contrast);
 --h1-fontSizes:2.25em;
 --h1-fontFamilies:Barlow;
 --h1-fontWeights:700;
 --h1-lineHeights:120%;
---h2-fill:var(--ct-neutral-500);
+--h2-fill:var(base-contrast);
 --h2-fontSizes:1.75em;
 --h2-fontFamilies:Barlow;
 --h2-fontWeights:600;
 --h2-lineHeights:120%;
---h3-fill:var(--ct-neutral-500);
+--h3-fill:var(base-contrast);
 --h3-fontSizes:1.375em;
 --h3-fontFamilies:Barlow;
 --h3-fontWeights:600;
 --h3-lineHeights:120%;
---h4-fill:var(--ct-neutral-500);
+--h4-fill:var(base-contrast);
 --h4-fontSizes:1.125em;
 --h4-fontFamilies:Barlow;
 --h4-fontWeights:600;
 --h4-lineHeights:140%;
---paragraph-fill:var(--ct-neutral-500);
+--paragraph-fill:var(base-contrast);
 --paragraph-fontSizes:1em;
 --paragraph-fontFamilies:Barlow;
 --paragraph-fontWeights:400;

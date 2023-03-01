@@ -1,6 +1,6 @@
 // config.js
 module.exports = {
-    source: [`ui-tokens/__absolute-colors.json`, `ui-tokens/__dark-theme.json`],
+    source: [`ui-tokens/__absolute-colors.json`, `ui-tokens/theme-dark-colors.json`],
     // If you don't want to call the registerTransform method a bunch of times
     // you can override the whole transform object directly. This works because
     // the .extend method copies everything in the config
@@ -97,7 +97,7 @@ console.log(formatSeparator);
        "scss": {
         "transformGroup": "scss",
         // "prefix": "sd", // agregamos un prefijo a todas las cariables (Le agrega un guión también) 
-        "buildPath": "__scss-input/abstracts/variables/themes/dark-theme/", // la ruta donde irá nuestro archivo de salida 
+        "buildPath": "__scss-input/abstracts/variables/colors/dark-theme/", // la ruta donde irá nuestro archivo de salida 
         "files": [{
           "destination": "dt-vars.scss", // nombre de archivo 
           "format": "myFormat", // formato 

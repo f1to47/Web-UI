@@ -1,5 +1,5 @@
 {
-  "primary": {
+
     "button-primary-background-color": {
       "value": "{fix-primary-500}",
       "type": "color"
@@ -15,9 +15,9 @@
     "button-primary-icon-color": {
       "value": "#fff",
       "type": "color"
-    }
-  },
-  "secondary": {
+    },
+
+
     "button-secondary-background-color": {
       "value": "{neutral-100}",
       "type": "color"
@@ -33,13 +33,13 @@
     "button-secondary-icon-color": {
       "value": "{primary-600}",
       "type": "color"
-    }
-  },
+    },
+
   "button-border-radius": {
     "value": "{border-radius-6}",
     "type": "borderRadius"
   },
-  "normal": {
+  
     "button-normal-height": {
       "value": "44px",
       "type": "sizing"
@@ -47,9 +47,9 @@
     "button-normal-font-size": {
       "value": "{font-size-medium-big}",
       "type": "fontSizes"
-    }
-  },
-  "small": {
+    },
+
+
     "button-small-height": {
       "value": "35px",
       "type": "sizing"
@@ -57,9 +57,9 @@
     "button-small-font-size": {
       "value": "{font-size-medium}",
       "type": "fontSizes"
-    }
-  },
-  "extra-small": {
+    },
+
+
     "button-extra-small-height": {
       "value": "25px",
       "type": "sizing"
@@ -67,12 +67,12 @@
     "button-extra-small-font-size": {
       "value": "{font-size-medium-small}",
       "type": "fontSizes"
-    }
-  },
-  "acction-area": {
+    },
+
+ 
     "button-action-area-height": {
       "value": "44",
       "type": "sizing"
     }
-  }
+  
 }

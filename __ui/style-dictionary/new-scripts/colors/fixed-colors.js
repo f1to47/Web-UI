@@ -1,6 +1,6 @@
 // config.js
 module.exports = {
-    source: [`ui-tokens/absolute-colors.json`, `ui-tokens/theme-light-colors.json`, `ui-tokens/foundation-tokens.json`, `ui-tokens/headings.json`],
+    source: [`ui-tokens/fixed-colors.json`],
     // If you don't want to call the registerTransform method a bunch of times
     // you can override the whole transform object directly. This works because
     // the .extend method copies everything in the config
@@ -27,69 +27,30 @@ module.exports = {
           // let mapName = 'dark-theme-colors';
           
 
-          let tokens = dictionary.allTokens.map(token => {
-    
+          let colorTokens = dictionary.allTokens.map(token => {
 
-            console.log(token);
-
-            if(token.type != 'color' && token.type != 'opacity' && token.type != 'boxShadow'){
             
-            if(token.type === 'composition'){
-             
-             
-              let props = []
-              Object.entries(token.value).forEach(([key, value], index) => {
-               
 
-
-                if(value.toString().startsWith("#")){
-                  let newValue = Object.values(token.original.value)[index];
-                  newValue = newValue.replaceAll(/[{|}]/g, '');
-                  newValue = newValue.replaceAll(/\./g, '-');
-                  newValue = newValue.replaceAll(/_ct_|__ct_+/g, '--ct-');
-                  colorVar = `var(${newValue})`
-                 
-                  props = [...props, `--${token.name}-${key}:${colorVar};\n`]
-                  console.log('____________________ '+ newValue)
-                }else{
-                
-                  props = [...props, `--${token.name}-${key}:${value};\n`]
-
-                 
-                }
-               
-              });
-   
-
-              return  props                    
-                     
-        }
             
-        else{
-          if(token.value.toString().startsWith("#")){
-            let newValue = (token.original.value);
-            newValue = newValue.replaceAll(/[{|}]/g, '');
-            newValue = newValue.replaceAll(/\./g, '-');
-            newValue = newValue.replaceAll(/_ct_|__ct_+/g, '--ct-');
-            colorVar = `var(${newValue})`
-           
-            return `--${token.name}:${colorVar};\n`            
-         
-          }else{
-          
-            return `--${token.name}:${token.value};\n`
-
-           
-          }
-         
+            if(token.type === 'color'){
+          return  `--${token.name}: ${token.value};\n`
         }
-      }
         
         }).join('');
 
 
 
+        let opacityImage = dictionary.allTokens.map(token => {
 
+            
+
+            
+          if(token.type === 'opacity'){
+        return  `--${token.name}: ${token.value};\n`
+      }
+     
+      
+      }).join('');
 
 
 
@@ -113,12 +74,12 @@ module.exports = {
         // }).join('');
     
         let format = `
-      
+        @media(prefers-color-scheme: light) {
         :root{
-          ${tokens}                 
-        
+          ${colorTokens}                 
+          ${opacityImage}
         }
-        `
+        }`
 
 let formatSeparator = format.replaceAll(",", ""); 
 
@@ -136,9 +97,9 @@ console.log(formatSeparator);
        "scss": {
         "transformGroup": "scss",
         // "prefix": "sd", // agregamos un prefijo a todas las cariables (Le agrega un guión también) 
-        "buildPath": "__scss-input/abstracts/variables/foudation/", // la ruta donde irá nuestro archivo de salida 
+        "buildPath": "__scss-input/abstracts/variables/colors/", // la ruta donde irá nuestro archivo de salida 
         "files": [{
-          "destination": "foundation-vars.scss", // nombre de archivo 
+          "destination": "fixed-colors.scss", // nombre de archivo 
           "format": "myFormat", // formato 
           "mapName": "font-style"
         }]

@@ -21,18 +21,17 @@
 
 
 
-
-    "build-dt-vars": "style-dictionary build --config ./style-dictionary/new-scripts/themes/dark-theme/dt-vars.js",
-    "build-lt-vars": "style-dictionary build --config ./style-dictionary/new-scripts/themes/light-theme/lt-vars.js",
+    "build-dt-vars": "style-dictionary build --config ./style-dictionary/new-scripts/colors/dark-theme/dt-vars.js",
+    "build-lt-vars": "style-dictionary build --config ./style-dictionary/new-scripts/colors/light-theme/lt-vars.js",
     "build-themes": "npm run build-lt-vars && npm run build-dt-vars",
-
+     
     "build-foundation-vars": "style-dictionary build --config ./style-dictionary/new-scripts/foundation/foundation-vars.js",
     "build-component-compositions": "style-dictionary build --config ./style-dictionary/new-scripts/components/components-compositions.js",
     "build-component-styles": "style-dictionary build --config ./style-dictionary/new-scripts/components/components-styles.js",
-
+    "build-fixed-colors": "style-dictionary build --config ./style-dictionary/new-scripts/colors/fixed-colors.js",
     "compile-fonts": "node-sass --source-map true ./__scss-input/__font-import.scss -o ./__css-ouput/",
     "compile-core": "node-sass --source-map true ./__scss-input/_core.scss -o ./__css-ouput/",
-    "build-ui": "npm run build-themes && npm run build-foundation-vars && npm run build-component-compositions && npm run compile-fonts && npm run compile-core"
+    "build-ui": "npm run build-themes && npm run build-foundation-vars && npm run build-component-styles && npm run compile-fonts && npm run compile-core"
   },
   "keywords": [],
   "author": "",

@@ -1,24 +1,24 @@
 
        
         :root{
-          --card-fill:var(--ct-neutral-predominant);
---card-verticalPadding:2.25em;
---card-horizontalPadding:2.25em;
---card-borderRadius:24px;
---card-boxShadow:[object Object];
+          --card-basic-paddingTop:1.375em;
+--card-basic-paddingRight:1.375em;
+--card-basic-paddingBottom:1.375em;
+--card-basic-paddingLeft:1.375em;
+--card-basic-fill:var(base);
+--card-basic-borderRadius:12px;
 
           
         }
 
-        .card{
+        .card-basic{
                     
-                  background-color: #292D3B;
-padding-top: 2.25em;
- padding-bottom: 2.25em;
-padding-left: 2.25em;
- padding-right: 2.25em;
-border-radius: 24px;
-box-shadow: 0px 2px 12px 0px var(--shadow-color-base);
+                  undefined: 1.375em;
+undefined: 1.375em;
+undefined: 1.375em;
+undefined: 1.375em;
+background-color: #292d3b;
+border-radius: 12px;
 
 
                 }

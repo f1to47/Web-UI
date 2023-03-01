@@ -1,12 +1,12 @@
 {
   "tokenSetOrder": [
     "foundation-tokens",
-    "a_headings",
-    "c_button",
-    "c_card",
-    "theme-light-colors",
-    "theme-dark-colors",
-    "absolute-colors",
-    "fixed-colors"
+    "colors/theme-light-colors",
+    "colors/theme-dark-colors",
+    "colors/absolute-colors",
+    "colors/fixed-colors",
+    "atoms/a_headings",
+    "components/c_card",
+    "components/c_button"
   ]
 }

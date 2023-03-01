@@ -4,8 +4,13 @@
     "name": "sources",
     "selectedTokenSets": {
       "foundation-tokens": "source",
-      "a_headings": "disabled",
-      "c_button": "disabled"
+      "components/c_button": "disabled",
+      "components/c_card": "disabled",
+      "atoms/a_headings": "disabled",
+      "colors/theme-light-colors": "disabled",
+      "colors/theme-dark-colors": "disabled",
+      "colors/absolute-colors": "disabled",
+      "colors/fixed-colors": "disabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -13,11 +18,14 @@
     "id": "717d2ff15536b7eee941cb1a1c9cc38cf6a46bde",
     "name": "Dark theme",
     "selectedTokenSets": {
-      "theme-dark-colors": "enabled",
-      "absolute-colors": "enabled",
       "foundation-tokens": "enabled",
-      "a_headings": "disabled",
-      "c_button": "enabled"
+      "components/c_button": "enabled",
+      "components/c_card": "disabled",
+      "atoms/a_headings": "disabled",
+      "colors/theme-light-colors": "disabled",
+      "colors/theme-dark-colors": "enabled",
+      "colors/absolute-colors": "enabled",
+      "colors/fixed-colors": "disabled"
     },
     "$figmaStyleReferences": {
       "disabled.button-disabled-background-color": "S:85450afe25849093f052da3e6e97c880a1000114,",
@@ -35,11 +43,14 @@
     "id": "b19fb2da4edb60980ffb3e316d27c1ffc26bd9bb",
     "name": "Light theme",
     "selectedTokenSets": {
-      "theme-light-colors": "enabled",
-      "absolute-colors": "enabled",
       "foundation-tokens": "enabled",
-      "a_headings": "disabled",
-      "c_button": "disabled"
+      "components/c_button": "disabled",
+      "components/c_card": "disabled",
+      "atoms/a_headings": "disabled",
+      "colors/theme-light-colors": "enabled",
+      "colors/theme-dark-colors": "disabled",
+      "colors/absolute-colors": "enabled",
+      "colors/fixed-colors": "disabled"
     },
     "$figmaStyleReferences": {
       "disabled.button-disabled-background-color": "S:500be1bc48d2bcfeaad5f012bd9baf349ce89b72,",

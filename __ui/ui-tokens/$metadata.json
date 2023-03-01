@@ -1,8 +1,8 @@
 {
   "tokenSetOrder": [
     "foundation-tokens",
-    "headings",
-    "c_button_dt",
+    "a_headings",
+    "c_button",
     "c_card",
     "theme-light-colors",
     "theme-dark-colors",

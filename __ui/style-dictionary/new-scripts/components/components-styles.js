@@ -1,13 +1,9 @@
 // config.js
 module.exports = {
     source: [
-      `ui-tokens/absolute-colors.json`, 
-      `ui-tokens/theme-dark-colors.json`, 
+      `ui-tokens/colors/*`, 
       `ui-tokens/foundation-tokens.json`, 
-      `ui-tokens/fixed-colors.json`, 
-      `ui-tokens/c_card.json`,
-      `ui-tokens/c_button_dt.json`,
-      `ui-tokens/c_component-color.json`
+      `ui-tokens/components/*`,
     
     // podría llamar automaticamente a todos los archivos json que empiecen por "c_"??
   ],

@@ -1,6 +1,6 @@
 // config.js
 module.exports = {
-    source: [`ui-tokens/absolute-colors.json`, `ui-tokens/theme-light-colors.json`, `ui-tokens/foundation-tokens.json`, `ui-tokens/headings.json`],
+    source: [`ui-tokens/absolute-colors.json`, `ui-tokens/theme-light-colors.json`, `ui-tokens/foundation-tokens.json`],
     // If you don't want to call the registerTransform method a bunch of times
     // you can override the whole transform object directly. This works because
     // the .extend method copies everything in the config

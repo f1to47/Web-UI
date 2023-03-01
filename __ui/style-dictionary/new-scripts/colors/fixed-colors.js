@@ -74,12 +74,11 @@ module.exports = {
         // }).join('');
     
         let format = `
-        @media(prefers-color-scheme: light) {
         :root{
           ${colorTokens}                 
           ${opacityImage}
         }
-        }`
+        `
 
 let formatSeparator = format.replaceAll(",", ""); 
 

@@ -1,6 +1,6 @@
 // config.js
 module.exports = {
-  source: [`ui-tokens/__absolute-colors.json`, `ui-tokens/theme-light-colors.json`],
+  source: [`ui-tokens/__absolute-colors.json`, `ui-tokens/colors/theme-light-colors.json`],
   // If you don't want to call the registerTransform method a bunch of times
   // you can override the whole transform object directly. This works because
   // the .extend method copies everything in the config
@@ -74,7 +74,7 @@ module.exports = {
       // }).join('');
   
       let format = `
-      @media(prefers-color-scheme: dark) {
+      @media(prefers-color-scheme: light) {
       :root{
         ${colorTokens}                 
         ${opacityImage}

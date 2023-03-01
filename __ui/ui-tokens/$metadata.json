@@ -3,7 +3,6 @@
     "foundation-tokens",
     "colors/theme-light-colors",
     "colors/theme-dark-colors",
-    "colors/absolute-colors",
     "colors/fixed-colors",
     "atoms/a_headings",
     "components/c_card",

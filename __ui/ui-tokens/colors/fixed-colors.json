@@ -1,4 +1,20 @@
 {
+  "white": {
+    "value": "#ffffff",
+    "type": "color"
+  },
+  "black": {
+    "value": "#000000",
+    "type": "color"
+  },
+  "lighter": {
+    "value": "#fff",
+    "type": "color"
+  },
+  "darker": {
+    "value": "#292D3B",
+    "type": "color"
+  },
   "fix-neutral-100": {
     "value": "#e7edfd",
     "type": "color"

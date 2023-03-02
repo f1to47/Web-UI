@@ -9,11 +9,11 @@
       "type": "color"
     },
     "button-primary-label-color": {
-      "value": "#fff",
+      "value": "{white}",
       "type": "color"
     },
     "button-primary-icon-color": {
-      "value": "#fff",
+      "value": "{white}",
       "type": "color"
     }
   },

@@ -1,7 +1,10 @@
 
-        @media(prefers-color-scheme: light) {
         :root{
-          --fix-neutral-100: #e7edfd;
+          --white: #ffffff;
+--black: #000000;
+--lighter: #fff;
+--darker: #292D3B;
+--fix-neutral-100: #e7edfd;
 --fix-neutral-200: #d1d7ee;
 --fix-neutral-300: #bfc5dc;
 --fix-neutral-400: #b1b8d4;
@@ -28,4 +31,4 @@
                  
           
         }
-        }
+        

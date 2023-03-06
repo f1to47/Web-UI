@@ -4,34 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    
-    "build-colors": "style-dictionary build --config ./style-dictionary/colors.js",
-    "build-ds": "style-dictionary build --config ./style-dictionary/ui-tokens.js",
-    "build-dark-theme": "style-dictionary build --config ./style-dictionary/new-scripts/dark-theme-tokens.js",
-    "font-styles": "style-dictionary build --config ./style-dictionary/font-styles.js",
-    "font-size": "style-dictionary build --config ./style-dictionary/font-size.js",
-    "font-families": "style-dictionary build --config ./style-dictionary/font-families.js",
-    "font-components": "style-dictionary build --config ./style-dictionary/font-components.js",
-    "font-tokens": "npm run font-size && npm run font-styles && npm run font-families && npm run font-components",
-    "build-sizing": "style-dictionary build --config ./style-dictionary/sizing.js",
-    "light-theme": "style-dictionary build --config ./style-dictionary/light-theme.js",
-    "build-dark-theme-shadows": "style-dictionary build --config ./style-dictionary/new-scripts/dark-theme/dark-theme-shadows.js",
-    "build-light-theme-shadows": "style-dictionary build --config ./style-dictionary/new-scripts/light-theme/light-theme-shadows.js",
-
-
-
-
+  
     "build-dt-vars": "style-dictionary build --config ./style-dictionary/new-scripts/colors/dark-theme/dt-vars.js",
     "build-lt-vars": "style-dictionary build --config ./style-dictionary/new-scripts/colors/light-theme/lt-vars.js",
-    "build-themes": "npm run build-lt-vars && npm run build-dt-vars",
-     
+    "build-fixed-colors": "style-dictionary build --config ./style-dictionary/new-scripts/colors/fixed-colors.js",
+    "build-colors": "npm run build-lt-vars && npm run build-dt-vars && npm run build-fixed-colors",
+    "build-atoms": "style-dictionary build --config ./style-dictionary/new-scripts/atoms/atoms.js",
     "build-foundation-vars": "style-dictionary build --config ./style-dictionary/new-scripts/foundation/foundation-vars.js",
     "build-component-compositions": "style-dictionary build --config ./style-dictionary/new-scripts/components/components-compositions.js",
     "build-component-styles": "style-dictionary build --config ./style-dictionary/new-scripts/components/components-styles.js",
-    "build-fixed-colors": "style-dictionary build --config ./style-dictionary/new-scripts/colors/fixed-colors.js",
+    "build-ui": "npm run build-colors && npm run build-foundation-vars && npm run build-component-styles && npm run compile-fonts && npm run compile-core",
     "compile-fonts": "node-sass --source-map true ./__scss-input/__font-import.scss -o ./__css-ouput/",
-    "compile-core": "node-sass --source-map true ./__scss-input/_core.scss -o ./__css-ouput/",
-    "build-ui": "npm run build-themes && npm run build-foundation-vars && npm run build-component-styles && npm run compile-fonts && npm run compile-core"
+    "compile-core": "node-sass --source-map true ./__scss-input/_core.scss -o ./__css-ouput/"
   },
   "keywords": [],
   "author": "",

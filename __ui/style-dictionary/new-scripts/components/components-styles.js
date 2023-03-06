@@ -1,9 +1,11 @@
 // config.js
+let nombreCarpetaComponentes = 'components';
 module.exports = {
+  
     source: [
       `ui-tokens/colors/*`, 
       `ui-tokens/foundation-tokens.json`, 
-      `ui-tokens/components/*`,
+      `ui-tokens/${nombreCarpetaComponentes}/*`,
     // podría llamar automaticamente a todos los archivos json que empiecen por "c_"??
   ],
     // If you don't want to call the registerTransform method a bunch of times
@@ -29,10 +31,12 @@ module.exports = {
             boxShadow: 'box-shadow',
           }
           let styles = dictionary.allTokens.map(token => {
+
+            if(token.filePath.includes(nombreCarpetaComponentes)){
             if(token.type != 'composition'){ 
               let props = []
              
-              console.log(token.value);
+              console.log(token);
                 if(token.value.toString().startsWith("#")){
                   let newValue = token.original.value;
                   newValue = newValue.replaceAll(/[{|}]/g, '');
@@ -49,6 +53,7 @@ module.exports = {
           
               return  props                                     
         } 
+      }
         }).join('');
 
         let format = `     

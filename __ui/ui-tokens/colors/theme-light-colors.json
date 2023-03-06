@@ -102,5 +102,9 @@
   "secondary-800": {
     "value": "#00617a",
     "type": "color"
+  },
+  "shadow-color": {
+    "value": "#00000024",
+    "type": "color"
   }
 }

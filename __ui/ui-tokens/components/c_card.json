@@ -17,9 +17,21 @@
       "paddingRight": "{card-padding}",
       "paddingBottom": "{card-padding}",
       "paddingLeft": "{card-padding}",
-      "fill": "{base}",
-      "borderRadius": "{card-border-radius}"
+      "fill": "{card-bg-color}",
+      "borderRadius": "{card-border-radius}",
+      "boxShadow": "{card-drop-shadow}"
     },
     "type": "composition"
+  },
+  "card-drop-shadow": {
+    "value": {
+      "x": "0",
+      "y": "2",
+      "blur": "10",
+      "spread": "0",
+      "color": "{shadow-color}",
+      "type": "dropShadow"
+    },
+    "type": "boxShadow"
   }
 }

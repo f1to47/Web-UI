@@ -5,15 +5,16 @@ a.button {
 .button {
   height: var(--button-action-area-height);
   background-color: aquamarine;
+  border: 0;
+  padding: 0;
+  font-size: inherit;
 
 
 
 
 
   .button-shape {
-    // height: var(--button-normal-height);
-    height: 20px;
-
+    height: var(--button-normal-height);
     background-color: var(--button-primary-background-color);
     color: var(--button-primary-label-color);
     border-radius: var(--button-border-radius);
@@ -25,9 +26,12 @@ a.button {
     justify-content: center;
     align-items: center;
     width: 100%;
-    font-weight: 700;
     background-color: var(--button-primary-background-color);
     color: var(--button-primary-color);
+
+    label{
+      font-size: var(--button-normal-font-size);
+    }
   }
 
 

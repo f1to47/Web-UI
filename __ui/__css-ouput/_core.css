@@ -62,7 +62,7 @@
   --border-radius-6:6px;
   --border-radius-12:12px;
   --border-radius-24:24px;
-  --border-radius-absolute:5000;
+  --border-radius-absolute:5000px;
   --spacing-0:0;
   --spacing-none:0;
   --spacing-micro:0.375em;
@@ -103,7 +103,7 @@
   --button-secondary-icon-color:var(--primary-600);
   --button-normal-height:44px;
   --button-normal-font-size:1.125em;
-  --button-border-radius:5000;
+  --button-border-radius:5000px;
   --button-small-height:35px;
   --button-small-font-size:1em;
   --button-extra-small-height:25px;
@@ -6474,9 +6474,12 @@ html {
     text-decoration: none; }
   .LAYOUT .button {
     height: var(--button-action-area-height);
-    background-color: aquamarine; }
+    background-color: aquamarine;
+    border: 0;
+    padding: 0;
+    font-size: inherit; }
     .LAYOUT .button .button-shape {
-      height: 20px;
+      height: var(--button-normal-height);
       background-color: var(--button-primary-background-color);
       color: var(--button-primary-label-color);
       border-radius: var(--button-border-radius);
@@ -6491,9 +6494,10 @@ html {
       justify-content: center;
       align-items: center;
       width: 100%;
-      font-weight: 700;
       background-color: var(--button-primary-background-color);
       color: var(--button-primary-color); }
+      .LAYOUT .button .button-shape label {
+        font-size: var(--button-normal-font-size); }
     .LAYOUT .button [class^="icon-"],
     .LAYOUT .button [class*=" icon-"] {
       font-size: 25px !important;

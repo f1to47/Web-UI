@@ -5,7 +5,7 @@
       "type": "color"
     },
     "button-primary-hover-background-color": {
-      "value": "{fix-primary-300}",
+      "value": "{fix-primary-200}",
       "type": "color"
     },
     "button-primary-label-color": {
@@ -27,7 +27,7 @@
       "type": "color"
     },
     "button-secondary-hover-background-color": {
-      "value": "{fix-primary-300}",
+      "value": "{fix-primary-200}",
       "type": "color"
     },
     "button-secondary-label-color": {
@@ -85,11 +85,11 @@
   },
   "disabled": {
     "button-disabled-background-color": {
-      "value": "{neutral-300}",
+      "value": "{neutral-100}",
       "type": "color"
     },
     "button-disabled-label-color": {
-      "value": "{neutral-400}",
+      "value": "{neutral-200}",
       "type": "color"
     }
   }

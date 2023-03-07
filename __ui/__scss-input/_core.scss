@@ -4,7 +4,7 @@
 @import './base/reset.scss';
 
 html{
-	background-color: var(--ct-neutral-predominant)
+	background-color: var(--neutral-100)
 }
 
 .LAYOUT{
@@ -17,7 +17,7 @@ html{
 	@import './components/_index-components/index.scss';
 	 
 	font-size: 18px;
-    color: var(--ct-neutral-500);
+    color: var(--base-contrast);
 	
 }
 

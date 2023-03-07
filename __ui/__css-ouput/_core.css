@@ -25,7 +25,8 @@
     --secondary-500: #4ec3e0;
     --secondary-600: #61d6f3;
     --secondary-700: #71e6ff;
-    --secondary-800: #91f3ff; } }
+    --secondary-800: #91f3ff;
+    --shadow-color: rgba(0000); } }
 
 @media (prefers-color-scheme: light) {
   :root {
@@ -54,7 +55,8 @@
     --secondary-500: #0a7f98;
     --secondary-600: #03758e;
     --secondary-700: #016c85;
-    --secondary-800: #00617a; } }
+    --secondary-800: #00617a;
+    --shadow-color: #00000024; } }
 
 :root {
   --border-radius-6:6px;
@@ -91,12 +93,26 @@
   --font-size-giant:2.875em; }
 
 :root {
-  --card-basic-paddingTop:1.375em;
-  --card-basic-paddingRight:1.375em;
-  --card-basic-paddingBottom:1.375em;
-  --card-basic-paddingLeft:1.375em;
-  --card-basic-fill:var(base);
-  --card-basic-borderRadius:12px; }
+  --button-primary-background-color:var(--fix-primary-500);
+  --button-primary-hover-background-color:var(--fix-primary-600);
+  --button-primary-label-color:var(--white);
+  --button-primary-icon-color:var(--white);
+  --button-secondary-background-color:var(--neutral-100);
+  --button-secondary-hover-background-color:var(--neutral-200);
+  --button-secondary-label-color:var(--primary-600);
+  --button-secondary-icon-color:var(--primary-600);
+  --button-border-radius:6px;
+  --button-normal-height:44px;
+  --button-normal-font-size:1.125em;
+  --button-small-height:35px;
+  --button-small-font-size:1em;
+  --button-extra-small-height:25px;
+  --button-extra-small-font-size:0.875em;
+  --button-action-area-height:44;
+  --card-padding:1.375em;
+  --card-bg-color:var(--base);
+  --card-border-radius:12px;
+  --card-drop-shadow: 0px  2px  10px  0px  var(--shadow-color) ; }
 
 :root {
   --white: #ffffff;
@@ -127,6 +143,28 @@
   --fix-secondary-600: #03758e;
   --fix-secondary-700: #016c85;
   --fix-secondary-800: #00617a; }
+
+:root {
+  --h1-font-size:2.25em;
+  --h1-font-weight:700;
+  --h2-font-weight:600;
+  --h3-font-weight:600;
+  --h4-font-weight:600;
+  --h1-font-family:Barlow;
+  --h2-font-family:Barlow;
+  --h3-font-family:Barlow;
+  --h4-font-family:Barlow;
+  --h2-font-size:1.75em;
+  --h3-font-size:1.375em;
+  --h4-font-size:1.125em;
+  --paragraph-font-family:Barlow;
+  --paragraph-font-weight:400;
+  --paragraph-font-size:1em;
+  --h1-line-height:120%;
+  --h2-line-height:120%;
+  --h3-line-height:120%;
+  --h4-line-height:140%;
+  --paragraph-line-height:150%; }
 
 :root {
   --animate-duration: 1s;
@@ -3321,7 +3359,7 @@ table {
   border-spacing: 0; }
 
 html {
-  background-color: var(--ct-neutral-predominant); }
+  background-color: var(--neutral-100); }
 
 .LAYOUT {
   /*!
@@ -3339,7 +3377,7 @@ html {
   /*Modal*/
   /*FIn Modal*/
   font-size: 18px;
-  color: var(--ct-neutral-500); }
+  color: var(--base-contrast); }
   .LAYOUT .visible-col {
     background-color: var(--secondary-light-300);
     border: solid 1px var(--secondary-light-200); }
@@ -3349,8 +3387,6 @@ html {
     padding-left: var(--spacing-medium);
     margin-right: auto;
     margin-left: auto;
-    padding-left: 50px;
-    padding-right: 50px;
     max-width: 1000px;
     height: 100%; }
   .LAYOUT section {
@@ -6060,12 +6096,12 @@ html {
     .LAYOUT a:hover {
       color: var(--primary-300); }
   .LAYOUT .card {
-    --card-padding: var(--card-verticalPadding);
     display: flex;
     flex-direction: column;
-    border-radius: var(--card-borderRadius);
+    border-radius: var(--card-border-radius);
     overflow: hidden;
-    background-color: var(--card-fill); }
+    background-color: var(--card-bg-color);
+    box-shadow: var(--card-drop-shadow); }
     @media (min-width: 760px) {
       .LAYOUT .card .container {
         flex-direction: row; }
@@ -6437,47 +6473,42 @@ html {
   .LAYOUT a.button {
     text-decoration: none; }
   .LAYOUT .button {
-    -webkit-transition: background-color 100ms ease-out;
-    -moz-transition: background-color 100ms ease-out;
-    -ms-transition: background-color 100ms ease-out;
-    -o-transition: background-color 100ms ease-out;
-    transition: background-color 100ms ease-out;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 12px;
-    gap: 5px;
-    width: 100%;
-    font-family: var(--font-family-primary);
-    font-weight: 700;
-    background-color: var(--button-primary-background-color);
-    color: var(--button-primary-color); }
-    .LAYOUT .button.button-close {
-      width: 40px;
-      height: 40px;
-      border: 0; }
-      .LAYOUT .button.button-close::after {
-        content: "\e917";
-        position: relative;
-        font-family: 'capital-icons' !important;
-        font-size: 30px;
-        color: var(--primary); }
-    .LAYOUT .button [class^="icon-"], .LAYOUT .button [class*=" icon-"] {
+    height: var(--button-action-area-height);
+    background-color: aquamarine; }
+    .LAYOUT .button .button-shape {
+      height: 20px;
+      background-color: var(--button-primary-background-color);
+      color: var(--button-primary-label-color);
+      border: 0;
+      -webkit-transition: background-color 100ms ease-out;
+      -moz-transition: background-color 100ms ease-out;
+      -ms-transition: background-color 100ms ease-out;
+      -o-transition: background-color 100ms ease-out;
+      transition: background-color 100ms ease-out;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      font-weight: 700;
+      background-color: var(--button-primary-background-color);
+      color: var(--button-primary-color); }
+    .LAYOUT .button [class^="icon-"],
+    .LAYOUT .button [class*=" icon-"] {
       font-size: 25px !important;
       height: 10px;
       margin-top: 2px;
       display: flex;
       align-items: center;
       margin-left: 0.2em; }
-    .LAYOUT .button:hover {
+    .LAYOUT .button:hover .button-shape {
       background-color: var(--button-primary-hover-background-color); }
-    .LAYOUT .button.secondary {
+    .LAYOUT .button.secondary .button-shape {
       background-color: var(--button-secondary-background-color);
       color: var(--button-secondary-color); }
-      .LAYOUT .button.secondary:hover {
-        background-color: var(--button-secondary-hover-background-color); }
-    .LAYOUT .button:disabled {
+    .LAYOUT .button.secondary:hover .button-shape {
+      background-color: var(--button-secondary-hover-background-color); }
+    .LAYOUT .button:disabled .button-shape {
       cursor: not-allowed;
       background-color: var(--primary-contrast-100);
       border-color: var(--primary-contrast-200);

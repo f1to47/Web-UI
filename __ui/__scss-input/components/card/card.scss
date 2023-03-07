@@ -152,14 +152,15 @@
 
 
 .card {
-    --card-padding: var(--card-verticalPadding);
+    
     display: flex;
     flex-direction: column;
-    border-radius: var(--card-borderRadius);
+    border-radius: var(--card-border-radius);
 
     overflow: hidden;
   
-    background-color: var(--card-fill);
+    background-color: var(--card-bg-color);
+    box-shadow: var(--card-drop-shadow);
 
     // card media queries
 

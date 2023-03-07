@@ -34,9 +34,59 @@ module.exports = {
 
             if(token.filePath.includes(nombreCarpetaComponentes)){
             if(token.type != 'composition'){ 
+
+              if(token.type == 'boxShadow'){
+
+                // console.log(token);
+
+                let props = []
+                let shadowProps = []
+
+                Object.entries(token.value).forEach(([key, value], index) => {
+                 
+                  // console.log(key+' : '+value);
+                  if(key != 'type'){
+                  
+                    if(key == 'color'){
+                      let newValue = token.original.value['color'];
+                       console.log(token);
+                      console.log(newValue);
+                  newValue = newValue.replaceAll(/[{|}]/g, '');
+                  newValue = newValue.replaceAll(/\./g, '-');
+                  newValue = newValue.replaceAll(/_ct_|__ct_+/g, '--ct-');
+                  colorVar = `var(--${newValue})`
+
+                  shadowProps = [...shadowProps, `${colorVar} `]
+
+                // console.log(token);
+                    }else{
+                      
+                      // console.log(value);
+
+                      shadowProps = [...shadowProps, `${value}px `]
+
+                    
+
+                    }
+
+
+                  // box-shadow: x y blur spread rgba(0,0,0,0.75);
+                
+                  
+                }
+
+                });
+            
+                props = [...props, `--${token.name}: ${shadowProps[0]} ${shadowProps[1]} ${shadowProps[2]} ${shadowProps[3]} ${shadowProps[4]};\n`]
+
+                console.log(props);
+
+                return  props     
+
+              }else{
               let props = []
              
-              console.log(token);
+              
                 if(token.value.toString().startsWith("#")){
                   let newValue = token.original.value;
                   newValue = newValue.replaceAll(/[{|}]/g, '');
@@ -50,8 +100,11 @@ module.exports = {
                 else{
                   props = [...props, `--${token.name}:${token.value};\n`]
                 }
+
+             
           
-              return  props                                     
+              return  props          
+            }                           
         } 
       }
         }).join('');

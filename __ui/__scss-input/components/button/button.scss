@@ -13,9 +13,10 @@ a.button {
   .button-shape {
     // height: var(--button-normal-height);
     height: 20px;
-    
+
     background-color: var(--button-primary-background-color);
     color: var(--button-primary-label-color);
+    border-radius: var(--button-border-radius);
     border: 0;
 
     @include geneBrow(transition, background-color 100ms ease-out);

@@ -32,6 +32,9 @@ module.exports = {
           }
           let styles = dictionary.allTokens.map(token => {
 
+            console.log(token);
+       
+
             if(token.filePath.includes(nombreCarpetaComponentes)){
             if(token.type != 'composition'){ 
 
@@ -49,8 +52,7 @@ module.exports = {
                   
                     if(key == 'color'){
                       let newValue = token.original.value['color'];
-                       console.log(token);
-                      console.log(newValue);
+                  
                   newValue = newValue.replaceAll(/[{|}]/g, '');
                   newValue = newValue.replaceAll(/\./g, '-');
                   newValue = newValue.replaceAll(/_ct_|__ct_+/g, '--ct-');
@@ -77,7 +79,7 @@ module.exports = {
 
                 });
             
-                props = [...props, `--${token.name}: ${shadowProps[0]} ${shadowProps[1]} ${shadowProps[2]} ${shadowProps[3]} ${shadowProps[4]};\n`]
+                props = [...props, `--${token.path.slice(-1)}: ${shadowProps[0]} ${shadowProps[1]} ${shadowProps[2]} ${shadowProps[3]} ${shadowProps[4]};\n`]
 
                 console.log(props);
 
@@ -93,12 +95,12 @@ module.exports = {
                   newValue = newValue.replaceAll(/\./g, '-');
                   newValue = newValue.replaceAll(/_ct_|__ct_+/g, '--ct-');
                   colorVar = `var(--${newValue})`
-                  props = [...props, `--${token.name}:${colorVar};\n`]
+                  props = [...props, `--${token.path.slice(-1)}:${colorVar};\n`]
                  
                  
                 }
                 else{
-                  props = [...props, `--${token.name}:${token.value};\n`]
+                  props = [...props, `--${token.path.slice(-1)}:${token.value};\n`]
                 }
 
              

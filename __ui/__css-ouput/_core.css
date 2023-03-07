@@ -101,14 +101,14 @@
   --button-secondary-hover-background-color:var(--neutral-200);
   --button-secondary-label-color:var(--primary-600);
   --button-secondary-icon-color:var(--primary-600);
-  --button-border-radius:6px;
   --button-normal-height:44px;
   --button-normal-font-size:1.125em;
+  --button-border-radius:5000;
   --button-small-height:35px;
   --button-small-font-size:1em;
   --button-extra-small-height:25px;
   --button-extra-small-font-size:0.875em;
-  --button-action-area-height:44;
+  --button-action-area-height:44px;
   --card-padding:1.375em;
   --card-bg-color:var(--base);
   --card-border-radius:12px;
@@ -6479,6 +6479,7 @@ html {
       height: 20px;
       background-color: var(--button-primary-background-color);
       color: var(--button-primary-label-color);
+      border-radius: var(--button-border-radius);
       border: 0;
       -webkit-transition: background-color 100ms ease-out;
       -moz-transition: background-color 100ms ease-out;

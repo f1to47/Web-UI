@@ -12,7 +12,7 @@
     "type": "borderRadius"
   },
   "border-radius-absolute": {
-    "value": "5000",
+    "value": "5000px",
     "type": "borderRadius"
   },
   "spacing-0": {

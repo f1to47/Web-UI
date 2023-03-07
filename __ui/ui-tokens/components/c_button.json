@@ -35,10 +35,6 @@
       "type": "color"
     }
   },
-  "button-border-radius": {
-    "value": "{border-radius-absolute}",
-    "type": "borderRadius"
-  },
   "normal": {
     "button-normal-height": {
       "value": "44px",
@@ -48,6 +44,10 @@
       "value": "{font-size-medium-big}",
       "type": "fontSizes"
     }
+  },
+  "button-border-radius": {
+    "value": "{border-radius-absolute}",
+    "type": "borderRadius"
   },
   "small": {
     "button-small-height": {
@@ -71,7 +71,7 @@
   },
   "acction-area": {
     "button-action-area-height": {
-      "value": "44",
+      "value": "44px",
       "type": "sizing"
     }
   }

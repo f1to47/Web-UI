@@ -1,0 +1,29 @@
+{
+  "tabMenu-drop-shadow": {
+    "value": {
+      "x": "0",
+      "y": "2",
+      "blur": "10",
+      "spread": "0",
+      "color": "{shadow-color}",
+      "type": "dropShadow"
+    },
+    "type": "boxShadow"
+  },
+  "tabMenu-border-radius": {
+    "value": "{border-radius-12}",
+    "type": "borderRadius"
+  },
+  "tabMenu-height": {
+    "value": "75",
+    "type": "sizing"
+  },
+  "tabMenu-label-color": {
+    "value": "{primary-500}",
+    "type": "color"
+  },
+  "tabMenu-separator-border-color": {
+    "value": "{neutral-400}",
+    "type": "color"
+  }
+}

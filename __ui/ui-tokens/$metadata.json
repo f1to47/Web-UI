@@ -6,6 +6,7 @@
     "colors/fixed-colors",
     "atoms/a_headings",
     "components/c_card",
-    "components/c_button"
+    "components/c_button",
+    "components/c_tabMenu"
   ]
 }

@@ -72,14 +72,17 @@ module.exports = {
         
         
         // }).join('');
+
+
+        let format = ''
     
-        let format = `
-        @media(prefers-color-scheme: dark) {
-        :root{
-          ${colorTokens}                 
-          ${opacityImage}
-        }
-        }`
+        // let format = `
+        // @media(prefers-color-scheme: dark) {
+        // :root{
+        //   ${colorTokens}                 
+        //   ${opacityImage}
+        // }
+        // }`
 
 let formatSeparator = format.replaceAll(",", ""); 
 

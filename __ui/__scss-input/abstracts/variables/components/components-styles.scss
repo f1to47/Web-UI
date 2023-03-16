@@ -1,13 +1,15 @@
      
         :root{
-          --button-primary-background-color:var(--fix-primary-500);
---button-primary-hover-background-color:var(--fix-primary-600);
+          --button-primary-background-color:var(--fix-primary-600);
+--button-primary-hover-background-color:var(--fix-primary-200);
 --button-primary-label-color:var(--white);
---button-primary-icon-color:var(--white);
---button-secondary-background-color:var(--neutral-100);
---button-secondary-hover-background-color:var(--neutral-200);
+--button-primary-hover-label-color:var(--fix-primary-600);
+--button-primary-font-weight:500;
+--button-secondary-background-color:var(--neutral-200);
+--button-secondary-hover-background-color:var(--fix-primary-200);
 --button-secondary-label-color:var(--primary-600);
---button-secondary-icon-color:var(--primary-600);
+--button-secondary-hover-label-color:var(--fix-primary-600);
+--button-secondary-font-weight:500;
 --button-normal-height:44px;
 --button-normal-font-size:1.125em;
 --button-border-radius:5000px;
@@ -16,6 +18,8 @@
 --button-extra-small-height:25px;
 --button-extra-small-font-size:0.875em;
 --button-action-area-height:44px;
+--button-disabled-background-color:var(--neutral-100);
+--button-disabled-label-color:var(--neutral-200);
 --card-padding:1.375em;
 --card-bg-color:var(--base);
 --card-border-radius:12px;

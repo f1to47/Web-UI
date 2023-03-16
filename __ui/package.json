@@ -14,8 +14,8 @@
     "build-component-compositions": "style-dictionary build --config ./style-dictionary/new-scripts/components/components-compositions.js",
     "build-component-styles": "style-dictionary build --config ./style-dictionary/new-scripts/components/components-styles.js",
     "build-ui": "npm run build-colors && npm run build-atoms && npm run build-foundation-vars && npm run build-component-styles && npm run compile-fonts && npm run compile-core",
-    "compile-fonts": "node-sass --source-map true ./__scss-input/__font-import.scss -o ./__css-ouput/",
-    "compile-core": "node-sass --source-map true ./__scss-input/_core.scss -o ./__css-ouput/"
+    "compile-fonts": "node-sass --source-map true ./__scss-input/__font-import.scss -o ./__css-output/",
+    "compile-core": "node-sass --source-map true ./__scss-input/_core.scss -o ./__css-output/"
   },
   "keywords": [],
   "author": "",

@@ -1,0 +1,50 @@
+.breadCrumbs{
+
+    margin-bottom: 20px;
+
+    a{
+        padding: 5px;
+        font-size: 0.9em;
+        color: var(--neutral-400);
+        text-decoration: none!important;
+        // border-right: 1px solid map-get($colors, 'gray' );
+        padding-left: 0;
+
+        &:hover{
+            color: var(--primary-500);
+        }
+
+        // padding-right: 20px;
+
+        &::before{
+
+            content: "\e905";
+            font-size: 0.9em;
+            font-family: 'base-icons' !important;
+            color: var(--neutral-400);
+            font-weight: 600!important;
+            margin-right: 10px;
+        }
+        &:last-child{
+            border-right: 0;
+        }
+
+        &:first-child{
+
+            &::before{
+                display: none;
+            }
+         
+        }
+        &.active{
+                font-weight: 700;
+                color: var(--neutral-700);
+                &:hover{ccolor: var(--primary-500)!important}
+
+        }
+    }
+
+    @include mdMax{
+        display: none;
+    }
+}

@@ -51,7 +51,7 @@
    // 02
     .accordion_item-active {
       .accordion_header {
-        background-color: var(--primary-100);
+        background-color: var(--primary-50);
       }
       &:last-child {
         .accordion_container {
@@ -81,20 +81,20 @@
       padding: 15px;
   
       padding-right: 50px;
-      background-color: var(--neutral-100);
+      background-color: var(--neutral-50);
       cursor: pointer;
-      border: solid 2px var(--neutral-300);
+      border: solid 2px var(--neutral-200);
       margin-top: -2px;
       z-index: 1;
       position: relative;
-      h1,h2,h3,h4{
-        // font-family: $fontCorp2!important;
-        font-size: 1em!important;
-        font-weight: 700!important;
+    //   h1,h2,h3,h4{
+    //     // font-family: $fontCorp2!important;
+    //     font-size: 1em!important;
+    //     font-weight: 700!important;
         
-      }
+    //   }
     }
-  
+  neutral-200
    // 04
     .accordion_header::after {
     //   content: map-get($iconos, "icon-arrow-down");
@@ -114,7 +114,7 @@
       display: none;
       padding: 15px;
       padding-bottom: 35px;
-      border: solid 2px var(--neutral-300);
+      border: solid 2px var(--neutral-200);
       margin-top: -2px;
       z-index: 0;
       position: relative;

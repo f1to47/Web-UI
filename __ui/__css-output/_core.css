@@ -1,7 +1,8 @@
 :root {
   --base: #ffffff;
   --base-contrast: #292d3b;
-  --neutral-100: #e7edfd;
+  --neutral-50: #F0F3FF;
+  --neutral-100: #E0E6FC;
   --neutral-200: #d1d7ee;
   --neutral-300: #bfc5dc;
   --neutral-400: #b1b8d4;
@@ -9,7 +10,9 @@
   --neutral-600: #3f4a64;
   --neutral-700: #363f54;
   --neutral-800: #303747;
-  --primary-100: #a5d9ff;
+  --neutral-900: #282F3F;
+  --primary-50: #D9EFFF;
+  --primary-100: #B2DEFF;
   --primary-200: #91cdff;
   --primary-300: #6eb8ff;
   --primary-400: #4d97ff;
@@ -17,6 +20,7 @@
   --primary-600: #1144b1;
   --primary-700: #0033a0;
   --primary-800: #1a2a8d;
+  --primary-900: #07177A;
   --secondary-100: #91f3ff;
   --secondary-200: #71e6ff;
   --secondary-300: #61d6f3;
@@ -85,22 +89,30 @@
   --card-padding:1.375em;
   --card-bg-color:var(--base);
   --card-border-radius:12px;
-  --card-drop-shadow: 0px  2px  10px  0px  var(--shadow-color) ; }
+  --card-drop-shadow: 0px  2px  10px  0px  var(--shadow-color) ;
+  --tabMenu-drop-shadow: 0px  2px  10px  0px  var(--shadow-color) ;
+  --tabMenu-border-radius:12px;
+  --tabMenu-height:75;
+  --tabMenu-label-color:var(--primary-500);
+  --tabMenu-separator-border-color:var(--neutral-400); }
 
 :root {
   --white: #ffffff;
   --black: #000000;
   --lighter: #fff;
   --darker: #292D3B;
-  --fix-neutral-100: #e7edfd;
+  --fix-neutral-50: #F0F3FF;
+  --fix-neutral-100: #E0E6FC;
   --fix-neutral-200: #d1d7ee;
   --fix-neutral-300: #bfc5dc;
   --fix-neutral-400: #b1b8d4;
   --fix-neutral-500: #545f79;
   --fix-neutral-600: #3f4a64;
   --fix-neutral-700: #363f54;
-  --fix-neutral-800: #292d3b;
-  --fix-primary-100: #a5d9ff;
+  --fix-neutral-800: #303747;
+  --fix-neutral-900: #282F3F;
+  --fix-primary-50: #D9EFFF;
+  --fix-primary-100: #B2DEFF;
   --fix-primary-200: #91cdff;
   --fix-primary-300: #6eb8ff;
   --fix-primary-400: #4d97ff;
@@ -108,6 +120,7 @@
   --fix-primary-600: #1144b1;
   --fix-primary-700: #0033a0;
   --fix-primary-800: #1a2a8d;
+  --fix-primary-900: #07177A;
   --fix-secondary-100: #91f3ff;
   --fix-secondary-200: #71e6ff;
   --fix-secondary-300: #61d6f3;
@@ -9161,7 +9174,7 @@ html {
         .LAYOUT-UI .accordion .accordion_item:last-child .accordion_container {
           border-radius: 0; }
     .LAYOUT-UI .accordion .accordion_item-active .accordion_header {
-      background-color: var(--primary-100); }
+      background-color: var(--primary-50); }
     .LAYOUT-UI .accordion .accordion_item-active:last-child .accordion_container {
       border-radius: 0 0 12px 12px; }
     .LAYOUT-UI .accordion .accordion_item-active:last-child .accordion_header {
@@ -9178,16 +9191,14 @@ html {
     .LAYOUT-UI .accordion .accordion_header {
       padding: 15px;
       padding-right: 50px;
-      background-color: var(--neutral-100);
+      background-color: var(--neutral-50);
       cursor: pointer;
-      border: solid 2px var(--neutral-300);
+      border: solid 2px var(--neutral-200);
       margin-top: -2px;
       z-index: 1;
       position: relative; }
-      .LAYOUT-UI .accordion .accordion_header h1, .LAYOUT-UI .accordion .accordion_header h2, .LAYOUT-UI .accordion .accordion_header h3, .LAYOUT-UI .accordion .accordion_header h4 {
-        font-size: 1em !important;
-        font-weight: 700 !important; }
-    .LAYOUT-UI .accordion .accordion_header::after {
+    .LAYOUT-UI .accordion neutral-200
+.accordion_header::after {
       font-weight: 900;
       position: absolute;
       right: 20px;
@@ -9200,7 +9211,7 @@ html {
       display: none;
       padding: 15px;
       padding-bottom: 35px;
-      border: solid 2px var(--neutral-300);
+      border: solid 2px var(--neutral-200);
       margin-top: -2px;
       z-index: 0;
       position: relative; }

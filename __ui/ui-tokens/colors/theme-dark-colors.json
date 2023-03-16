@@ -7,8 +7,12 @@
     "value": "#FFFFFF",
     "type": "color"
   },
+  "neutral-50": {
+    "value": "#2E3545",
+    "type": "color"
+  },
   "neutral-100": {
-    "value": "#303747",
+    "value": "#33394C",
     "type": "color"
   },
   "neutral-200": {
@@ -36,7 +40,15 @@
     "type": "color"
   },
   "neutral-800": {
-    "value": "#e7edfd",
+    "value": "#DAE0F7",
+    "type": "color"
+  },
+  "neutral-900": {
+    "value": "#E7EDFD",
+    "type": "color"
+  },
+  "primary-50": {
+    "value": "#202B6D",
     "type": "color"
   },
   "primary-100": {
@@ -69,6 +81,10 @@
   },
   "primary-800": {
     "value": "#a5d9ff",
+    "type": "color"
+  },
+  "primary-900": {
+    "value": "#D9EFFF",
     "type": "color"
   },
   "secondary-100": {

@@ -8,23 +8,23 @@
     "type": "color"
   },
   "neutral-50": {
-    "value": "#F0F3FF",
+    "value": "#F2F3FB",
     "type": "color"
   },
   "neutral-100": {
-    "value": "#E0E6FC",
+    "value": "#E2E5F1",
     "type": "color"
   },
   "neutral-200": {
-    "value": "#d1d7ee",
+    "value": "#D0D5E3",
     "type": "color"
   },
   "neutral-300": {
-    "value": "#bfc5dc",
+    "value": "#BFC5D4",
     "type": "color"
   },
   "neutral-400": {
-    "value": "#b1b8d4",
+    "value": "#B2B8CA",
     "type": "color"
   },
   "neutral-500": {

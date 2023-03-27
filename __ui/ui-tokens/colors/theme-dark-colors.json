@@ -120,7 +120,13 @@
     "type": "color"
   },
   "shadow-color": {
-    "value": "rgba(0,0,0,0)",
+    "value": "#00000040",
     "type": "color"
+  },
+  "button": {
+    "secondary-background-color": {
+      "value": "{neutral-100}",
+      "type": "color"
+    }
   }
 }

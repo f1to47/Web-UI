@@ -122,5 +122,11 @@
   "shadow-color": {
     "value": "#00000024",
     "type": "color"
+  },
+  "button": {
+    "secondary-background-color": {
+      "value": "{primary-100}",
+      "type": "color"
+    }
   }
 }

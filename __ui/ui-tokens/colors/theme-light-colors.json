@@ -188,23 +188,23 @@
     "type": "color"
   },
   "secondary-500": {
-    "value": "#847600",
+    "value": "#9A6526",
     "type": "color"
   },
   "secondary-600": {
-    "value": "#756500",
+    "value": "#8F5A1B",
     "type": "color"
   },
   "secondary-700": {
-    "value": "#6A5801",
+    "value": "#855011",
     "type": "color"
   },
   "secondary-800": {
-    "value": "#614D00",
+    "value": "#743F00",
     "type": "color"
   },
   "secondary-900": {
-    "value": "#584200",
+    "value": "#613809",
     "type": "color"
   },
   "shadow-color": {

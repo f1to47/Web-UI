@@ -69,5 +69,9 @@
   "card-secondary-border-color": {
     "value": "{fix-secondary-100}",
     "type": "color"
+  },
+  "card-gap": {
+    "value": "{spacing-small}",
+    "type": "spacing"
   }
 }

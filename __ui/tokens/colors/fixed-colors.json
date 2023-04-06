@@ -95,36 +95,124 @@
     "value": "#07177A",
     "type": "color"
   },
+  "fix-success-50": {
+    "value": "#96FD93",
+    "type": "color"
+  },
+  "fix-success-100": {
+    "value": "#85EE82",
+    "type": "color"
+  },
+  "fix-success-200": {
+    "value": "#66CF63",
+    "type": "color"
+  },
+  "fix-success-300": {
+    "value": "#58C155",
+    "type": "color"
+  },
+  "fix-success-400": {
+    "value": "#47B044",
+    "type": "color"
+  },
+  "fix-success-500": {
+    "value": "#1A7219",
+    "type": "color"
+  },
+  "fix-success-600": {
+    "value": "#0A6209",
+    "type": "color"
+  },
+  "fix-success-700": {
+    "value": "#015401",
+    "type": "color"
+  },
+  "fix-success-800": {
+    "value": "#004900",
+    "type": "color"
+  },
+  "fix-success-900": {
+    "value": "#043E04",
+    "type": "color"
+  },
+  "fix-error-50": {
+    "value": "#FAD8E1",
+    "type": "color"
+  },
+  "fix-error-100": {
+    "value": "#FFB4BF",
+    "type": "color"
+  },
+  "fix-error-200": {
+    "value": "#FF95A0",
+    "type": "color"
+  },
+  "fix-error-300": {
+    "value": "#FF7B86",
+    "type": "color"
+  },
+  "fix-error-400": {
+    "value": "#FF5E69",
+    "type": "color"
+  },
+  "fix-error-500": {
+    "value": "#CD1420",
+    "type": "color"
+  },
+  "fix-error-600": {
+    "value": "#BC030F",
+    "type": "color"
+  },
+  "fix-error-700": {
+    "value": "#AA0101",
+    "type": "color"
+  },
+  "fix-error-800": {
+    "value": "#9D0000",
+    "type": "color"
+  },
+  "fix-error-900": {
+    "value": "#8E0000",
+    "type": "color"
+  },
+  "fix-secondary-50": {
+    "value": "#F3F839",
+    "type": "color"
+  },
   "fix-secondary-100": {
-    "value": "#91f3ff",
+    "value": "#E3E829",
     "type": "color"
   },
   "fix-secondary-200": {
-    "value": "#71e6ff",
+    "value": "#D2D718",
     "type": "color"
   },
   "fix-secondary-300": {
-    "value": "#61d6f3",
+    "value": "#C7C70D",
     "type": "color"
   },
   "fix-secondary-400": {
-    "value": "#4ec3e0",
+    "value": "#B3AF00",
     "type": "color"
   },
   "fix-secondary-500": {
-    "value": "#0a7f98",
+    "value": "#847600",
     "type": "color"
   },
   "fix-secondary-600": {
-    "value": "#03758e",
+    "value": "#756500",
     "type": "color"
   },
   "fix-secondary-700": {
-    "value": "#016c85",
+    "value": "#6A5801",
     "type": "color"
   },
   "fix-secondary-800": {
-    "value": "#00617a",
+    "value": "#614D00",
+    "type": "color"
+  },
+  "fix-secondary-900": {
+    "value": "#584200",
     "type": "color"
   }
 }

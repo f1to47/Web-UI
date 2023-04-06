@@ -23,7 +23,7 @@
   },
   "secondary": {
     "button-secondary-background-color": {
-      "value": "{neutral-200}",
+      "value": "{button.secondary-background-color}",
       "type": "color"
     },
     "button-secondary-hover-background-color": {

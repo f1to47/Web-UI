@@ -7,6 +7,10 @@
     "value": "{base}",
     "type": "color"
   },
+  "card-border-color": {
+    "value": "{neutral-100}",
+    "type": "color"
+  },
   "card-border-radius": {
     "value": "{border-radius-12}",
     "type": "borderRadius"
@@ -19,7 +23,23 @@
       "paddingLeft": "{card-padding}",
       "fill": "{card-bg-color}",
       "borderRadius": "{card-border-radius}",
-      "boxShadow": "{card-drop-shadow}"
+      "border": "{card-basic-border}",
+      "boxShadow": "{card-drop-shadow}",
+      "borderColor": "{card-border-color}"
+    },
+    "type": "composition"
+  },
+  "card-secondary": {
+    "value": {
+      "paddingTop": "{card-padding}",
+      "paddingRight": "{card-padding}",
+      "paddingBottom": "{card-padding}",
+      "paddingLeft": "{card-padding}",
+      "fill": "{card-secondary-bg-color}",
+      "borderRadius": "{card-border-radius}",
+      "border": "{card-basic-border}",
+      "boxShadow": "{card-drop-shadow}",
+      "borderColor": "{card-secondary-border-color}"
     },
     "type": "composition"
   },
@@ -30,6 +50,37 @@
       "blur": "10",
       "spread": "0",
       "color": "{shadow-color}",
+      "type": "dropShadow"
+    },
+    "type": "boxShadow"
+  },
+  "card-basic-border": {
+    "value": {
+      "color": "{neutral-300}",
+      "width": "3px",
+      "style": "solid"
+    },
+    "type": "border"
+  },
+  "card-secondary-bg-color": {
+    "value": "{secondary-50}",
+    "type": "color"
+  },
+  "card-secondary-border-color": {
+    "value": "{fix-secondary-100}",
+    "type": "color"
+  },
+  "card-gap": {
+    "value": "{spacing-small}",
+    "type": "spacing"
+  },
+  "card-hover-shadow": {
+    "value": {
+      "x": "0",
+      "y": "0",
+      "blur": "0",
+      "spread": "6",
+      "color": "{primary-300}",
       "type": "dropShadow"
     },
     "type": "boxShadow"

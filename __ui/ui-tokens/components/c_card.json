@@ -73,5 +73,16 @@
   "card-gap": {
     "value": "{spacing-small}",
     "type": "spacing"
+  },
+  "card-hover-shadow": {
+    "value": {
+      "x": "0",
+      "y": "0",
+      "blur": "0",
+      "spread": "6",
+      "color": "{primary-300}",
+      "type": "dropShadow"
+    },
+    "type": "boxShadow"
   }
 }

@@ -1,0 +1,16 @@
+a{ 
+    text-decoration: underline;
+    color: var(--primary-500) ;
+
+    &:visited {
+        color: var(--primary-500) ; 
+    }
+
+    &:hover{
+        color: var(--primary-400) ; 
+     
+    }
+
+    
+}
+

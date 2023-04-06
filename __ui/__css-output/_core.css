@@ -1,11 +1,11 @@
 :root {
   --base: #ffffff;
   --base-contrast: #292d3b;
-  --neutral-50: #F0F3FF;
-  --neutral-100: #E0E6FC;
-  --neutral-200: #d1d7ee;
-  --neutral-300: #bfc5dc;
-  --neutral-400: #b1b8d4;
+  --neutral-50: #F2F3FB;
+  --neutral-100: #E2E5F1;
+  --neutral-200: #D0D5E3;
+  --neutral-300: #BFC5D4;
+  --neutral-400: #B2B8CA;
   --neutral-500: #545f79;
   --neutral-600: #3f4a64;
   --neutral-700: #363f54;
@@ -101,11 +101,11 @@
   --black: #000000;
   --lighter: #fff;
   --darker: #292D3B;
-  --fix-neutral-50: #F0F3FF;
-  --fix-neutral-100: #E0E6FC;
-  --fix-neutral-200: #d1d7ee;
-  --fix-neutral-300: #bfc5dc;
-  --fix-neutral-400: #b1b8d4;
+  --fix-neutral-50: #F2F3FB;
+  --fix-neutral-100: #E2E5F1;
+  --fix-neutral-200: #D0D5E3;
+  --fix-neutral-300: #BFC5D4;
+  --fix-neutral-400: #B2B8CA;
   --fix-neutral-500: #545f79;
   --fix-neutral-600: #3f4a64;
   --fix-neutral-700: #363f54;
@@ -3310,7 +3310,7 @@ html {
   color: var(--base-contrast); }
   .LAYOUT-UI * {
     box-sizing: border-box;
-    color: var(--primary-contrast-high); }
+    color: inherit; }
   .LAYOUT-UI html, .LAYOUT-UI body {
     scroll-behavior: smooth; }
   .LAYOUT-UI html, .LAYOUT-UI body, .LAYOUT-UI div, .LAYOUT-UI span, .LAYOUT-UI applet, .LAYOUT-UI object, .LAYOUT-UI iframe,
@@ -6060,13 +6060,19 @@ html {
   .LAYOUT-UI article section.subsection {
     margin-top: var(--spacing-big);
     margin-bottom: 0; }
+  .LAYOUT-UI .section-title {
+    border-bottom: 1px solid var(--neutral-300) !important;
+    padding-bottom: 15px !important;
+    display: flex;
+    flex-direction: row;
+    gap: 10px; }
   .LAYOUT-UI a {
     text-decoration: underline;
-    color: var(--secondary-600); }
+    color: var(--primary-500); }
     .LAYOUT-UI a:visited {
-      color: var(--secondary-600); }
+      color: var(--primary-500); }
     .LAYOUT-UI a:hover {
-      color: var(--primary-300); }
+      color: var(--primary-400); }
   .LAYOUT-UI .card {
     display: flex;
     flex-direction: column;
@@ -6166,7 +6172,8 @@ html {
     .LAYOUT-UI .card > .card-controller.card-controller-right {
       flex-direction: row-reverse; }
   .LAYOUT-UI .card.card-modal {
-    max-height: 450px; }
+    max-height: 450px;
+    max-width: calc(100% - 20px); }
     .LAYOUT-UI .card.card-modal .container {
       height: calc(100% - 60px);
       overflow-y: auto; }
@@ -6459,6 +6466,8 @@ html {
       color: var(--button-primary-label-color);
       border-radius: var(--button-border-radius);
       border: 0;
+      padding-left: 40px;
+      padding-right: 40px;
       -webkit-transition: background-color 100ms ease-out;
       -moz-transition: background-color 100ms ease-out;
       -ms-transition: background-color 100ms ease-out;
@@ -6499,33 +6508,74 @@ html {
     .LAYOUT-UI .button.button-close {
       width: var(--button-action-area-height); }
       .LAYOUT-UI .button.button-close .button-shape {
-        position: relative;
+        margin: 0;
+        border: 0;
+        padding: 0;
+        background: var(--button-primary-background-color);
+        border-radius: 50%;
         width: 30px;
         height: 30px;
         display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
         align-items: center;
-        justify-content: center; }
+        cursor: pointer;
+        transition: all 150ms; }
         .LAYOUT-UI .button.button-close .button-shape label {
-          width: 30px;
-          height: 30px;
-          display: flex;
-          align-items: center;
-          justify-content: center; }
+          margin: 0;
+          padding: 0;
+          border: 0;
+          background: none;
+          position: relative;
+          width: 15px;
+          height: 15px; }
+          .LAYOUT-UI .button.button-close .button-shape label:before, .LAYOUT-UI .button.button-close .button-shape label:after {
+            content: '';
+            position: absolute;
+            top: 6.5px;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: var(--button-primary-label-color);
+            border-radius: 2px; }
           .LAYOUT-UI .button.button-close .button-shape label:before {
-            content: "\e917";
-            width: 28px;
-            height: 28px;
-            position: relative;
-            font-family: 'base-icons' !important;
-            font-size: 28px; }
+            transform: rotate(45deg); }
+          .LAYOUT-UI .button.button-close .button-shape label:after {
+            transform: rotate(-45deg); }
+          .LAYOUT-UI .button.button-close .button-shape label span {
+            display: block; }
+      .LAYOUT-UI .button.button-close:hover .button-shape, .LAYOUT-UI .button.button-close:focus .button-shape {
+        transform: rotateZ(90deg);
+        background: var(--button-primary-hover-background-color); }
+        .LAYOUT-UI .button.button-close:hover .button-shape label, .LAYOUT-UI .button.button-close:focus .button-shape label {
+          margin: 0;
+          padding: 0;
+          border: 0;
+          background: none;
+          position: relative;
+          width: 15px;
+          height: 15px; }
+          .LAYOUT-UI .button.button-close:hover .button-shape label:before, .LAYOUT-UI .button.button-close:hover .button-shape label:after, .LAYOUT-UI .button.button-close:focus .button-shape label:before, .LAYOUT-UI .button.button-close:focus .button-shape label:after {
+            content: '';
+            position: absolute;
+            top: 6.5px;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: var(--button-primary-hover-label-color);
+            border-radius: 2px; }
+          .LAYOUT-UI .button.button-close:hover .button-shape label:before, .LAYOUT-UI .button.button-close:focus .button-shape label:before {
+            transform: rotate(45deg); }
+          .LAYOUT-UI .button.button-close:hover .button-shape label:after, .LAYOUT-UI .button.button-close:focus .button-shape label:after {
+            transform: rotate(-45deg); }
+          .LAYOUT-UI .button.button-close:hover .button-shape label span, .LAYOUT-UI .button.button-close:focus .button-shape label span {
+            display: block; }
     .LAYOUT-UI .button [class^="icon-"],
     .LAYOUT-UI .button [class*=" icon-"] {
       font-size: 25px !important;
       height: 10px;
-      margin-top: 2px;
       display: flex;
-      align-items: center;
-      margin-left: 0.2em; }
+      align-items: center; }
   .LAYOUT-UI [class^="icon-"], .LAYOUT-UI [class*=" icon-"] {
     /* use !important to prevent issues with browser extensions that change fonts */
     font-family: 'base-icons' !important;
@@ -9124,35 +9174,33 @@ html {
         color: var(--primary-500-50);
         font-weight: 900;
         font-size: 30px; }
-  .LAYOUT-UI .breadCrumbs {
-    margin-bottom: 20px; }
-    .LAYOUT-UI .breadCrumbs a {
-      padding: 5px;
+  .LAYOUT-UI .breadCrumbs a {
+    padding: 5px;
+    font-size: 0.9em;
+    color: var(--neutral-400);
+    text-decoration: none !important;
+    padding-left: 0; }
+    .LAYOUT-UI .breadCrumbs a:hover {
+      color: var(--primary-500); }
+    .LAYOUT-UI .breadCrumbs a::before {
+      content: "\e905";
       font-size: 0.9em;
+      font-family: 'base-icons' !important;
       color: var(--neutral-400);
-      text-decoration: none !important;
-      padding-left: 0; }
-      .LAYOUT-UI .breadCrumbs a:hover {
-        color: var(--primary-500); }
-      .LAYOUT-UI .breadCrumbs a::before {
-        content: "\e905";
-        font-size: 0.9em;
-        font-family: 'base-icons' !important;
-        color: var(--neutral-400);
-        font-weight: 600 !important;
-        margin-right: 10px; }
-      .LAYOUT-UI .breadCrumbs a:last-child {
-        border-right: 0; }
-      .LAYOUT-UI .breadCrumbs a:first-child::before {
-        display: none; }
-      .LAYOUT-UI .breadCrumbs a.active {
-        font-weight: 700;
-        color: var(--neutral-700); }
-        .LAYOUT-UI .breadCrumbs a.active:hover {
-          ccolor: var(--primary-500) !important; }
-    @media (max-width: 760px) {
-      .LAYOUT-UI .breadCrumbs {
-        display: none; } }
+      font-weight: 600 !important;
+      margin-right: 10px; }
+    .LAYOUT-UI .breadCrumbs a:last-child {
+      border-right: 0; }
+    .LAYOUT-UI .breadCrumbs a:first-child::before {
+      display: none; }
+    .LAYOUT-UI .breadCrumbs a.active {
+      font-weight: 700;
+      color: var(--neutral-700); }
+      .LAYOUT-UI .breadCrumbs a.active:hover {
+        ccolor: var(--primary-500) !important; }
+  @media (max-width: 760px) {
+    .LAYOUT-UI .breadCrumbs {
+      display: none; } }
   .LAYOUT-UI .accordion {
     -webkit-transition: all 200ms ease-in;
     -moz-transition: all 200ms ease-in;

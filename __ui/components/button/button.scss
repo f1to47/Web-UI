@@ -1,0 +1,210 @@
+a.button {
+  text-decoration: none;
+}
+
+.button {
+  height: var(--button-action-area-height);
+  // background-color: aquamarine;
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+
+  font-size: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .button-shape {
+    height: var(--button-normal-height);
+    background-color: var(--button-primary-background-color);
+    color: var(--button-primary-label-color);
+    border-radius: var(--button-border-radius);
+    border: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+
+    @include geneBrow(transition, background-color 100ms ease-out);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: var(--button-primary-background-color);
+    color: var(--button-primary-color);
+
+    label{
+      font-size: var(--button-normal-font-size);
+      font-weight: var(--button-primary-font-weight);
+      color: var(--button-primary-label-color);
+    }
+  }
+
+  &:hover {
+    .button-shape {
+    background-color: var(--button-primary-hover-background-color);
+    label{
+      color: var(--button-primary-hover-label-color);
+    }
+    }
+  }
+
+
+
+
+
+
+
+  
+  
+  
+  &.secondary {
+    .button-shape {
+      background-color: var(--button-secondary-background-color);
+      label{
+        color: var(--button-secondary-label-color);
+      }  
+    }
+    
+    &:hover {
+      .button-shape {
+        background-color: var(--button-secondary-hover-background-color);
+        label{
+         color: var(--button-secondary-hover-label-color);
+        }
+      }
+    }
+    
+    
+  }
+
+  
+  
+  
+  &:disabled {
+    .button-shape {
+    cursor: not-allowed;
+    background-color: var(--button-disabled-background-color)!important;
+    label{
+    color: var(--button-disabled-label-color)!important;
+    }  
+  }
+
+    &:hover {
+      .button-shape {
+        background-color: var(--button-disabled-background-color)!important;
+        label{
+        color: var(--button-disabled-label-color)!important;
+        }
+      }
+    }
+
+  }
+
+
+
+  // Display a cross with CSS only.
+//
+// $size  : px or em
+// $color : color
+// $thickness : px
+@mixin cross($size: 20px, $color: currentColor, $thickness: 1px) {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  position: relative;
+  width: $size;
+  height: $size;
+
+  &:before,
+  &:after {
+    content: '';
+    position: absolute;
+    top: ($size - $thickness) / 2;
+    left: 0;
+    right: 0;
+    height: $thickness;
+    background: $color;
+    border-radius: $thickness;
+  }
+
+  &:before {
+    transform: rotate(45deg);
+  }
+
+  &:after {
+    transform: rotate(-45deg);
+  }
+
+  span {
+    display: block;
+  }
+
+}
+
+
+// Example 1.
+.btn-close {
+ 
+
+}
+
+
+  &.button-close{ 
+
+    width: var(--button-action-area-height);
+
+
+      .button-shape{
+        margin: 0;
+  border: 0;
+  padding: 0;
+  background: var(--button-primary-background-color);
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 150ms;
+  
+  label {
+    @include cross(15px, var(--button-primary-label-color), 2px);   
+  }
+  
+}
+  &:hover,
+  &:focus {
+    .button-shape{
+    transform: rotateZ(90deg);
+    background: var(--button-primary-hover-background-color);
+    label {
+      @include cross(15px, var(--button-primary-hover-label-color), 2px);   
+    }
+  }
+  }
+
+
+        
+     
+    
+  }
+
+
+  & [class^="icon-"],
+  & [class*=" icon-"] {
+    font-size: 25px !important;
+    height: 10px;
+    // margin-top: 2px;
+    display: flex;
+    align-items: center;
+    // margin-left: 0.2em;
+  }
+
+
+
+
+
+}

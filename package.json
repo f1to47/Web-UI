@@ -1,0 +1,25 @@
+{
+  "name": "web-tono",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-dt-vars": "style-dictionary build --config ./style-dictionary/colors/dark-theme/dt-vars.js",
+    "build-lt-vars": "style-dictionary build --config ./style-dictionary/colors/light-theme/lt-vars.js",
+    "build-fixed-colors": "style-dictionary build --config ./style-dictionary/colors/fixed-colors.js",
+    "build-colors": "npm run build-lt-vars && npm run build-dt-vars && npm run build-fixed-colors",
+    "build-atoms": "style-dictionary build --config ./style-dictionary/atoms/atoms.js",
+    "build-foundation-vars": "style-dictionary build --config ./style-dictionary/foundation/foundation-vars.js",
+    "build-component-compositions": "style-dictionary build --config ./style-dictionary/components/components-compositions.js",
+    "build-component-styles": "style-dictionary build --config ./style-dictionary/components/components-styles.js",
+    "compile-fonts": "node-sass --source-map true ./__ui/__font-import.scss -o ./__ui/__css-output/",
+    "compile-core": "node-sass --source-map true ./__ui/_core.scss -o ./__ui/__css-output/",
+    "build-ui": "npm run build-colors && npm run build-atoms && npm run build-foundation-vars && npm run build-component-styles && npm run compile-fonts && npm run compile-core"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "style-dictionary": "^3.7.1"
+  }
+}

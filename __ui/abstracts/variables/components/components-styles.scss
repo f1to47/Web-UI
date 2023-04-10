@@ -5,7 +5,7 @@
 --button-primary-label-color:var(--white);
 --button-primary-hover-label-color:var(--fix-primary-600);
 --button-primary-font-weight:500;
---button-secondary-background-color:var(--neutral-200);
+--button-secondary-background-color:var(--button-secondary-background-color);
 --button-secondary-hover-background-color:var(--fix-primary-200);
 --button-secondary-label-color:var(--primary-600);
 --button-secondary-hover-label-color:var(--fix-primary-600);
@@ -22,8 +22,14 @@
 --button-disabled-label-color:var(--neutral-200);
 --card-padding:1.375em;
 --card-bg-color:var(--base);
+--card-border-color:var(--neutral-100);
 --card-border-radius:12px;
 --card-drop-shadow: 0px  2px  10px  0px  var(--shadow-color) ;
+--card-basic-border:[object Object];
+--card-secondary-bg-color:var(--secondary-50);
+--card-secondary-border-color:var(--fix-secondary-100);
+--card-gap:0.75em;
+--card-hover-shadow: 0px  0px  0px  6px  var(--primary-300) ;
 --tabMenu-drop-shadow: 0px  2px  10px  0px  var(--shadow-color) ;
 --tabMenu-border-radius:12px;
 --tabMenu-height:75;

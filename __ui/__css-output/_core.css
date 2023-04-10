@@ -11,7 +11,7 @@
   --neutral-700: #363f54;
   --neutral-800: #303747;
   --neutral-900: #282F3F;
-  --primary-50: #D9EFFF;
+  --primary-50: #DCF0FF;
   --primary-100: #B2DEFF;
   --primary-200: #91cdff;
   --primary-300: #6eb8ff;
@@ -21,15 +21,38 @@
   --primary-700: #0033a0;
   --primary-800: #1a2a8d;
   --primary-900: #07177A;
-  --secondary-100: #91f3ff;
-  --secondary-200: #71e6ff;
-  --secondary-300: #61d6f3;
-  --secondary-400: #4ec3e0;
-  --secondary-500: #0a7f98;
-  --secondary-600: #03758e;
-  --secondary-700: #016c85;
-  --secondary-800: #00617a;
-  --shadow-color: #00000024; }
+  --success-50: #BAFEB8;
+  --success-100: #85EE82;
+  --success-200: #66CF63;
+  --success-300: #58C155;
+  --success-400: #47B044;
+  --success-500: #1A7219;
+  --success-600: #0A6209;
+  --success-700: #015401;
+  --success-800: #004900;
+  --success-900: #043E04;
+  --error-50: #FADBE3;
+  --error-100: #FFB4BF;
+  --error-200: #FF95A0;
+  --error-300: #FF7B86;
+  --error-400: #FF5E69;
+  --error-500: #CD1420;
+  --error-600: #BC030F;
+  --error-700: #AA0101;
+  --error-800: #9D0000;
+  --error-900: #8E0000;
+  --secondary-50: #FCFCCB;
+  --secondary-100: #F3F839;
+  --secondary-200: #E2E039;
+  --secondary-300: #D1CC25;
+  --secondary-400: #C0BB14;
+  --secondary-500: #9A6526;
+  --secondary-600: #8F5A1B;
+  --secondary-700: #855011;
+  --secondary-800: #743F00;
+  --secondary-900: #613809;
+  --shadow-color: #00000024;
+  --button-secondary-background-color: #B2DEFF; }
 
 :root {
   --border-radius-6:6px;
@@ -71,7 +94,7 @@
   --button-primary-label-color:var(--white);
   --button-primary-hover-label-color:var(--fix-primary-600);
   --button-primary-font-weight:500;
-  --button-secondary-background-color:var(--neutral-200);
+  --button-secondary-background-color:var(--button-secondary-background-color);
   --button-secondary-hover-background-color:var(--fix-primary-200);
   --button-secondary-label-color:var(--primary-600);
   --button-secondary-hover-label-color:var(--fix-primary-600);
@@ -88,8 +111,14 @@
   --button-disabled-label-color:var(--neutral-200);
   --card-padding:1.375em;
   --card-bg-color:var(--base);
+  --card-border-color:var(--neutral-100);
   --card-border-radius:12px;
   --card-drop-shadow: 0px  2px  10px  0px  var(--shadow-color) ;
+  --card-basic-border:[object Object];
+  --card-secondary-bg-color:var(--secondary-50);
+  --card-secondary-border-color:var(--fix-secondary-100);
+  --card-gap:0.75em;
+  --card-hover-shadow: 0px  0px  0px  6px  var(--primary-300) ;
   --tabMenu-drop-shadow: 0px  2px  10px  0px  var(--shadow-color) ;
   --tabMenu-border-radius:12px;
   --tabMenu-height:75;
@@ -121,14 +150,36 @@
   --fix-primary-700: #0033a0;
   --fix-primary-800: #1a2a8d;
   --fix-primary-900: #07177A;
-  --fix-secondary-100: #91f3ff;
-  --fix-secondary-200: #71e6ff;
-  --fix-secondary-300: #61d6f3;
-  --fix-secondary-400: #4ec3e0;
-  --fix-secondary-500: #0a7f98;
-  --fix-secondary-600: #03758e;
-  --fix-secondary-700: #016c85;
-  --fix-secondary-800: #00617a; }
+  --fix-success-50: #96FD93;
+  --fix-success-100: #85EE82;
+  --fix-success-200: #66CF63;
+  --fix-success-300: #58C155;
+  --fix-success-400: #47B044;
+  --fix-success-500: #1A7219;
+  --fix-success-600: #0A6209;
+  --fix-success-700: #015401;
+  --fix-success-800: #004900;
+  --fix-success-900: #043E04;
+  --fix-error-50: #FAD8E1;
+  --fix-error-100: #FFB4BF;
+  --fix-error-200: #FF95A0;
+  --fix-error-300: #FF7B86;
+  --fix-error-400: #FF5E69;
+  --fix-error-500: #CD1420;
+  --fix-error-600: #BC030F;
+  --fix-error-700: #AA0101;
+  --fix-error-800: #9D0000;
+  --fix-error-900: #8E0000;
+  --fix-secondary-50: #F3F839;
+  --fix-secondary-100: #E3E829;
+  --fix-secondary-200: #D2D718;
+  --fix-secondary-300: #C7C70D;
+  --fix-secondary-400: #B3AF00;
+  --fix-secondary-500: #847600;
+  --fix-secondary-600: #756500;
+  --fix-secondary-700: #6A5801;
+  --fix-secondary-800: #614D00;
+  --fix-secondary-900: #584200; }
 
 :root {
   --h1-font-size:2.25em;
@@ -6607,102 +6658,56 @@ html {
       font-size: 150px !important; }
     .LAYOUT-UI [class^="icon-"].icon-size-200, .LAYOUT-UI [class*=" icon-"].icon-size-200 {
       font-size: 200px !important; }
-  .LAYOUT-UI .icon-Video:before {
-    content: "\e928"; }
-  .LAYOUT-UI .icon-AddCircle:before {
+  .LAYOUT-UI .icon-addCircle:before {
     content: "\e900"; }
-  .LAYOUT-UI .icon-ArrowBottom:before {
+  .LAYOUT-UI .icon-caution:before {
     content: "\e901"; }
-  .LAYOUT-UI .icon-ArrowBottomLeft:before {
+  .LAYOUT-UI .icon-caution-fill:before {
     content: "\e902"; }
-  .LAYOUT-UI .icon-ArrowBottomRight:before {
+  .LAYOUT-UI .icon-checkCircle:before {
     content: "\e903"; }
-  .LAYOUT-UI .icon-ArrowLeft:before {
+  .LAYOUT-UI .icon-checkCircle-fill:before {
     content: "\e904"; }
-  .LAYOUT-UI .icon-ArrowRight:before {
+  .LAYOUT-UI .icon-chile:before {
     content: "\e905"; }
-  .LAYOUT-UI .icon-ArrowTop:before {
+  .LAYOUT-UI .icon-circleArrowBottom:before {
     content: "\e906"; }
-  .LAYOUT-UI .icon-ArrowTopLeft:before {
+  .LAYOUT-UI .icon-circleArrowLeft:before {
     content: "\e907"; }
-  .LAYOUT-UI .icon-ArrowTopRight:before {
+  .LAYOUT-UI .icon-circleArrowRight:before {
     content: "\e908"; }
-  .LAYOUT-UI .icon-BarGraphic:before {
+  .LAYOUT-UI .icon-circleArrowTop:before {
     content: "\e909"; }
-  .LAYOUT-UI .icon-Calendar:before {
+  .LAYOUT-UI .icon-circleCaretBottom:before {
     content: "\e90a"; }
-  .LAYOUT-UI .icon-Caution:before {
+  .LAYOUT-UI .icon-circleCaretLeft:before {
     content: "\e90b"; }
-  .LAYOUT-UI .icon-Chile:before {
+  .LAYOUT-UI .icon-circleCaretRight:before {
     content: "\e90c"; }
-  .LAYOUT-UI .icon-CircleArrowBottom:before {
+  .LAYOUT-UI .icon-circleCaretTop:before {
     content: "\e90d"; }
-  .LAYOUT-UI .icon-CircleArrowLeft:before {
+  .LAYOUT-UI .icon-error:before {
     content: "\e90e"; }
-  .LAYOUT-UI .icon-CircleArrowRight:before {
+  .LAYOUT-UI .icon-house:before {
     content: "\e90f"; }
-  .LAYOUT-UI .icon-CircleArrowTop:before {
+  .LAYOUT-UI .icon-house-fill:before {
     content: "\e910"; }
-  .LAYOUT-UI .icon-CircleCaretBottom:before {
+  .LAYOUT-UI .icon-mail:before {
     content: "\e911"; }
-  .LAYOUT-UI .icon-CircleCaretLeft:before {
+  .LAYOUT-UI .icon-mapPin:before {
     content: "\e912"; }
-  .LAYOUT-UI .icon-CircleCaretRight:before {
+  .LAYOUT-UI .icon-paperclip:before {
     content: "\e913"; }
-  .LAYOUT-UI .icon-CircleCaretTop:before {
+  .LAYOUT-UI .icon-warningCircle:before {
     content: "\e914"; }
-  .LAYOUT-UI .icon-Coins:before {
+  .LAYOUT-UI .icon-warningDiamond:before {
     content: "\e915"; }
-  .LAYOUT-UI .icon-CoinVertical:before {
+  .LAYOUT-UI .icon-warningDiamond-fill:before {
     content: "\e916"; }
-  .LAYOUT-UI .icon-Error:before {
-    content: "\e917"; }
-  .LAYOUT-UI .icon-Mail:before {
-    content: "\e918"; }
-  .LAYOUT-UI .icon-MapPin:before {
-    content: "\e919"; }
-  .LAYOUT-UI .icon-Mobile:before {
-    content: "\e91a"; }
-  .LAYOUT-UI .icon-Ok:before {
-    content: "\e91b"; }
-  .LAYOUT-UI .icon-Paperclip:before {
-    content: "\e91c"; }
-  .LAYOUT-UI .icon-Phone:before {
-    content: "\e91d"; }
-  .LAYOUT-UI .icon-Send:before {
-    content: "\e91e"; }
-  .LAYOUT-UI .icon-Spinner:before {
-    content: "\e91f"; }
-  .LAYOUT-UI .icon-Trash:before {
-    content: "\e920"; }
-  .LAYOUT-UI .icon-Warning:before {
-    content: "\e921"; }
-  .LAYOUT-UI .icon-World:before {
-    content: "\e922"; }
-  .LAYOUT-UI .icon-youtube:before {
-    content: "\e923"; }
-  .LAYOUT-UI .icon-linkedin:before {
-    content: "\e924"; }
-  .LAYOUT-UI .icon-brand:before {
-    content: "\e924"; }
-  .LAYOUT-UI .icon-social:before {
-    content: "\e924"; }
   .LAYOUT-UI .icon-whatsapp:before {
-    content: "\e925"; }
-  .LAYOUT-UI .icon-brand1:before {
-    content: "\e925"; }
-  .LAYOUT-UI .icon-social1:before {
-    content: "\e925"; }
-  .LAYOUT-UI .icon-twitter:before {
-    content: "\e926"; }
-  .LAYOUT-UI .icon-brand2:before {
-    content: "\e926"; }
-  .LAYOUT-UI .icon-tweet:before {
-    content: "\e926"; }
-  .LAYOUT-UI .icon-social2:before {
-    content: "\e926"; }
-  .LAYOUT-UI .icon-facebook:before {
-    content: "\e927"; }
+    content: "\e917"; }
+  .LAYOUT-UI .icon-world:before {
+    content: "\e918"; }
   .LAYOUT-UI ul {
     list-style-type: disc;
     padding-left: var(--spacing-medium); }

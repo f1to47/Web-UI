@@ -223,6 +223,6 @@
 @font-face {
   font-family: "base-icons";
   font-weight: eot woff ttf;
-  src: url("../../__font-library/icon-library/icomoon.eot?") format("eot"), url("../../__font-library/icon-library/icomoon.woff") format("woff"), url("../../__font-library/icon-library/icomoon.ttf") format("truetype"), url("../../__font-library/icon-library/icomoon.svg#base-icons") format("svg"); }
+  src: url("../../__font-library/icon-library/fonts/icomoon.eot?") format("eot"), url("../../__font-library/icon-library/fonts/icomoon.woff") format("woff"), url("../../__font-library/icon-library/fonts/icomoon.ttf") format("truetype"), url("../../__font-library/icon-library/fonts/icomoon.svg#base-icons") format("svg"); }
 
 /*# sourceMappingURL=__font-import.css.map */

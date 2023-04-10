@@ -1,14 +1,14 @@
 {
   "tokenSetOrder": [
     "foundation-tokens",
-    "colors/theme-light-colors",
-    "colors/theme-dark-colors",
     "colors/fixed-colors",
+    "colors/theme-light-colors",
     "colors/theme-light-split-colors",
+    "colors/theme-dark-colors",
     "colors/theme-dark-split-colors",
     "atoms/a_headings",
     "components/c_card",
     "components/c_button",
-    "components/c_tabMenu"
+    "components/c_alerts"
   ]
 }

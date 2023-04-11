@@ -70,5 +70,9 @@
       "color": "{base-contrast}"
     },
     "type": "border"
+  },
+  "alert-icon-size": {
+    "value": "36px",
+    "type": "sizing"
   }
 }

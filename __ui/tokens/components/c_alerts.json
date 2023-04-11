@@ -65,7 +65,7 @@
   },
   "alert-border": {
     "value": {
-      "width": "6px",
+      "width": "3px",
       "style": "solid",
       "color": "{base-contrast}"
     },

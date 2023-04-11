@@ -65,7 +65,9 @@
   },
   "alert-border": {
     "value": {
-      "width": "6px"
+      "width": "6",
+      "style": "solid",
+      "color": "{base-contrast}"
     },
     "type": "border"
   }

@@ -58,5 +58,15 @@
   "alert-mobile-gap": {
     "value": "{spacing-extra-small}",
     "type": "spacing"
+  },
+  "alert-border-radius": {
+    "value": "{border-radius-12}",
+    "type": "borderRadius"
+  },
+  "alert-border": {
+    "value": {
+      "width": "6px"
+    },
+    "type": "border"
   }
 }

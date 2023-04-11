@@ -1,9 +1,7 @@
 {
-  "alert-error": {
-    "icon-color": {
-      "value": "{error-500}",
-      "type": "color"
-    }
+  "alert-error-icon-color": {
+    "value": "{error-500}",
+    "type": "color"
   },
   "alert-error-background-color": {
     "value": "{error-50}",

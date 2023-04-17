@@ -126,5 +126,9 @@
   "font-size-giant": {
     "value": "2.875em",
     "type": "fontSizes"
+  },
+  "spacing-extra-giant": {
+    "value": "4em",
+    "type": "spacing"
   }
 }

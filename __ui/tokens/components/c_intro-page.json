@@ -1,0 +1,18 @@
+{
+  "introPage-background-color": {
+    "value": "{neutral-50}",
+    "type": "color"
+  },
+  "introPage-padding": {
+    "value": "{spacing-bigger}",
+    "type": "spacing"
+  },
+  "introPage-gap": {
+    "value": "{spacing-big}",
+    "type": "spacing"
+  },
+  "introPage-icon-size": {
+    "value": "100",
+    "type": "sizing"
+  }
+}

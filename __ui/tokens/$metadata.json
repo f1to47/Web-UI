@@ -9,6 +9,10 @@
     "atoms/a_headings",
     "components/c_card",
     "components/c_button",
-    "components/c_alerts"
+    "components/c_alerts",
+    "components/c_intro-page",
+    "components/c_introLandingHome",
+    "structure",
+    "structure/container"
   ]
 }

@@ -22,5 +22,9 @@
   "introLandingHome-logo-width": {
     "value": "233px",
     "type": "sizing"
+  },
+  "introLandingHome-background-color": {
+    "value": "{primary-50}",
+    "type": "color"
   }
 }

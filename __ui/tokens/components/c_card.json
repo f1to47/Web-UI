@@ -60,5 +60,13 @@
   "card-cta-area-gap": {
     "value": "{spacing-medium}",
     "type": "spacing"
+  },
+  "card-cta-area-border": {
+    "value": {
+      "color": "{fix-neutral-300}",
+      "width": "1px",
+      "style": "solid"
+    },
+    "type": "border"
   }
 }

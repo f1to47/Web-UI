@@ -52,5 +52,13 @@
   "card-hover-outline-color": {
     "value": "{primary-300}",
     "type": "color"
+  },
+  "card-cta-area-padding-top": {
+    "value": "{spacing-medium}",
+    "type": "spacing"
+  },
+  "card-cta-area-gap": {
+    "value": "{spacing-medium}",
+    "type": "spacing"
   }
 }

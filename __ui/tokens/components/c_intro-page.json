@@ -14,5 +14,9 @@
   "introPage-icon-size": {
     "value": "100",
     "type": "sizing"
+  },
+  "introPage-cta-area-mobile-padding-top": {
+    "value": "{spacing-medium}",
+    "type": "spacing"
   }
 }

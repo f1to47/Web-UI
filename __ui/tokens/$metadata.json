@@ -13,6 +13,7 @@
     "components/c_intro-page",
     "components/c_introLandingHome",
     "structure",
-    "structure/container"
+    "structure/container",
+    "components/c_cta-area"
   ]
 }

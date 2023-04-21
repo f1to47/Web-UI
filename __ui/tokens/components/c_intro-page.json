@@ -1,5 +1,9 @@
 {
   "introPage-background-color": {
+    "value": "{fix-neutral-50}",
+    "type": "color"
+  },
+  "introPage-bg-image-background-color": {
     "value": "{base}",
     "type": "color"
   },

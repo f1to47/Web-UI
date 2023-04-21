@@ -3,7 +3,7 @@
     "value": "{neutral-50}",
     "type": "color"
   },
-  "introPage-padding": {
+  "introPage-container-vertical-padding": {
     "value": "{spacing-bigger}",
     "type": "spacing"
   },
@@ -18,5 +18,13 @@
   "introPage-cta-area-mobile-padding-top": {
     "value": "{spacing-medium}",
     "type": "spacing"
+  },
+  "introPage-border-bottom": {
+    "value": {
+      "color": "{primary-300}",
+      "width": "3px",
+      "style": "solid"
+    },
+    "type": "border"
   }
 }

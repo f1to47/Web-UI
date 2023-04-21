@@ -1,6 +1,6 @@
 {
   "introPage-background-color": {
-    "value": "{neutral-50}",
+    "value": "{base}",
     "type": "color"
   },
   "introPage-container-padding-top": {
@@ -29,7 +29,15 @@
   },
   "introPage-border-bottom": {
     "value": {
-      "color": "{neutral-300}",
+      "color": "{error-800}",
+      "width": "3px",
+      "style": "solid"
+    },
+    "type": "border"
+  },
+  "introPage-border-bottom-copy": {
+    "value": {
+      "color": "{error-800}",
       "width": "3px",
       "style": "solid"
     },
@@ -38,5 +46,17 @@
   "introPage-mobile-bg-height": {
     "value": "143px",
     "type": "spacing"
+  },
+  "gg": {
+    "value": {
+      "color": "{alert-error-border-color}",
+      "width": "5px",
+      "style": "solid"
+    },
+    "type": "border"
+  },
+  "introPage-border-bottom-color": {
+    "value": "{neutral-100}",
+    "type": "color"
   }
 }

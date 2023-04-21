@@ -3,11 +3,19 @@
     "value": "{neutral-50}",
     "type": "color"
   },
-  "introPage-container-vertical-padding": {
-    "value": "{spacing-bigger}",
+  "introPage-container-padding-top": {
+    "value": "{spacing-big}",
     "type": "spacing"
   },
-  "introPage-gap": {
+  "introPage-container-padding-bottom": {
+    "value": "{spacing-big}",
+    "type": "spacing"
+  },
+  "introPage-bg-image-container-padding-top": {
+    "value": "{spacing-medium}",
+    "type": "spacing"
+  },
+  "introPage-container-gap": {
     "value": "{spacing-big}",
     "type": "spacing"
   },
@@ -16,7 +24,7 @@
     "type": "sizing"
   },
   "introPage-cta-area-mobile-padding-top": {
-    "value": "{spacing-medium}",
+    "value": "{spacing-medium-big}",
     "type": "spacing"
   },
   "introPage-border-bottom": {

@@ -29,7 +29,7 @@
   },
   "introPage-border-bottom": {
     "value": {
-      "color": "{error-800}",
+      "color": "{introPage-border-bottom-color}",
       "width": "3px",
       "style": "solid"
     },

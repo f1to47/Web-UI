@@ -23,7 +23,7 @@
     },
     "type": "border"
   },
-  "phone-number": {
+  "footer-phone-number-font-size": {
     "value": "{font-size-bigger}",
     "type": "fontSizes"
   },

@@ -1,0 +1,42 @@
+{
+  "footer-contact-options-gap": {
+    "value": "{spacing-medium}",
+    "type": "spacing"
+  },
+  "footer-contact-options-padding-bottom": {
+    "value": "{spacing-giant}",
+    "type": "spacing"
+  },
+  "footer-vertical-padding": {
+    "value": "{spacing-bigger}",
+    "type": "spacing"
+  },
+  "footer-contact-border-color": {
+    "value": "{neutral-200}",
+    "type": "color"
+  },
+  "footer-contact-options-border-bottom": {
+    "value": {
+      "color": "{footer-contact-border-color}",
+      "width": "2px",
+      "style": "solid"
+    },
+    "type": "border"
+  },
+  "phone-number": {
+    "value": "{font-size-bigger}",
+    "type": "fontSizes"
+  },
+  "footer-phone-area-gap": {
+    "value": "{spacing-big}",
+    "type": "spacing"
+  },
+  "footer-number-gap": {
+    "value": "{spacing-bigger}",
+    "type": "spacing"
+  },
+  "footer-background-color": {
+    "value": "{neutral-50}",
+    "type": "color"
+  }
+}

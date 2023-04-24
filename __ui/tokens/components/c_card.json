@@ -28,7 +28,7 @@
   },
   "card-basic-border": {
     "value": {
-      "color": "{neutral-300}",
+      "color": "{card-border-color}",
       "width": "3px",
       "style": "solid"
     },

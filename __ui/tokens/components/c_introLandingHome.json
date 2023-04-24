@@ -13,7 +13,7 @@
   },
   "introLandingHome-boder-top": {
     "value": {
-      "color": "{fix-secondary-50}",
+      "color": "{fix-secondary-100}",
       "width": "8px",
       "style": "solid"
     },

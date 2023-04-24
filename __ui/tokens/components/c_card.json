@@ -8,7 +8,7 @@
     "type": "color"
   },
   "card-border-color": {
-    "value": "{neutral-300}",
+    "value": "{neutral-200}",
     "type": "color"
   },
   "card-border-radius": {
@@ -68,5 +68,9 @@
       "style": "solid"
     },
     "type": "border"
+  },
+  "card-actionable-border-color": {
+    "value": "{primary-100}",
+    "type": "color"
   }
 }

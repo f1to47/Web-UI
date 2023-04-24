@@ -24,7 +24,7 @@
     "type": "border"
   },
   "footer-phone-number-font-size": {
-    "value": "{font-size-bigger}",
+    "value": "{font-size-extra-big}",
     "type": "fontSizes"
   },
   "footer-phone-area-gap": {

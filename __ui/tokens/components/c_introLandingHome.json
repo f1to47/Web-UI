@@ -23,6 +23,10 @@
     "value": "233px",
     "type": "sizing"
   },
+  "introLandingHome-logo-mobile-width": {
+    "value": "180px",
+    "type": "sizing"
+  },
   "introLandingHome-background-color": {
     "value": "{primary-50}",
     "type": "color"

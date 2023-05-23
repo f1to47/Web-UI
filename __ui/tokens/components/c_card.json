@@ -8,7 +8,7 @@
     "type": "color"
   },
   "card-border-color": {
-    "value": "{neutral-200}",
+    "value": "{neutral-100}",
     "type": "color"
   },
   "card-border-radius": {
@@ -43,7 +43,7 @@
       "x": "0",
       "y": "0",
       "blur": "0",
-      "spread": "6",
+      "spread": "8",
       "color": "{card-hover-outline-color}",
       "type": "dropShadow"
     },
@@ -61,16 +61,32 @@
     "value": "{spacing-medium}",
     "type": "spacing"
   },
-  "card-cta-area-border": {
-    "value": {
-      "color": "{fix-neutral-300}",
-      "width": "1px",
-      "style": "solid"
-    },
-    "type": "border"
-  },
   "card-actionable-border-color": {
     "value": "{primary-100}",
     "type": "color"
+  },
+  "card-acccionable-border-color": {
+    "value": "{primary-400}",
+    "type": "color"
+  },
+  "card-accionable-title-color": {
+    "value": "{primary-600}",
+    "type": "color"
+  },
+  "card-accionable-border": {
+    "value": {
+      "color": "{fix-primary-400}",
+      "style": "solid",
+      "width": "3px"
+    },
+    "type": "border"
+  },
+  "card-cta-area-border-top": {
+    "value": {
+      "color": "{neutral-100}",
+      "width": "2",
+      "style": "solid"
+    },
+    "type": "border"
   }
 }

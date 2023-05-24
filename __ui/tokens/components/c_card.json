@@ -62,7 +62,7 @@
     "type": "spacing"
   },
   "card-actionable-border-color": {
-    "value": "{primary-100}",
+    "value": "{primary-400}",
     "type": "color"
   },
   "card-acccionable-border-color": {
@@ -75,7 +75,7 @@
   },
   "card-accionable-border": {
     "value": {
-      "color": "{fix-primary-400}",
+      "color": "{card-acccionable-border-color}",
       "style": "solid",
       "width": "3px"
     },

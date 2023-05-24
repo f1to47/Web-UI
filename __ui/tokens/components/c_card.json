@@ -73,7 +73,7 @@
     "value": "{primary-600}",
     "type": "color"
   },
-  "card-accionable-border": {
+  "card-actionable-border": {
     "value": {
       "color": "{card-acccionable-border-color}",
       "style": "solid",

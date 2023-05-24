@@ -84,7 +84,7 @@
   "card-cta-area-border-top": {
     "value": {
       "color": "{neutral-100}",
-      "width": "2",
+      "width": "2px",
       "style": "solid"
     },
     "type": "border"

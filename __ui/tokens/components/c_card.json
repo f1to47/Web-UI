@@ -65,17 +65,13 @@
     "value": "{primary-400}",
     "type": "color"
   },
-  "card-acccionable-border-color": {
-    "value": "{primary-400}",
-    "type": "color"
-  },
   "card-accionable-title-color": {
     "value": "{primary-600}",
     "type": "color"
   },
   "card-actionable-border": {
     "value": {
-      "color": "{card-acccionable-border-color}",
+      "color": "{card-actionable-border-color}",
       "style": "solid",
       "width": "3px"
     },

@@ -12,9 +12,10 @@
     "components/c_alerts",
     "components/c_intro-page",
     "components/c_introLandingHome",
-    "structure",
-    "structure/container",
     "components/c_cta-area",
-    "components/c_footer"
+    "components/c_footer",
+    "components/c_accordion",
+    "structure",
+    "structure/container"
   ]
 }

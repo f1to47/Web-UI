@@ -29,7 +29,7 @@
   "card-basic-border": {
     "value": {
       "color": "{card-border-color}",
-      "width": "3px",
+      "width": "2px",
       "style": "solid"
     },
     "type": "border"
@@ -73,7 +73,7 @@
     "value": {
       "color": "{card-actionable-border-color}",
       "style": "solid",
-      "width": "3px"
+      "width": "2px"
     },
     "type": "border"
   },

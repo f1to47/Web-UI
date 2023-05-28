@@ -8,7 +8,7 @@
     "type": "color"
   },
   "accordion-item-header-area-color": {
-    "value": "{primary-500}",
+    "value": "{primary-600}",
     "type": "color"
   },
   "accordion-item-border": {

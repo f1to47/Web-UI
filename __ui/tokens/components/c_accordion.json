@@ -7,7 +7,7 @@
     "value": "{neutral-200}",
     "type": "color"
   },
-  "accordion-item-header-area-color": {
+  "accordion-item-button-area-color": {
     "value": "{primary-600}",
     "type": "color"
   },

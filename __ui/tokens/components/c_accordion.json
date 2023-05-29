@@ -27,7 +27,7 @@
     },
     "type": "border"
   },
-  "accordion-item-gap": {
+  "accordion-item-padding": {
     "value": "{spacing-medium}",
     "type": "spacing"
   },

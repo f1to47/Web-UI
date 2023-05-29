@@ -27,7 +27,11 @@
     },
     "type": "border"
   },
-  "accordion-item-padding": {
+  "accordion-item-button-area-padding": {
+    "value": "{spacing-medium}",
+    "type": "spacing"
+  },
+  "accordion-item-content-area-padding": {
     "value": "{spacing-medium}",
     "type": "spacing"
   },

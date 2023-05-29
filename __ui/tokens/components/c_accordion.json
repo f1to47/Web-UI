@@ -34,5 +34,13 @@
   "accordion-item-border-radius": {
     "value": "{border-radius-12}",
     "type": "borderRadius"
+  },
+  "accordion-item-button-area-background-color": {
+    "value": "{neutral-50}",
+    "type": "color"
+  },
+  "accordion-item-button-area-hover-background-color": {
+    "value": "{primary-100}",
+    "type": "color"
   }
 }

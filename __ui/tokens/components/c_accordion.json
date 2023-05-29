@@ -42,5 +42,9 @@
   "accordion-item-button-area-hover-background-color": {
     "value": "{base}",
     "type": "color"
+  },
+  "accordion-item-button-area-gap": {
+    "value": "{spacing-medium}",
+    "type": "spacing"
   }
 }

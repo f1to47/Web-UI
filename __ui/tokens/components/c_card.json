@@ -86,13 +86,13 @@
     "type": "border"
   },
   "card-actionable-focus-border-color": {
-    "value": "#",
+    "value": "{base-contrast}",
     "type": "color"
   },
   "card-actionable-focus-border": {
     "value": {
       "color": "{card-actionable-focus-border-color}",
-      "width": "3px",
+      "width": "4px",
       "style": "solid"
     },
     "type": "border"

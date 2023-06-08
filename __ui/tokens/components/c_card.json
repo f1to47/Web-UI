@@ -62,10 +62,10 @@
     "type": "spacing"
   },
   "card-actionable-border-color": {
-    "value": "{primary-500}",
+    "value": "{primary-600}",
     "type": "color"
   },
-  "card-accionable-title-color": {
+  "card-actionable-title-color": {
     "value": "{primary-600}",
     "type": "color"
   },
@@ -81,6 +81,18 @@
     "value": {
       "color": "{neutral-100}",
       "width": "2px",
+      "style": "solid"
+    },
+    "type": "border"
+  },
+  "card-actionable-focus-border-color": {
+    "value": "#",
+    "type": "color"
+  },
+  "card-actionable-focus-border": {
+    "value": {
+      "color": "{card-actionable-focus-border-color}",
+      "width": "3px",
       "style": "solid"
     },
     "type": "border"

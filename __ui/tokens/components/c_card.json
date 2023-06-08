@@ -92,7 +92,7 @@
   "card-actionable-focus-border": {
     "value": {
       "color": "{card-actionable-focus-border-color}",
-      "width": "4px",
+      "width": "6px",
       "style": "solid"
     },
     "type": "border"

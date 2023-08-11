@@ -34,7 +34,7 @@
   "introPage-border-bottom": {
     "value": {
       "color": "{introPage-border-bottom-color}",
-      "width": "3px",
+      "width": "1px",
       "style": "solid"
     },
     "type": "border"

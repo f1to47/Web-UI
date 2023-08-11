@@ -1,0 +1,220 @@
+{
+  "base": {
+    "value": "#ffffff",
+    "type": "color"
+  },
+  "base-contrast": {
+    "value": "#292d3b",
+    "type": "color"
+  },
+  "neutral-50": {
+    "value": "#F2F3FB",
+    "type": "color"
+  },
+  "neutral-100": {
+    "value": "#E2E5F1",
+    "type": "color"
+  },
+  "neutral-200": {
+    "value": "#D0D5E3",
+    "type": "color"
+  },
+  "neutral-300": {
+    "value": "#BFC5D4",
+    "type": "color"
+  },
+  "neutral-400": {
+    "value": "#B2B8CA",
+    "type": "color"
+  },
+  "neutral-500": {
+    "value": "#545f79",
+    "type": "color"
+  },
+  "neutral-600": {
+    "value": "#3f4a64",
+    "type": "color"
+  },
+  "neutral-700": {
+    "value": "#363f54",
+    "type": "color"
+  },
+  "neutral-800": {
+    "value": "#303747",
+    "type": "color"
+  },
+  "neutral-900": {
+    "value": "#282F3F",
+    "type": "color"
+  },
+  "primary-50": {
+    "value": "#DCF0FF",
+    "type": "color"
+  },
+  "primary-100": {
+    "value": "#B2DEFF",
+    "type": "color"
+  },
+  "primary-200": {
+    "value": "#91cdff",
+    "type": "color"
+  },
+  "primary-300": {
+    "value": "#6eb8ff",
+    "type": "color"
+  },
+  "primary-400": {
+    "value": "#4d97ff",
+    "type": "color"
+  },
+  "primary-500": {
+    "value": "#275ac7",
+    "type": "color"
+  },
+  "primary-600": {
+    "value": "#1144b1",
+    "type": "color"
+  },
+  "primary-700": {
+    "value": "#0033a0",
+    "type": "color"
+  },
+  "primary-800": {
+    "value": "#1a2a8d",
+    "type": "color"
+  },
+  "primary-900": {
+    "value": "#07177A",
+    "type": "color"
+  },
+  "success-50": {
+    "value": "#BAFEB8",
+    "type": "color"
+  },
+  "success-100": {
+    "value": "#85EE82",
+    "type": "color"
+  },
+  "success-200": {
+    "value": "#66CF63",
+    "type": "color"
+  },
+  "success-300": {
+    "value": "#58C155",
+    "type": "color"
+  },
+  "success-400": {
+    "value": "#47B044",
+    "type": "color"
+  },
+  "success-500": {
+    "value": "#1A7219",
+    "type": "color"
+  },
+  "success-600": {
+    "value": "#0A6209",
+    "type": "color"
+  },
+  "success-700": {
+    "value": "#015401",
+    "type": "color"
+  },
+  "success-800": {
+    "value": "#004900",
+    "type": "color"
+  },
+  "success-900": {
+    "value": "#043E04",
+    "type": "color"
+  },
+  "error-50": {
+    "value": "#FADBE3",
+    "type": "color"
+  },
+  "error-100": {
+    "value": "#FFB4BF",
+    "type": "color"
+  },
+  "error-200": {
+    "value": "#FF95A0",
+    "type": "color"
+  },
+  "error-300": {
+    "value": "#FF7B86",
+    "type": "color"
+  },
+  "error-400": {
+    "value": "#FF5E69",
+    "type": "color"
+  },
+  "error-500": {
+    "value": "#CD1420",
+    "type": "color"
+  },
+  "error-600": {
+    "value": "#BC030F",
+    "type": "color"
+  },
+  "error-700": {
+    "value": "#AA0101",
+    "type": "color"
+  },
+  "error-800": {
+    "value": "#9D0000",
+    "type": "color"
+  },
+  "error-900": {
+    "value": "#8E0000",
+    "type": "color"
+  },
+  "secondary-50": {
+    "value": "#FCFCCB",
+    "type": "color"
+  },
+  "secondary-100": {
+    "value": "#F3F839",
+    "type": "color"
+  },
+  "secondary-200": {
+    "value": "#E2E039",
+    "type": "color"
+  },
+  "secondary-300": {
+    "value": "#D1CC25",
+    "type": "color"
+  },
+  "secondary-400": {
+    "value": "#C0BB14",
+    "type": "color"
+  },
+  "secondary-500": {
+    "value": "#9A6526",
+    "type": "color"
+  },
+  "secondary-600": {
+    "value": "#8F5A1B",
+    "type": "color"
+  },
+  "secondary-700": {
+    "value": "#855011",
+    "type": "color"
+  },
+  "secondary-800": {
+    "value": "#743F00",
+    "type": "color"
+  },
+  "secondary-900": {
+    "value": "#613809",
+    "type": "color"
+  },
+  "shadow-color": {
+    "value": "#00000024",
+    "type": "color"
+  },
+  "button": {
+    "secondary-background-color": {
+      "value": "{primary-100}",
+      "type": "color"
+    }
+  }
+}

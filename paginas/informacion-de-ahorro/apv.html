@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+
+
+
+   <style>
+      html {
+         background-color: var(--base);
+      }
+
+      .section-title {
+         border-bottom: 1px solid var(--neutral-300) !important;
+         padding-bottom: 15px !important;
+         display: flex;
+         flex-direction: row;
+         gap: 10px
+      }
+   </style>
+
+
+</head>
+
+<div class="LAYOUT-UI">
+   <div class="container">
+      <div class="row">
+         <div class="col-sm-12">
+            <div class="breadCrumbs">
+               <a href="/Paginas/default.aspx">Inicio</a><a href="#">Ahorro voluntario</a><a class="active">Ahorro
+                  Previsional Voluntario (APV)</a>
+            </div>
+         </div>
+
+      </div>
+   </div>
+   <section
+      style="padding-top: 40px; padding-bottom: 40px; background-color: var(--neutral-50)  !important; float: left !important;">
+      <div class="container">
+         <div class="row" style="align-items: center;">
+            <div class="col-sm-8">
+               <h1>
+                  <span>APV:</span><span style="font-weight: 400 !important;">Ahorro Previsional Voluntario</span>
+               </h1>
+               <h3>Un aporte para complementar tu futura pensión</h3>
+            </div>
+            <div class="col-sm-4">
+               <a href="/Afiliado/AhorroVoluntario/Paginas/suscribe-APV.aspx" class="button">
+                  <div class="button-shape">
+                     <label>
+                        Contratar APV
+                     </label>
+                  </div>
+               </a>
+            </div>
+         </div>
+      </div>
+   </section>
+   <div class="container">
+      <section>
+         <div class="row">
+            <div class="col-12">
+               <h3>¿Qué es el Ahorro Previsional Voluntario (APV)?</h3>
+               <p>Es una herramienta de ahorro, diferente a tu Cuenta Obligatoria de la AFP, que permite mejorar tu
+                  futura pensión, compensar las lagunas previsionales y/o anticipar tu pensión. Puedes elegir hasta 2 de
+                  los 5 Multifondos para invertir tu dinero.</p>
+            </div>
+            <div class="col-12">
+               <p>
+                  <strong>Un APV tiene múltiples beneficios, como:</strong>
+               </p>
+               <!-- <ul>
+                   <li>
+                      <img src="/Style%20Library/paginas/informacion-de-ahorro/images/giros.svg" alt=""> Realizar los giros que desees de forma 100% online o presencial.</li>
+                   <li>
+                      <img src="/Style%20Library/paginas/informacion-de-ahorro/images/rentabilidad.svg" alt=""> Obtener la rentabilidad de AFP Capital.</li>
+                   <li>
+                      <img src="/Style%20Library/paginas/informacion-de-ahorro/images/deposito.svg" alt=""> Realizar depósitos vía empleador o depósitos directos a través de Previred.</li>
+                   <li>
+                      <img src="/Style%20Library/paginas/informacion-de-ahorro/images/beneficios-estatales.svg" alt=""> Optar a beneficios tributarios y estatales, dependiendo si eliges tener tus ahorros en el Régimen A o B.</li>
+                   </ul> -->
+            </div>
+            <div class="col-sm-6">
+               <div class="card card-vertical-center card-row-mode brother">
+                  <div class="container">
+                     <div class="icon-zone">
+                        <img src="/Style%20Library/paginas/informacion-de-ahorro/images/giros.svg" alt="" />
+                     </div>
+                     <div class="text-zone">
+                        <h4> Realizar los
+                           <a href="#section-giros">giros</a> que desees de forma 100% online o presencial
+                        </h4>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-sm-6">
+               <div class="card card-vertical-center card-row-mode brother">
+                  <div class="container">
+                     <div class="icon-zone">
+                        <img src="/Style%20Library/paginas/informacion-de-ahorro/images/rentabilidad.svg" alt="" />
+                     </div>
+                     <div class="text-zone">
+                        <h4> Obtener la rentabilidad de AFP Capital </h4>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-sm-6">
+               <div class="card card-vertical-center card-row-mode brother">
+                  <div class="container">
+                     <div class="icon-zone">
+                        <img src="/Style%20Library/paginas/informacion-de-ahorro/images/deposito.svg" alt="" />
+                     </div>
+                     <div class="text-zone">
+                        <h4> Realizar depósitos vía empleador o depósitos directos a través de Previred </h4>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-sm-6">
+               <div class="card card-vertical-center card-row-mode brother">
+                  <div class="container">
+                     <div class="icon-zone">
+                        <img src="/Style%20Library/paginas/informacion-de-ahorro/images/beneficios-estatales.svg"
+                           alt="" />
+                     </div>
+                     <div class="text-zone">
+                        <h4> Optar a
+                           <a href="#section-beneficios-tributarios-estatales">beneficios tributarios y
+                              estatales</a><!-- , dependiendo si eliges tener tus ahorros en el Régimen A o B. -->
+                        </h4>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+   </div>
+
+   <section style="background-color: var(--neutral-50); padding-top: var(--spacing-extra-big); padding-bottom: var(--spacing-extra-big);">
+      <div class="container" style="max-width: 700px;">
+         <div class="row">
+            <div class="col-12">
+               <h3 style="text-align: center;">¿Cómo un APV puede mejorar tu futura pensión?</h3>
+               <p style="text-align: center;">Tomemos como ejemplo a <strong>Andrés</strong>, él tiene 35 años y decidió abrir su APV</p>
+
+
+            </div>
+
+            <div class="col-12">
+               <div class="card card-vertical-center" style="max-width: 550px; margin-left: auto; margin-right: auto;">
+                  <div class="container">
+                     <div class="graphic-zone" style="flex: 1 0 90px;">
+                        <img src="/Style%20Library/paginas/informacion-de-ahorro/images/andres-avatar.png" alt="Ilustración de Andrés" style="max-width: 90px">
+                     </div>
+
+                     <div class="text-zone" style="display: flex; align-items: center; justify-content: center; min-width: 300px;">
+
+                        <p>
+                           <strong>Andrés</strong>
+                           <br>
+                           35 años
+                           <br>
+                           Perfil de riesgo: conservador
+                           <br>
+                           Renta imponible: $1.000.000
+                        </p>
+
+                     </div>
+
+
+                  </div>
+               </div>
+            </div>
+
+            <div class="col-12">
+
+               <p style="text-align: center;">Mira cómo la pensión de <strong>Andrés</strong> aumenta según su aporte mensual, comenzando a ahorrar desde sus 35 años:</p>
+
+
+            </div>
+
+
+            <div class="col-12">
+               <div class="card">
+                  <div class="container">
+                     <img src="/Style%20Library/paginas/informacion-de-ahorro/images/grafico-andres.png" alt="grafico apv" style="margin-left: auto; margin-right: auto;">
+
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <div class="container">
+      <!-- <section>
+          <div class="row">
+             <div class="col-12">
+                <h3> Beneficios tributarios y estatales. </h3>
+             </div>
+             <div class="col-12">
+                <div class="accordion ">
+                   <div class="accordion_item ">
+                      <div class="accordion_header">
+                         <h4 class="accordion_title"> ¿Qué es el régimen 
+                            <strong>A</strong> del APV? </h4>
+                      </div>
+                      <div class="accordion_container">
+                         <p> El régimen A es un beneficio estatal que permite aumentar tu pensión, dado que el Estado te deposita anualmente el 15% de los aportes realizados en el año, con un tope de 6 UTM ($371.724 apróx*). 
+                            <br>
+                            <br> Considera que, en caso de que retires dinero se descontará el 15% por concepto de bonificación fiscal. 
+                            <br>
+                            <br> La rentabilidad de los giros que pertenecen al régimen A, están sujetos a pago de impuestos cuando el retiro es mayor a 30 UTM anuales ($1.858.620 apróx*). 
+                            <br>
+                            <br> (*) Valor UTM a febrero de 2023. </p>
+                      </div>
+                   </div>
+                   <div class="accordion_item ">
+                      <div class="accordion_header">
+                         <h4> ¿Qué es el régimen 
+                            <strong>B</strong> del APV? </h4>
+                      </div>
+                      <div class="accordion_container">
+                         <p> Es un beneficio tributario que permite no pagar impuestos de forma anual, mientras la rentabilidad de la suma de los giros realizados durante el año no supere las 30 UTM ($1.476.870 apróx). 
+                            <br>
+                            <br> Cabe destacar que, en caso de que retires este ahorro, estará sujeto a una tasa de impuesto único cuyo valor dependerá de: el monto retirado, los ingresos que obtuviste ese año y el tipo de afiliado/a (si continúas cotizando o si eres pensionado/a). 
+                            <br>
+                            <br> Ten en cuenta que, al inicio del año siguiente, podrás descargar de nuestro sitio web un certificado con todos los movimientos realizados en tu APV, para los efectos de la Declaración de Impuestos a la Renta. 
+                            <br>
+                            <br> El beneficio se realiza cuando los aportes de ahorro en el año calendario no superan las 600 UF anuales. </p>
+                      </div>
+                   </div>
+                </div>
+             </div>
+          </div> </section> -->
+      <section id="section-beneficios-tributarios-estatales">
+         <div class="row">
+            <div class="col-12">
+               <div class="section-title">
+                  <h3> Beneficios tributarios y estatales </h3>
+
+               </div>
+            </div>
+            <div class="col-12">
+               <p>Tienes la​ opción de elegir entre dos alternativas de ahorro, regimen <strong>A</strong> y
+                  <strong>B</strong>, dependiendo de la clase de beneficio que busques o el nivel de ingresos que
+                  tengas​.</p>
+            </div>
+            <div class="col-sm-6">
+               <div class="card card-column-mode"
+                  style="box-shadow: 0px  11px  10px  0px  var(--shadow-color)!important">
+                  <div style="background-color: var(--primary-50);">
+                     <div class="container">
+                        <div class="row">
+                           <div class="col-12">
+                              <div class="text-zone">
+                                 <!-- <h3 style="color: var(--base);">Régimen</h3> -->
+                                 <p
+                                    style="font-size: 1.8em; text-align: center;  margin-top: -10px; color: var(--primary-500); ">
+                                    Régimen <span style="font-weight: 700;">A</span></p>
+                              </div>
+                           </div>
+                        </div>
+
+                     </div>
+                  </div>
+                  <div class="container">
+                     <div class="text-zone">
+
+
+                        <h3 style=" font-style: italic;">Obtén un 15 % adicional <br> a tu ahorro</h3>
+
+
+                        <br>
+                        <!-- <h4> ¿Qué es el régimen 
+                      <strong>A</strong>? </h4> -->
+                        <p>El estado te aportará hasta 15% extra del monto anual ahorrado, con un tope máximo de 6 UTM
+                           al año.
+                           <br><br>
+                           <a onclick="openModal('.modal-regimen-a');" style="font-weight: 700; float: right;">Leer
+                              más</a>
+                        </p>
+                        <!-- Modal Central -->
+                        <div class="modal modal-center modal-center-scrollContent modal-regimen-a">
+                           <div class="card card-modal">
+                              <div class="card-controller card-controller-top">
+                                 <div class="button button-close close-modal">
+                                    <div class="button-shape">
+                                       <label></label>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="container">
+
+                                 <div class="text-zone">
+                                    <h2>Regimen <span style="font-weight: 800;">A</span></h2>
+                                    <br>
+                                    <p> El régimen A es un beneficio estatal que permite aumentar tu pensión, dado que
+                                       el Estado te deposita anualmente el 15% de los aportes realizados en el año, con
+                                       un tope de 6 UTM ($371.724 apróx*).
+                                       <br>
+                                       <br> Considera que, en caso de que retires dinero se descontará el 15% por
+                                       concepto de bonificación fiscal.
+                                       <br>
+                                       <br> La rentabilidad de los giros que pertenecen al régimen A, están sujetos a
+                                       pago de impuestos cuando el retiro es mayor a 30 UTM anuales ($1.858.620 apróx*).
+                                       <br>
+                                       <br> (*) Valor UTM a febrero de 2023.
+                                    </p>
+                                 </div>
+
+                              </div>
+                           </div>
+                        </div>
+                        <!-- Fin Modal Central -->
+                     </div>
+
+                  </div>
+               </div>
+            </div>
+            <div class="col-sm-6">
+               <div class="card card-column-mode"
+                  style="box-shadow: 0px  11px  10px  0px  var(--shadow-color)!important">
+                  <div style="background-color: var(--primary-50);">
+                     <div class="container">
+                        <div class="row">
+                           <div class="col-12">
+                              <div class="text-zone">
+                                 <!-- <h3 style="color: var(--base);">Régimen</h3> -->
+                                 <p
+                                    style="font-size: 1.8em; text-align: center;  margin-top: -10px; color: var(--primary-500); ">
+                                    Régimen <span style="font-weight: 700;">B</span></p>
+                              </div>
+                           </div>
+                        </div>
+
+                     </div>
+                  </div>
+                  <div class="container">
+                     <div class="text-zone">
+                        <h3 style="color: var(--primary-4
+                            00); font-style: italic;">Paga menos <br> impuestos</h3>
+                        <br>
+                        <!-- <h4> ¿Qué es el régimen B? </h4> -->
+
+                        <p>
+                           Accede a una rebaja de tu base tributable, con un máximo de 50 UF mensuales.
+                           <br><br>
+                           <a onclick="openModal('.modal-regimen-b');" style="font-weight: 700; float: right;">Leer
+                              más</a>
+                        </p>
+                        <!-- Modal Central -->
+                        <div class="modal modal-center modal-center-scrollContent modal-regimen-b">
+                           <div class="card card-modal">
+                              <div class="card-controller card-controller-top">
+                                 <div class="button button-close close-modal">
+                                    <div class="button-shape">
+                                       <label></label>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="container">
+
+                                 <div class="text-zone">
+                                    <h2>Regimen <span style="font-weight: 800;">B</span></h2>
+                                    <br>
+                                    <p> Es un beneficio tributario que permite no pagar impuestos de forma anual,
+                                       mientras la rentabilidad de la suma de los giros realizados durante el año no
+                                       supere las 30 UTM ($1.476.870 apróx).
+                                       <br>
+                                       <br> Cabe destacar que, en caso de que retires este ahorro, estará sujeto a una
+                                       tasa de impuesto único cuyo valor dependerá de: el monto retirado, los ingresos
+                                       que obtuviste ese año y el tipo de afiliado/a (si continúas cotizando o si eres
+                                       pensionado/a).
+                                       <br>
+                                       <br> Ten en cuenta que, al inicio del año siguiente, podrás descargar de nuestro
+                                       sitio web un certificado con todos los movimientos realizados en tu APV, para los
+                                       efectos de la Declaración de Impuestos a la Renta.
+                                       <br>
+                                       <br> El beneficio se realiza cuando los aportes de ahorro en el año calendario no
+                                       superan las 600 UF anuales.
+                                    </p>
+                                 </div>
+
+                              </div>
+                           </div>
+                        </div>
+                        <!-- Fin Modal Central -->
+
+                     </div>
+
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section id="section-giros">
+         <div class="row">
+            <div class="col-12">
+               <div class="section-title">
+                  <h3> Giros </h3>
+               </div>
+            </div>
+            <div class="col-12">
+               <h4> ¿Cómo girar? </h4>
+               <p> Puedes elegir entre dos tipos de giro: </p>
+               <ul>
+                  <li>
+                     <strong>Giro Fácil:</strong> Retira desde $2.000 a $300.000 pesos, lo que se depositará hasta 24
+                     horas después de tu solicitud.
+                  </li>
+                  <li>
+                     <strong>Giro Diferido:</strong> Gira montos superiores a $300.000, en pesos o en cuotas y con
+                     depósito en 4 días hábiles.
+                  </li>
+               </ul>
+            </div>
+            <div class="col-12">
+               <h4> ¿Cuántos giros puedo hacer? </h4>
+               <p> Puedes realizar todos los giros que quieras. Ten en cuenta que, al retirar dinero se descontará el
+                  15% de bonificación del Estado, ya que este beneficio es para incentivar el ahorro para la pensión.
+               </p>
+            </div>
+            <div class="col-12">
+               <h4> ¿Cuál es la comisión? </h4>
+               <p> La comisión es de 0,51% anual sobre el saldo administrado, una de las más bajas del mercado. </p>
+            </div>
+         </div>
+      </section>
+
+
+      <section>
+         <div class="row">
+            <div class="col-12" style="display: flex; align-items: center; flex-direction: column;">
+               <h2 style="text-align: center;">
+                  Comienza tu ahorro ahora y mejora tu pensión
+               </h2>
+               <br>
+               <a href="/Afiliado/AhorroVoluntario/Paginas/suscribe-APV.aspx" class="button">
+                  <div class="button-shape">
+                     <label>
+                        Contratar APV
+                     </label>
+                  </div>
+               </a>
+            </div>
+         </div>
+      </section>
+
+   </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E="
+   crossorigin="anonymous"></script>
+
+<script src="../../__ui/__src/components/accordion/js/accordion.js">
+
+</script>
+
+<script src="../../__ui/__src/components/modal/js/modal.js">
+
+</script>
+
+<link rel="stylesheet" href="../../__ui/__css-output/__font-import.css">
+<link rel="stylesheet" href="../../__ui/__css-output/_core.css">
+
+</html>

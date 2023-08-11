@@ -1,0 +1,100 @@
+{
+  "card-padding": {
+    "value": "{spacing-big}",
+    "type": "spacing"
+  },
+  "card-bg-color": {
+    "value": "{base}",
+    "type": "color"
+  },
+  "card-border-color": {
+    "value": "{neutral-200}",
+    "type": "color"
+  },
+  "card-border-radius": {
+    "value": "{border-radius-12}",
+    "type": "borderRadius"
+  },
+  "card-drop-shadow": {
+    "value": {
+      "x": "0",
+      "y": "2",
+      "blur": "10",
+      "spread": "0",
+      "color": "{shadow-color}",
+      "type": "dropShadow"
+    },
+    "type": "boxShadow"
+  },
+  "card-basic-border": {
+    "value": {
+      "color": "{card-border-color}",
+      "width": "2px",
+      "style": "solid"
+    },
+    "type": "border"
+  },
+  "card-gap": {
+    "value": "{spacing-small}",
+    "type": "spacing"
+  },
+  "card-hover-shadow": {
+    "value": {
+      "x": "0",
+      "y": "0",
+      "blur": "0",
+      "spread": "8",
+      "color": "{card-hover-outline-color}",
+      "type": "dropShadow"
+    },
+    "type": "boxShadow"
+  },
+  "card-hover-outline-color": {
+    "value": "{primary-300}",
+    "type": "color"
+  },
+  "card-cta-area-padding-top": {
+    "value": "{spacing-medium}",
+    "type": "spacing"
+  },
+  "card-cta-area-gap": {
+    "value": "{spacing-medium}",
+    "type": "spacing"
+  },
+  "card-actionable-border-color": {
+    "value": "{primary-600}",
+    "type": "color"
+  },
+  "card-actionable-title-color": {
+    "value": "{primary-600}",
+    "type": "color"
+  },
+  "card-actionable-border": {
+    "value": {
+      "color": "{card-actionable-border-color}",
+      "style": "solid",
+      "width": "2px"
+    },
+    "type": "border"
+  },
+  "card-cta-area-border-top": {
+    "value": {
+      "color": "{neutral-100}",
+      "width": "2px",
+      "style": "solid"
+    },
+    "type": "border"
+  },
+  "card-actionable-focus-border-color": {
+    "value": "{base-contrast}",
+    "type": "color"
+  },
+  "card-actionable-focus-border": {
+    "value": {
+      "color": "{card-actionable-focus-border-color}",
+      "width": "4px",
+      "style": "solid"
+    },
+    "type": "border"
+  }
+}

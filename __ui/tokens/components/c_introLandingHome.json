@@ -1,0 +1,34 @@
+{
+  "introLandingHome-padding-bottom": {
+    "value": "{spacing-extra-giant}",
+    "type": "spacing"
+  },
+  "introLandingHome-padding-top": {
+    "value": "{spacing-giant}",
+    "type": "spacing"
+  },
+  "introLandingHome-gap": {
+    "value": "{spacing-big}",
+    "type": "spacing"
+  },
+  "introLandingHome-boder-top": {
+    "value": {
+      "color": "{fix-secondary-100}",
+      "width": "8px",
+      "style": "solid"
+    },
+    "type": "border"
+  },
+  "introLandingHome-logo-width": {
+    "value": "233px",
+    "type": "sizing"
+  },
+  "introLandingHome-logo-mobile-width": {
+    "value": "180px",
+    "type": "sizing"
+  },
+  "introLandingHome-background-color": {
+    "value": "{primary-50}",
+    "type": "color"
+  }
+}

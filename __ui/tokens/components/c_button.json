@@ -1,0 +1,96 @@
+{
+  "primary": {
+    "button-primary-background-color": {
+      "value": "{fix-primary-600}",
+      "type": "color"
+    },
+    "button-primary-hover-background-color": {
+      "value": "{fix-primary-200}",
+      "type": "color"
+    },
+    "button-primary-label-color": {
+      "value": "{white}",
+      "type": "color"
+    },
+    "button-primary-hover-label-color": {
+      "value": "{fix-primary-600}",
+      "type": "color"
+    },
+    "button-primary-font-weight": {
+      "value": "500",
+      "type": "fontWeights"
+    }
+  },
+  "secondary": {
+    "button-secondary-background-color": {
+      "value": "{primary-100}",
+      "type": "color"
+    },
+    "button-secondary-hover-background-color": {
+      "value": "{fix-primary-200}",
+      "type": "color"
+    },
+    "button-secondary-label-color": {
+      "value": "{primary-600}",
+      "type": "color"
+    },
+    "button-secondary-hover-label-color": {
+      "value": "{fix-primary-600}",
+      "type": "color"
+    },
+    "button-secondary-font-weight": {
+      "value": "500",
+      "type": "fontWeights"
+    }
+  },
+  "normal": {
+    "button-normal-height": {
+      "value": "44px",
+      "type": "sizing"
+    },
+    "button-normal-font-size": {
+      "value": "{font-size-medium-big}",
+      "type": "fontSizes"
+    }
+  },
+  "button-border-radius": {
+    "value": "{border-radius-absolute}",
+    "type": "borderRadius"
+  },
+  "small": {
+    "button-small-height": {
+      "value": "35px",
+      "type": "sizing"
+    },
+    "button-small-font-size": {
+      "value": "{font-size-medium}",
+      "type": "fontSizes"
+    }
+  },
+  "extra-small": {
+    "button-extra-small-height": {
+      "value": "25px",
+      "type": "sizing"
+    },
+    "button-extra-small-font-size": {
+      "value": "{font-size-medium-small}",
+      "type": "fontSizes"
+    }
+  },
+  "acction-area": {
+    "button-action-area-height": {
+      "value": "44px",
+      "type": "sizing"
+    }
+  },
+  "disabled": {
+    "button-disabled-background-color": {
+      "value": "{neutral-100}",
+      "type": "color"
+    },
+    "button-disabled-label-color": {
+      "value": "{neutral-200}",
+      "type": "color"
+    }
+  }
+}

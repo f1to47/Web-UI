@@ -1,0 +1,10 @@
+{
+  "container-padding-left": {
+    "value": "{spacing-medium}",
+    "type": "spacing"
+  },
+  "container-padding-right": {
+    "value": "{spacing-medium}",
+    "type": "spacing"
+  }
+}

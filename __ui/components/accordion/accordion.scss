@@ -1,0 +1,214 @@
+
+// 00000000000     00000000000   
+// 00       00     00
+// 00       00     00
+// 00000000000     0000000000
+// 00     00       00
+// 00      00      00           0000
+// 00       00     00000000000  0000
+
+
+//Accordion
+.accordion {
+    -webkit-transition: all 200ms ease-in;
+    -moz-transition: all 200ms ease-in;
+    -ms-transition: all 200ms ease-in;
+    -o-transition: all 200ms ease-in;
+    transition: all 200ms ease-in;
+    float: left;
+    width: 100%;
+  
+  
+  
+  
+  
+  
+    //Hijos ==========================================================================
+  
+    // 01
+    .accordion_item {
+      width: 100%;
+      float: left;
+      position: relative;
+  
+      &:first-child {
+        .accordion_header {
+          border-radius: 12px 12px 0 0;
+        }
+      }
+  
+      &:last-child {
+        border-bottom: 0;
+        .accordion_header {
+          border-radius: 0 0 12px 12px;
+        }
+        .accordion_container {
+          border-radius: 0;
+        }
+      }
+    }
+  
+   // 02
+    .accordion_item-active {
+      .accordion_header {
+        background-color: var(--primary-50);
+      }
+      &:last-child {
+        .accordion_container {
+          border-radius: 0 0 12px 12px;
+        }
+        .accordion_header {
+          border-radius: 0;
+        }
+      }
+      .accordion_container {
+        display: block;
+        background: var(--base);
+      }
+      .accordion_header::after {
+        // content: map-get($icon-linear, "icon-close");
+        // color: map-get($colors, "aqua");
+        -moz-transform: rotate(90deg);
+        -webkit-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        transform: rotate(90deg);
+      }
+    }
+   
+    // 03
+    .accordion_header {
+      padding: 15px;
+  
+      padding-right: 50px;
+      background-color: var(--neutral-50);
+      cursor: pointer;
+      border: solid 2px var(--neutral-200);
+      margin-top: -2px;
+      z-index: 1;
+      position: relative;
+    //   h1,h2,h3,h4{
+    //     // font-family: $fontCorp2!important;
+    //     font-size: 1em!important;
+    //     font-weight: 700!important;
+        
+    //   }
+    }
+  neutral-200
+   // 04
+    .accordion_header::after {
+    //   content: map-get($iconos, "icon-arrow-down");
+    //   font-family: $iconFont;
+      font-weight: 900;
+      position: absolute;
+      right: 20px;
+      top: 20px;
+      -webkit-transition: all 0.2s 0s ease-in;
+      -moz-transition: all 0.2s 0s ease-in;
+      -o-transition: all 0.2s 0s ease-in;
+      transition: all 0.2s 0s ease-in;
+    }
+  
+    // 05
+    .accordion_container {
+      display: none;
+      padding: 15px;
+      padding-bottom: 35px;
+      border: solid 2px var(--neutral-200);
+      margin-top: -2px;
+      z-index: 0;
+      position: relative;
+    }
+   
+  
+   // Hijos ================================================================================================
+  
+  
+  
+    
+  
+    // Modificadores ========================================================================================
+    
+  
+    //01
+    &.accordion-open {
+      .accordion_item:last-child {
+        .accordion_container {
+          border-radius: 0 0 12px 12px;
+        }
+  
+        .accordion_header {
+          border-radius: 0;
+        }
+      }
+  
+      .accordion_header {
+        cursor: initial;
+      }
+  
+      .accordion_container {
+        display: block;
+      }
+    }
+   
+  
+    // 02
+    &.accordion-timeline {
+      width: calc(100% - 45px);
+      float: right;
+      overflow: visible;
+  
+      counter-reset: item;
+      // background-color: #ddd;
+  
+      .accordion_item {
+        counter-increment: item;
+  
+        &::before {
+          content: "";
+          position: absolute;
+          width: 2px;
+          top: -1px;
+          bottom: -1px;
+          left: -25px;
+          background-color: var(--primary-500);
+        }
+  
+        &:first-child {
+          &::before {
+            top: 40px;
+          }
+        }
+  
+        &:last-child {
+          &::before {
+            bottom: calc(100% - 40px);
+          }
+        }
+  
+        &::after {
+          content: counter(item);
+          position: absolute;
+        //   font-family: $fontCorp;
+          font-weight: 900;
+          font-size: 20px;
+          padding-left: 9px;
+          padding-top: 2px;
+  
+          width: 30px;
+          height: 30px;
+  
+          color: var(--base);
+          background-color: var(--primary-500);
+          left: -39px;
+          border-radius: 50%;
+          top: 13px;
+        }
+      }
+    }
+  
+  
+  
+  
+  }//END Accordion
+  

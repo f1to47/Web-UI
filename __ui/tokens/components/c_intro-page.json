@@ -1,0 +1,66 @@
+{
+  "introPage-background-color": {
+    "value": "{fix-neutral-50}",
+    "type": "color"
+  },
+  "introPage-bg-image-background-color": {
+    "value": "{base}",
+    "type": "color"
+  },
+  "introPage-container-padding-top": {
+    "value": "{spacing-big}",
+    "type": "spacing"
+  },
+  "introPage-container-padding-bottom": {
+    "value": "{spacing-big}",
+    "type": "spacing"
+  },
+  "introPage-bg-image-container-padding-top": {
+    "value": "{spacing-medium}",
+    "type": "spacing"
+  },
+  "introPage-container-gap": {
+    "value": "{spacing-big}",
+    "type": "spacing"
+  },
+  "introPage-icon-size": {
+    "value": "100",
+    "type": "sizing"
+  },
+  "introPage-cta-area-mobile-padding-top": {
+    "value": "{spacing-medium-big}",
+    "type": "spacing"
+  },
+  "introPage-border-bottom": {
+    "value": {
+      "color": "{introPage-border-bottom-color}",
+      "width": "1px",
+      "style": "solid"
+    },
+    "type": "border"
+  },
+  "introPage-border-bottom-copy": {
+    "value": {
+      "color": "{error-800}",
+      "width": "3px",
+      "style": "solid"
+    },
+    "type": "border"
+  },
+  "introPage-mobile-bg-height": {
+    "value": "143px",
+    "type": "spacing"
+  },
+  "gg": {
+    "value": {
+      "color": "{alert-error-border-color}",
+      "width": "5px",
+      "style": "solid"
+    },
+    "type": "border"
+  },
+  "introPage-border-bottom-color": {
+    "value": "{neutral-100}",
+    "type": "color"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "alert-error-icon-color": {
+    "value": "{error-500}",
+    "type": "color"
+  },
+  "alert-error-background-color": {
+    "value": "{error-50}",
+    "type": "color"
+  },
+  "alert-error-color": {
+    "value": "{error-900}",
+    "type": "color"
+  },
+  "alert-error-border-color": {
+    "value": "{error-400}",
+    "type": "color"
+  },
+  "alert-success-icon-color": {
+    "value": "{success-500}",
+    "type": "color"
+  },
+  "alert-succcess-background-color": {
+    "value": "{success-50}",
+    "type": "color"
+  },
+  "alert-success-color": {
+    "value": "{success-900}",
+    "type": "color"
+  },
+  "alert-success-border-color": {
+    "value": "{success-400}",
+    "type": "color"
+  },
+  "alert-caution-icon-color": {
+    "value": "{secondary-500}",
+    "type": "color"
+  },
+  "alert-caution-background-color": {
+    "value": "{secondary-50}",
+    "type": "color"
+  },
+  "alert-caution-color": {
+    "value": "{secondary-900}",
+    "type": "color"
+  },
+  "alert-cuation-border-color": {
+    "value": "{secondary-400}",
+    "type": "color"
+  },
+  "alert-padding": {
+    "value": "{spacing-big}",
+    "type": "spacing"
+  },
+  "alert-desk-gap": {
+    "value": "{spacing-medium-big}",
+    "type": "spacing"
+  },
+  "alert-mobile-gap": {
+    "value": "{spacing-extra-small}",
+    "type": "spacing"
+  },
+  "alert-border-radius": {
+    "value": "{border-radius-12}",
+    "type": "borderRadius"
+  },
+  "alert-border": {
+    "value": {
+      "width": "3px",
+      "style": "solid",
+      "color": "{base-contrast}"
+    },
+    "type": "border"
+  },
+  "alert-icon-size": {
+    "value": "36px",
+    "type": "sizing"
+  }
+}

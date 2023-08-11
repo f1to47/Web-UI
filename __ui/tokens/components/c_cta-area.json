@@ -1,0 +1,6 @@
+{
+  "cta-area-gap": {
+    "value": "{spacing-small}",
+    "type": "spacing"
+  }
+}

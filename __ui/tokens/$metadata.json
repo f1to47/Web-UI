@@ -1,0 +1,21 @@
+{
+  "tokenSetOrder": [
+    "foundation-tokens",
+    "colors/fixed-colors",
+    "colors/theme-light-colors",
+    "colors/theme-light-split-colors",
+    "colors/theme-dark-colors",
+    "colors/theme-dark-split-colors",
+    "atoms/a_headings",
+    "components/c_card",
+    "components/c_button",
+    "components/c_alerts",
+    "components/c_intro-page",
+    "components/c_introLandingHome",
+    "components/c_cta-area",
+    "components/c_footer",
+    "components/c_accordion",
+    "structure",
+    "structure/container"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "accordion-item-background-color": {
+    "value": "{base}",
+    "type": "color"
+  },
+  "accordion-item-border-color": {
+    "value": "{neutral-200}",
+    "type": "color"
+  },
+  "accordion-item-button-area-color": {
+    "value": "{primary-600}",
+    "type": "color"
+  },
+  "accordion-item-border": {
+    "value": {
+      "color": "{accordion-item-border-color}",
+      "width": "2px",
+      "style": "solid"
+    },
+    "type": "border"
+  },
+  "accordion-item-content-area-border-top": {
+    "value": {
+      "color": "{accordion-item-border-color}",
+      "width": "2px",
+      "style": "solid"
+    },
+    "type": "border"
+  },
+  "accordion-item-button-area-padding": {
+    "value": "{spacing-medium}",
+    "type": "spacing"
+  },
+  "accordion-item-content-area-padding": {
+    "value": "{spacing-medium}",
+    "type": "spacing"
+  },
+  "accordion-item-border-radius": {
+    "value": "{border-radius-12}",
+    "type": "borderRadius"
+  },
+  "accordion-item-button-area-background-color": {
+    "value": "{neutral-50}",
+    "type": "color"
+  },
+  "accordion-item-button-area-hover-background-color": {
+    "value": "{base}",
+    "type": "color"
+  },
+  "accordion-item-button-area-gap": {
+    "value": "{spacing-medium}",
+    "type": "spacing"
+  }
+}

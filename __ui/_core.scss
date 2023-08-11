@@ -1,0 +1,27 @@
+@import './abstracts/variables/_index-variables/index.scss';
+@import './abstracts/mixins/_index-mixins/index.scss';
+@import './base/animate.scss';
+
+
+html{
+	background-color: var(--neutral-100)
+}
+
+.LAYOUT-UI{
+    @import './base/reset.scss';
+
+	@import './base/grids.scss';
+	@import './base/headings.scss';
+	@import './base/sections.scss';
+	@import './base/links.scss';
+	@import './components/_index-components/index.scss';
+	 
+	font-size: 18px;
+    color: var(--base-contrast);
+
+	&.body{
+		background-color: var(--neutral-100);
+	}
+	
+}
+

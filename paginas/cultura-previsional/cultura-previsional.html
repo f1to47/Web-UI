@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../../__ui/__css-output/__font-import.css">
+    <link rel="stylesheet" href="../../__ui/__css-output/_core.css">
+
+    <style>
+  
+
+.video-gallery-container,
+.video-gallery-container * {
+  box-sizing: border-box;
+}
+
+.video-gallery-container h2.title {
+  text-align: center;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 34px;
+  margin-bottom: 24px;
+}
+
+.video-gallery-container .video-gallery {
+ 
+
+}
+
+.video-gallery h3.video-title {
+  line-height: 1.6;
+  font-weight: 700;
+  font-size: 20px;
+  width: 100%;
+}
+
+.video-gallery .thumbnail {
+  /* height: 120px; */
+  width: 100%;
+  cursor: pointer;
+}
+
+.video-gallery .video {
+  position: relative;
+  padding: 10px;
+  border-radius: 12px;
+}
+
+.video-gallery .video {
+  position: relative;
+}
+
+.video-gallery .video.active {
+outline: 4px solid var(--primary-100);
+
+}
+
+.video-gallery .video p {
+ padding-top: 5px;
+  
+}
+
+.video-gallery .video:hover .play-icon {
+  opacity: 1;
+}
+
+.video-gallery .play-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 400ms ease;
+}
+
+.video-gallery .video .play-icon img {
+  height: 50px;
+  width: 50px;
+}
+
+.video-gallery .all-videos {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.video-gallery .responsive-iframe {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  padding-top: 56.25%;
+  padding-bottom: 30px;
+}
+
+.video-gallery .responsive-iframe iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* @media (max-width: 900px) {
+  .video-gallery-container {
+    width: 100%;
+  }
+} */
+
+@media (max-width: 760px) {
+  .video-gallery-container .video-gallery {
+    flex-direction: column;
+  }
+
+
+
+  .video-gallery .all-videos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .video-gallery .thumbnail {
+    height: unset;
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  /* .video-gallery .all-videos {
+    grid-template-columns: 1fr;
+  } */
+
+  .video-gallery-container {
+    max-width: 400px;
+  }
+
+  .video-gallery-container h2.title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+}
+    </style>
+</head>
+
+<div class="LAYOUT-UI">
+
+
+
+    <div class="container">
+
+      <!-- <div class="row">
+        <div class="col-12">
+            <section class="breadCrumbs"> 
+                <a href="/Paginas/default.aspx">Home</a><a href="/Quienes-Somos/Paginas/Sostenibilidad/Sostenibilidad-AFP.aspx">Sostenibilidad</a><a class="active">Objetivos de Desarrollo Sostenible</a> </section>
+        </div>
+    </div> -->
+
+
+    <div class="row">
+
+
+        <div class="col-12">
+            <h1>Educación Previsional: Aprende sobre tus ahorros</h1>
+            <p>Porque queremos que estés al tanto de algo tan importante como es la inversión de tus ahorros obligatorios y voluntarios, te contamos a través de estas cápsulas cómo hacemos crecer tu dinero.</p>                
+        </div>
+        </div>
+
+
+
+        
+            <div class="video-gallery-container">
+
+            
+            
+        
+              
+
+              <div class="video-gallery">
+                <div class="row">
+
+                  <div class="col-md-9">
+               
+                  
+                    <div class="card">
+                      <div class="featured-video">
+                        <div class="responsive-iframe">
+                          <iframe width="100%" src="https://www.youtube.com/embed/kpeLJKCLv8k" title="YouTube video player"
+                              frameborder="0"
+                              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                              allowfullscreen></iframe>
+                        </div>
+                      </div>
+                      <div class="container">
+                     
+            
+                      <h3 class="video-title">
+                        Activos alternativos: Un instrumento para mejorar las pensiones
+                      </h3>
+
+                      <p class="video-des">
+                        Con los activos alternativos podemos invertir tus ahorros en carreteras, edificios, oro, entre otros negocios. Hoy te contamos qué tipos existen y cómo invertimos en ellos
+                      </p>
+                    </div>
+                  </div>
+             
+            
+            
+            </div>
+
+                  <div class="col-md-3">
+                    <div class="all-videos">
+                      <div class="video card card-click active"
+                      data-id="s5CPvathkxQ"
+                      data-title="Activos alternativos: Un instrumento para mejorar las pensiones"
+                      data-des="Con los activos alternativos podemos invertir tus ahorros en carreteras, edificios, oro, entre otros negocios. Hoy te contamos qué tipos existen y cómo invertimos en ellos"
+                      >
+                        <img
+                          class="thumbnail"
+                          src="/Comunicaciones/PublishingImages/Paginas/cultura-previsional/s5CPvathkxQ.png"
+                          
+                          alt=""
+                        />
+                        
+                       <div class="description">
+                  
+                        <p><strong>Activos alternativos: Un instrumento para mejorar las pensiones</strong></p>
+                
+                       </div>
+                       
+                      </div>
+            
+                      <div class="video card card-click"
+                      data-id="s5CPvathkxQ"
+                      data-title="Instrumentos de inversión: ¿dónde se invierten tus ahorros?"
+                      data-des="Nuestra regla de oro para invertir tu dinero es “no poner los huevos en la misma canasta”. A continuación, te mostramos los instrumentos que usamos para hacer crecer tus ahorros."
+                      >
+                        <img
+                          class="thumbnail"
+                          src="/Comunicaciones/PublishingImages/Paginas/cultura-previsional/s5CPvathkxQ.png"
+                          alt=""
+                        />
+            
+                       
+    
+                        <div class="description">
+                        <p><strong>Instrumentos de inversión: ¿dónde se invierten tus ahorros?</strong></p>
+                       </div>
+                      </div>
+    
+                      <div class="video card card-click"
+                      data-id="pQJ8q-bPiwg"
+                          data-title="Multifondos: ¿cómo funciona cada fondo?"
+                          data-des="Tú eliges en cuál de los 5 multifondos (A, B, C, D y E) invertirás tu dinero. Te explicamos cómo invierte cada fondo y cuál se recomienda según la etapa de tu vida."
+                      >
+                        <img
+                          class="thumbnail"
+                          
+                          src="/Comunicaciones/PublishingImages/Paginas/cultura-previsional/pQJ8q-bPiwg.png"
+                          alt=""
+                        />
+            
+                       
+    
+                        <div class="description">
+                        <p><strong>Multifondos: ¿cómo funciona cada fondo?</strong></p>
+                       </div>
+                      </div>
+            
+                      <div class="video card card-click"
+                      data-id="KGs-C7q_2Ek"
+                          data-title="Multifondos: ¿en qué consisten?"
+                          data-des="Para que elijas un fondo de manera informada, te contamos el nivel de riesgo que tienen los fondos A, B, C, D y E y cómo es su rentabilidad en el tiempo."
+                      >
+                        <img
+                          class="thumbnail"
+                          
+                          src="/Comunicaciones/PublishingImages/Paginas/cultura-previsional/KGs-C7q_2Ek.png"
+                          alt=""
+                        />
+            
+                        
+    
+                        <div class="description">
+                        <p><strong>Multifondos: ¿en qué consisten?</strong></p>
+                       </div>
+                      </div>
+                    </div>
+                  </div>  
+
+                 
+               
+          
+              </div>
+              </div>
+            </div>
+        
+            <script src="main.js"></script>
+        
+
+
+
+      
+    </div>
+
+</div>
+
+<script>
+    const videoThumbnails = document.querySelectorAll(
+  ".video-gallery .all-videos .video"
+);
+const videoPlayer = document.querySelector(
+  ".video-gallery .featured-video iframe"
+);
+const videoTitle = document.querySelector(".video-gallery .video-title");
+const videoDes = document.querySelector(".video-gallery .video-des");
+
+const showVideo = (videoId, title, des) => {
+  let videoUrl = `https://www.youtube.com/embed/${videoId}?rel=0`;
+  videoPlayer.setAttribute("src", videoUrl);
+  videoTitle.innerHTML = title;
+  videoDes.innerHTML = des;
+};
+
+videoThumbnails.forEach((v) => {
+ 
+  v.addEventListener("click", () => {
+    videoThumbnails.forEach((e) => {
+      e.classList.remove('active');
+    });
+    v.classList.add('active');
+    showVideo(v.dataset.id, v.dataset.title, v.dataset.des);
+  });
+});
+</script>
+
+</html>

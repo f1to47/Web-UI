@@ -19,7 +19,7 @@
     "value": "{success-500}",
     "type": "color"
   },
-  "alert-succcess-background-color": {
+  "alert-success-background-color": {
     "value": "{success-50}",
     "type": "color"
   },
